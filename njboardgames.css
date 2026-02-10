@@ -1,0 +1,170 @@
+:root {
+	--primary: #1e293b;
+	--accent: #22c55e;
+	--light: #f8fafc;
+	--dark: #0f172a;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	color: var(--dark);
+	background: var(--light);
+	line-height: 1.6;
+}
+
+
+.nav-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* MAIN NAV */
+.main-nav {
+    background: var(--primary);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background: #334155;
+    border-radius: 6px;
+}
+
+/* SUB NAV */
+.sub-nav {
+    background: #0b1220;
+}
+
+.sub-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0.50rem 1rem;
+}
+
+.sub-nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sub-nav a:hover {
+    color: var(--accent);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .sub-nav ul {
+        gap: 1.25rem;
+        font-size: 0.95rem;
+    }
+}
+
+
+/* SECTIONS */
+section {
+	scroll-margin-top: 130px; /* height of main + sub nav */
+	padding-top: 1rem;
+	padding-bottom: 6rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	max-width: 1200px;
+	margin: auto;
+}
+
+section h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+/* CAROUSEL */
+.carousel {
+	width: 100%;
+	height: 350px;
+	background: #cbd5e1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.25rem;
+	color: #334155;
+}
+
+/* COUNTIES */
+.counties {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+	gap: 1rem;
+	margin-top: 2rem;
+}
+
+.county {
+	background: white;
+	border: 2px solid #e2e8f0;
+	border-radius: 8px;
+	padding: 1rem;
+	text-align: center;
+	font-weight: 600;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+
+.county:hover {
+	border-color: var(--accent);
+	background: #ecfdf5;
+	transform: translateY(-2px);
+}
+
+.county a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* CONNECT */
+.connect-icons {
+	display: flex;
+	gap: 2rem;
+	margin-top: 2rem;
+	font-size: 2rem;
+}
+
+.connect-icons a {
+	color: var(--primary);
+	transition: 0.2s ease;
+}
+
+.connect-icons a:hover {
+	color: var(--accent);
+	transform: scale(1.1);
+}
+
+/* FOOTER */
+footer {
+	background: var(--primary);
+	color: white;
+	text-align: center;
+	padding: 1.5rem;
+	margin-top: 4rem;
+	font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+	nav ul {
+		gap: 1rem;
+	}
+}
