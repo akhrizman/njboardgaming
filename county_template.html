@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{County}} County Boardgames</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome for icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+	<link rel="stylesheet" href="njboardgames.css">
+	<link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+
+<!-- MAIN NAV -->
+<header class="nav-wrapper">
+    <nav class="main-nav">
+        <div class="nav-left">
+            <div class="logo"></div>
+            <h1>{{County}} Boardgames</h1>
+        </div>
+    </nav>
+
+    <nav class="sub-nav">
+        <ul>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#connect">Connect</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- CAROUSEL -->
+<div class="carousel">
+    Carousel Image Placeholder
+</div>
+
+<!-- Events -->
+<section id="events">
+    <h2>Upcoming Events</h2>
+    <div id="loading">Loading events...</div>
+    <div id="error" style="display:none; color:red;"></div>
+    <div id="events-container"></div>
+</section>
+
+<!-- FEATURED -->
+<section id="featured">
+    <h2>Featured</h2>
+    <p>
+		The following is a list of events or meet ups that occur regularly. 
+		Please visit the organization directly for more information. 
+		<strong><u>Featured events must always remain free and be open to the general public.</u></strong>
+		Please <a href="mailto:info@njboardgames.com" aria-label="Email">contact us</a> 
+		if you find that this is no longer the case or if the event is no longer being run.</p>
+	<br><br>
+    <div class="featured-event">
+		<h3 class="featured-event-name">Cardboard Enthusiasts Boardgame Club</h3>
+		<p class="featured-event-location">Some Library, 123 Some Street, Some City, NJ</p>
+		<p class="featured-event-time">Monthly afternoon on a Sunday 12:00PM-3:00PM</p>
+		<p class="featured-event-audience">FOR: Kids</p>
+		<p class="featured-event-category">CATEGORY: General</p>
+		<p class="featured-event-description">We are a group of parents hosting modern boardgames for kids age 10-14. We teach games like Sushi Go!, Ticket to Ride, and lighter games like Taco Cat Goat Cheese Pizza. A parent or guardian must be present in the Library during the session.</p>
+		<p class="featured-event-info">INFO: Library Website Link</p>
+		<p class="featured-event-image">Optional banner image provide by the organizers.</p>
+    </div>
+	<br><br>
+    <div class="featured-event">
+		<h3 class="featured-event-name">Boardgames and Beers</h3>
+		<p class="featured-event-location">WHERE: Some Brewery, Some City, NJ</p>
+		<p class="featured-event-time">WHEN: Every 2nd Thursday, 6pm-10pm</p>
+		<p class="featured-event-audience">FOR: Adults (21+)</p>
+		<p class="featured-event-category">CATEGORY: General</p>
+		<p class="featured-event-description">We play mostly party games and lighter strategy games like Codenames, Just One, & Sushi Go</p>
+		<p class="featured-event-info">INFO: Facebook Group link</p>
+		<p class="featured-event-image">Optional banner image provide by the organizers.</p>
+    </div>
+	<br><br>
+    <div class="featured-event">
+		<h3 class="featured-event-name">Meeple Con</h3>
+		<p class="featured-event-location">WHERE: Some City, NJ</p>
+		<p class="featured-event-time">WHEN: Fri-Sunday, annually in December</p>
+		<p class="featured-event-audience">FOR: Family</p>
+		<p class="featured-event-category">CATEGORY: Convention</p>
+		<p class="featured-event-description">Annual connection with vendors, a huge 500+ boardgame library with open and scheduled gaming</p>
+		<p class="featured-event-info">INFO: Website Link</p>
+		<p class="featured-event-image">Optional banner image provide by the organizers.</p>
+    </div>
+	<br>
+</section>
+
+<!-- CONNECT -->
+<section id="connect">
+    <h2>Contact Us</h2>
+    <p>For more information, join our discord server or shoot us an email</p>
+
+    <div class="connect-icons">
+        <!-- <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a> -->
+        <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+        <!-- <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a> -->
+        <a href="mailto:info@njboardgames.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 NJ Boardgames (njboardgames.com) All rights reserved.
+</footer>
+
+</body>
+</html>
+
+  <script>
+    // === CONFIG ===
+    const API_KEY = 'AIzaSyClgiyfj5YcGAzlrYjDRBuZ2ltnXGO29_Q';               // ← Replace
+    const CALENDAR_ID = '8403170c3a44dbb1d9a8114efaf1154d2114e6dada0941bc9b637288dea3a631@group.calendar.google.com';       // ← Replace (URL-encode if it has @ or .)
+    const MAX_EVENTS = 20;                             // How many to show
+    // ==============
+
+    const container = document.getElementById('events-container');
+    const loading = document.getElementById('loading');
+    const errorDiv = document.getElementById('error');
+
+    async function fetchEvents() {
+      try {
+        // Format dates for query (next year from now, adjust as needed)
+        const timeMin = new Date().toISOString();
+        const timeMax = new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString();
+
+        const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(CALENDAR_ID)}/events?` +
+                    `key=${API_KEY}&` +
+                    `timeMin=${timeMin}&` +
+                    `timeMax=${timeMax}&` +
+                    `maxResults=${MAX_EVENTS}&` +
+                    `singleEvents=true&` +          // Expand recurring events
+                    `orderBy=startTime`;
+
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(`API error: ${response.status}`);
+
+        const data = await response.json();
+        loading.style.display = 'none';
+
+        if (!data.items || data.items.length === 0) {
+          container.innerHTML = '<p>No upcoming events found.</p>';
+          return;
+        }
+
+        data.items.forEach(event => {
+          const card = document.createElement('div');
+          card.className = 'event-card';
+
+          // Title
+          const header = document.createElement('div');
+          header.className = 'event-header';
+          header.textContent = event.summary || '(No title)';
+          card.appendChild(header);
+
+          const body = document.createElement('div');
+          body.className = 'event-body';
+
+          // Time
+          let timeStr = '';
+          if (event.start.dateTime) {
+            const start = new Date(event.start.dateTime);
+            const end = event.end.dateTime ? new Date(event.end.dateTime) : null;
+            timeStr = start.toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+            if (end) timeStr += ` – ${end.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}`;
+          } else if (event.start.date) {
+            timeStr = new Date(event.start.date).toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' }) + ' (All day)';
+          }
+          const timeEl = document.createElement('div');
+          timeEl.className = 'event-time';
+          timeEl.textContent = timeStr;
+          body.appendChild(timeEl);
+
+          // Description
+          if (event.description) {
+            const desc = document.createElement('div');
+            desc.className = 'event-desc';
+            desc.innerHTML = event.description.replace(/\n/g, '<br>'); // Basic formatting
+            body.appendChild(desc);
+          }
+
+          // Location
+          if (event.location) {
+            const loc = document.createElement('div');
+            loc.className = 'event-location';
+            loc.textContent = `📍 ${event.location}`;
+            body.appendChild(loc);
+          }
+
+          card.appendChild(body);
+          container.appendChild(card);
+        });
+      } catch (err) {
+        loading.style.display = 'none';
+        errorDiv.style.display = 'block';
+        errorDiv.textContent = `Failed to load events: ${err.message}. Check API key, calendar ID, and that the calendar is public.`;
+        console.error(err);
+      }
+    }
+
+    // Run on page load
+    fetchEvents();
+  </script>	

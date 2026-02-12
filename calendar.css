@@ -1,0 +1,63 @@
+/*body {
+  font-family: system-ui, sans-serif;
+  background: #f9fafb;
+  margin: 0;
+  padding: 20px;
+  color: #1f2937;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}*/
+#events-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.event-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.event-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+}
+.event-header {
+  background: #3b82f6; /* Change to match your calendar color */
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.event-body {
+  padding: 1rem;
+}
+.event-time {
+  font-size: 0.95rem;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+.event-desc {
+  margin-top: 0.75rem;
+  line-height: 1.5;
+}
+.event-location {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #6b7280;
+}
+#loading, #error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+}
+@media (max-width: 600px) {
+  #events-container {
+    grid-template-columns: 1fr;
+  }
+}
