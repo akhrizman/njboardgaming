@@ -18,6 +18,9 @@ body {
 	line-height: 1.6;
 }
 
+.attention {
+	color: red;
+}
 
 .nav-wrapper {
     position: sticky;
