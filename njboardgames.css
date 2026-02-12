@@ -18,6 +18,32 @@ body {
 	line-height: 1.6;
 }
 
+/*section ul {
+    padding-left: 0;
+    margin-left: 0;
+    list-style-position: inside;
+	padding-left: 1rem;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}*/
+
+section ul {
+    list-style-position: outside;
+    padding-left: 1.25rem; /* controls bullet-to-text spacing */
+    margin-left: 0;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+section p {
+    text-align: justify;
+/*	hyphens: auto;*/
+}
+
 .attention {
 	color: red;
 }
@@ -35,10 +61,28 @@ body {
     padding: 0.5rem 1rem;
 }
 
+.main-nav h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0;
+}
+
 .nav-left {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-brand:hover {
+    opacity: 0.9;
 }
 
 .logo {
