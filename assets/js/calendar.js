@@ -1,6 +1,6 @@
 // === CONFIG ===
-const API_KEY = 'AIzaSyClgiyfj5YcGAzlrYjDRBuZ2ltnXGO29_Q';               // ← Replace
-const CALENDAR_ID = '8403170c3a44dbb1d9a8114efaf1154d2114e6dada0941bc9b637288dea3a631@group.calendar.google.com';       // ← Replace (URL-encode if it has @ or .)
+const API_KEY = 'AIzaSyBdiJrrTi2ggVpp4vy-xC2e_qwZ-mmBuWU';               // ← Replace
+const CALENDAR_ID = 'd3c9e1e0fc8bce5e28bec38a036510f6b8b9e8ef21e6ab00667602284b63cc5e@group.calendar.google.com';       // ← Replace (URL-encode if it has @ or .)
 const MAX_EVENTS = 20;                             // How many to show
 // ==============
 
