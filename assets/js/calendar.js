@@ -1,6 +1,10 @@
 // === CONFIG ===
 const API_KEY = 'AIzaSyBdiJrrTi2ggVpp4vy-xC2e_qwZ-mmBuWU';               // ← Replace
-const CALENDAR_ID = '';       // ← Replace (URL-encode if it has @ or .)
+const eventsSection = document.getElementById('events');
+const CALENDAR_ID = eventsSection.dataset.calendarId;
+if (!CALENDAR_ID) {
+  throw new Error('Calendar ID not found');
+}
 const MAX_EVENTS = 20;                             // How many to show
 // ==============
 
