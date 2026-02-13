@@ -5,7 +5,7 @@ const CALENDAR_ID = eventsSection.dataset.calendarId;
 if (!CALENDAR_ID) {
   throw new Error('Calendar ID not found');
 }
-const MAX_EVENTS = 20;                             // How many to show
+const MAX_EVENTS = 30; // How many to show
 // ==============
 
 const container = document.getElementById('events-container');
@@ -14,9 +14,13 @@ const errorDiv = document.getElementById('error');
 
 async function fetchEvents() {
   try {
-    // Format dates for query (next year from now, adjust as needed)
     const timeMin = new Date().toISOString();
-    const timeMax = new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString();
+		
+    // Format dates for query (n months from now)
+	const monthsIntoTheFuture = 3;
+	const timeMaxDate = new Date();
+	timeMaxDate.setMonth(timeMaxDate.getMonth() + monthsIntoTheFuture);
+	const timeMax = timeMaxDate.toISOString();
 
     const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(CALENDAR_ID)}/events?` +
                 `key=${API_KEY}&` +
