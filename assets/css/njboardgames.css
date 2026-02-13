@@ -216,7 +216,7 @@ footer {
 
 
 /* Enabled Once a photo is added */
-/*.featured-event {
+.featured-event {
     display: flex;
     gap: 1.5rem;
     background: #f8fafc;
@@ -225,7 +225,7 @@ footer {
     padding: 1.5rem;
     margin-top: 2rem;
 }
-*/
+
 
 .featured-event-name {
     font-size: 1.25rem;
