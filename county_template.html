@@ -13,6 +13,7 @@
 	<script src="/assets/js/carousel.js" defer></script>
 	<script src="/assets/js/calendar.js" defer></script>
 	<link rel="stylesheet" href="/assets/css/njboardgames.css">
+	<link rel="stylesheet" href="/assets/css/carousel.css">
 	<link rel="stylesheet" href="/assets/css/calendar.css">
 </head>
 <body>
@@ -21,9 +22,9 @@
 <header class="nav-wrapper">
     <nav class="main-nav">
 		<div class="nav-left">
-		    <a href="https://njboardgames.com" class="nav-brand">
+		    <a href="/" class="nav-brand">
 			    <img
-			        src="./assets/images/logo-navbar.png"
+			        src="/assets/images/logo-navbar.png"
 			        alt="NJB"
 			        class="logo"
 			    />
@@ -58,7 +59,10 @@
 </div>
 
 <!-- Events -->
-<section id="events">
+<section 
+	id="events"
+	data-calendar-id="key@group.calendar.google.com"
+>
     <h2>Upcoming Events</h2>
 	<p>Always check on the organizer's website or social media for any instructions and to confirm that an event has not been cancelled. If you are unable to verify an event because of broken links, please <a href="mailto:info@njboardgames.com" aria-label="Email">contact us</a>.</p><br>
     <div id="loading">Loading events...</div>
@@ -76,36 +80,15 @@
 		Please <a href="mailto:info@njboardgames.com" aria-label="Email">contact us</a> 
 		if you find that this is no longer the case or if the event is no longer being run.</p>
 	<br><br>
+	
     <div class="featured-event">
 		<h3 class="featured-event-name">Cardboard Enthusiasts Boardgame Club</h3>
-		<p class="featured-event-location">Some Library, 123 Some Street, Some City, NJ</p>
-		<p class="featured-event-time">Monthly afternoon on a Sunday 12:00PM-3:00PM</p>
-		<p class="featured-event-audience">FOR: Kids</p>
-		<p class="featured-event-category">CATEGORY: General</p>
+		<p class="featured-event-location"><strong>WHERE:</strong>Some Library, 123 Some Street, Some City, NJ</p>
+		<p class="featured-event-time"><strong>WHEN:</strong>Monthly afternoon on a Sunday 12:00PM-3:00PM</p>
+		<p class="featured-event-audience"><strong>FOR:</strong> Kids</p>
+		<p class="featured-event-category"><strong>CATEGORY:</strong> General</p>
+		<p class="featured-event-info"><strong>ORGANIZER:</strong> Library Website Link</p>
 		<p class="featured-event-description">We are a group of parents hosting modern boardgames for kids age 10-14. We teach games like Sushi Go!, Ticket to Ride, and lighter games like Taco Cat Goat Cheese Pizza. A parent or guardian must be present in the Library during the session.</p>
-		<p class="featured-event-info">INFO: Library Website Link</p>
-		<p class="featured-event-image">Optional banner image provide by the organizers.</p>
-    </div>
-	<br><br>
-    <div class="featured-event">
-		<h3 class="featured-event-name">Boardgames and Beers</h3>
-		<p class="featured-event-location">WHERE: Some Brewery, Some City, NJ</p>
-		<p class="featured-event-time">WHEN: Every 2nd Thursday, 6pm-10pm</p>
-		<p class="featured-event-audience">FOR: Adults (21+)</p>
-		<p class="featured-event-category">CATEGORY: General</p>
-		<p class="featured-event-description">We play mostly party games and lighter strategy games like Codenames, Just One, & Sushi Go</p>
-		<p class="featured-event-info">INFO: Facebook Group link</p>
-		<p class="featured-event-image">Optional banner image provide by the organizers.</p>
-    </div>
-	<br><br>
-    <div class="featured-event">
-		<h3 class="featured-event-name">Meeple Con</h3>
-		<p class="featured-event-location">WHERE: Some City, NJ</p>
-		<p class="featured-event-time">WHEN: Fri-Sunday, annually in December</p>
-		<p class="featured-event-audience">FOR: Family</p>
-		<p class="featured-event-category">CATEGORY: Convention</p>
-		<p class="featured-event-description">Annual connection with vendors, a huge 500+ boardgame library with open and scheduled gaming</p>
-		<p class="featured-event-info">INFO: Website Link</p>
 		<p class="featured-event-image">Optional banner image provide by the organizers.</p>
     </div>
 	<br>
