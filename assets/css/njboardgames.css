@@ -138,26 +138,30 @@ section h2 {
 }
 
 .county {
-	background: white;
-	border: 2px solid #e2e8f0;
-	border-radius: 8px;
-	padding: 1rem;
-	text-align: center;
-	font-weight: 600;
-	cursor: pointer;
-	transition: 0.2s ease;
+    display: block;               /* makes entire card clickable */
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+    text-decoration: none;        /* remove underline */
+    color: inherit;               /* prevent purple/blue */
+}
+
+.county:visited {
+    color: inherit;               /* prevent visited color */
 }
 
 .county:hover {
-	border-color: var(--accent);
-	background: #ecfdf5;
-	transform: translateY(-2px);
+    border-color: var(--accent);
+    background: #ecfdf5;
+    transform: translateY(-2px);
 }
 
-.county a {
-	text-decoration: none;
-	color: inherit;
-}
 
 /* CONNECT */
 .connect-icons {
