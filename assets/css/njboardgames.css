@@ -195,3 +195,66 @@ footer {
 		gap: 1rem;
 	}
 }
+
+.featured-event {
+    display: flex;
+    gap: 1.5rem;
+    background: #f8fafc;
+    border-left: 4px solid var(--primary);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.featured-event-media {
+    width: 180px;
+    min-height: 120px;
+    background: #e2e8f0;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+
+/* Enabled Once a photo is added */
+/*.featured-event {
+    display: flex;
+    gap: 1.5rem;
+    background: #f8fafc;
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+*/
+
+.featured-event-name {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.featured-event-meta p {
+    margin: 0.25rem 0;
+    font-size: 0.95rem;
+}
+
+.featured-event-meta strong {
+    color: var(--primary);
+}
+
+.featured-event-description {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e2e8f0;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .featured-event {
+        flex-direction: column;
+    }
+
+    .featured-event-media {
+        width: 100%;
+        height: 160px;
+    }
+}
