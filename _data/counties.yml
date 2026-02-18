@@ -39,3 +39,74 @@
   name: Mercer
   active: false
   calendar_id: 6e5fba97b9305bfdc839de0688d1d6b636b9d096b3875f33f9238adb83bed8ee@group.calendar.google.com
+
+# Remaining NJ counties (inactive - add calendar_id when ready)
+- slug: atlantic
+  name: Atlantic
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: capemay
+  name: Cape May
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: cumberland
+  name: Cumberland
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: gloucester
+  name: Gloucester
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: hudson
+  name: Hudson
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: hunterdon
+  name: Hunterdon
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: morris
+  name: Morris
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: ocean
+  name: Ocean
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: passaic
+  name: Passaic
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: salem
+  name: Salem
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: somerset
+  name: Somerset
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: sussex
+  name: Sussex
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: union
+  name: Union
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
+
+- slug: warren
+  name: Warren
+  active: false
+  calendar_id: placeholder@group.calendar.google.com
