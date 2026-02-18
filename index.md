@@ -23,11 +23,11 @@ title: NJ Boardgames
     <p>
         NJ Boardgames is a community-driven hub for tabletop gamers across New Jersey.
         Our mission is to promote the modern tabletop boardgaming hobby by giving new
-        and seasoned gamers an easy way to discover local in-person boardgame meet ups, clubs, etc.
+        and seasoned gamers an easy way to discover local in-person boardgame meet ups and clubs.
         Whether you're into heavy euro, deckbuilding, social deduction, or party games,
         our goal is to connect players with local groups and events throughout the state.
-        Due to its accessibility for new hobbyists, our emphasis is modern boardgames. However,
-        the platform may still be used to promote niche gaming events within the scope of
+        Due to its accessibility for new hobbyists, our emphasis is on modern boardgames. However,
+        our platform may still be used to promote niche gaming events within the scope of
         tabletop gaming.
     </p>
 </section>
@@ -37,9 +37,9 @@ title: NJ Boardgames
     <h2>How It Works</h2>
     <p>
         If you would like us to promote your event(s) on our site, please fill out one of the google forms below.
-        Once we approve your request, it will appear on the county page where your event is located.
+        Once we approve the request, it will appear on the the page of the county where your event takes place.
         If your event includes board gaming, is free and open to the general public,
-        and repeats regularly, we will feature it on the county page.
+        and repeats regularly, we may also feature it on the county's page.
         <br><br>
         <a href="https://forms.gle/VJZVQHMRtHDHR1hm7">First Time Event Request</a> (Use if this is a new event, or anything other than date & time have changed since the last event)
         <br><br>
