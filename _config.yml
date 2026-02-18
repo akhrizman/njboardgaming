@@ -1,0 +1,18 @@
+# NJ Boardgames - Jekyll Config
+# https://jekyllrb.com/docs/configuration/
+
+title: NJ Boardgames
+description: Community-driven hub for tabletop gamers across New Jersey
+url: https://njboardgames.com
+
+# GitHub Pages defaults
+markdown: kramdown
+highlighter: rouge
+
+# Build settings
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - county_template.html

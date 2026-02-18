@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% include nav-county.html %}
+
+<!-- CAROUSEL -->
+<div class="carousel">
+    <div class="carousel-track">
+        <div class="carousel-slide text-slide">
+            <h2>{{ page.county_name }} County</h2>
+            <p>Local tabletop gaming groups and events</p>
+        </div>
+    </div>
+</div>
+
+<!-- FEATURED -->
+<section id="featured">
+    <h2>Featured</h2>
+    <p>
+        Below is a list of regular occurring events or meet ups that are always
+        <strong class="attention">free and open to the public</strong>.
+        We are not involved directly with these events. If you find any information is inaccurate,
+        please <a href="mailto:info@njboardgames.com" aria-label="Email">contact us</a>.
+    </p>
+    {% include featured/{{ page.county_slug }}.html %}
+</section>
+
+<!-- EVENTS -->
+<section id="events" data-calendar-id="{{ page.calendar_id }}">
+    <h2>Upcoming Events</h2>
+    <p>Always check on the organizer's website or social media for any instructions and to confirm that an event has not been cancelled. If you are unable to verify an event because of broken links, please <a href="mailto:info@njboardgames.com" aria-label="Email">contact us</a>.</p><br>
+    <div id="loading">Loading events...</div>
+    <div id="error" style="display:none; color:red;"></div>
+    <div id="events-container"></div>
+</section>
+
+{% include connect.html %}
