@@ -71,6 +71,42 @@
             },
             "image": "https://drive.google.com/thumbnail?id=1Ajy9-CcgtsxLJNpr8bv0l594xXwqea4i&sz=w1000",
             "keywords": "board games brewery Colts Neck NJ, adult board game night Monmouth County"
+        },
+        {
+            "@type": "Event",
+            "@id": "https://njboardgames.com/monmouth/#event-lumen-chess",
+            "name": "Lumen Chess Club @ Holmdel Public Library in BellWorks",
+            "description": "Lumen Chess Club meets at Holmdel Public Library in BellWorks. Open to all skill levels, from beginners to advanced players. Join us for friendly games, learning opportunities, and chess-related activities. A great way to connect with fellow chess enthusiasts in the community.",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "startDate": "2026-02-19T17:00-05:00",
+            "endDate": "2026-02-19T20:00-05:00",
+            "organizer": {
+                "@type": "Organization",
+                "name": "Lumen Chess Strategy Club",
+                "url": "https://lumenchess.com/"
+            },
+            "location": {
+                "@type": "Place",
+                "name": "Holmdel Public Library in BellWorks",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "101 Crawfords Corner Rd",
+                    "addressLocality": "Holmdel",
+                    "addressRegion": "NJ",
+                    "postalCode": "07733",
+                    "addressCountry": "US"
+                }
+            },
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock",
+                "url": "https://njboardgames.com/monmouth/"
+            },
+            "image": "https://lumenchess.com/picture4-min.jpg",
+            "keywords": "chess club Holmdel NJ, chess meetup BellWorks, Lumen Chess Strategy Club"
         }
     ]
 }
