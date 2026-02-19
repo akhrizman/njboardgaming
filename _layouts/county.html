@@ -36,3 +36,10 @@ layout: default
 </section>
 
 {% include connect.html %}
+
+<!-- Check if the county-specific LD JSON JavaScript file exists and include it if it does -->
+{% assign script_path = '/assets/js/ldjson_' | append: page.county_slug | append: '.js' %}
+{% assign matching_file = site.static_files | where: "path", script_path | first %}
+{% if matching_file %}
+<link rel="stylesheet" href="{{ script_path | relative_url }}">
+{% endif %}
