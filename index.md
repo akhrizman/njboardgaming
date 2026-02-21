@@ -1,6 +1,5 @@
 ---
 layout: home
-title: NJ Boardgames
 ---
 
 <!-- GAMING / COUNTIES -->
