@@ -2,13 +2,14 @@
 layout: default
 ---
 
+{% assign county_data = site.data.counties | where: "slug", page.county_slug | first %}
 {% include nav-county.html %}
 
 <!-- CAROUSEL -->
 <div class="carousel">
     <div class="carousel-track">
         <div class="carousel-slide text-slide">
-            <h2>{{ page.county_name }} County</h2>
+            <h2>{{ county_data.name }} County</h2>
             <p>Local tabletop gaming groups and events</p>
         </div>
     </div>
@@ -27,7 +28,7 @@ layout: default
 </section>
 
 <!-- EVENTS -->
-<section id="events" data-calendar-id="{{ page.calendar_id }}">
+<section id="events" data-calendar-id="{{ county_data.calendar_id }}">
     <h2>Upcoming Events</h2>
     <p>Always check on the organizer's website or social media for any instructions and to confirm that an event has not been cancelled. If you are unable to verify an event because of broken links, please <a href="mailto:info@njboardgames.com" aria-label="Email">contact us</a>.</p><br>
     <div id="loading">Loading events...</div>
