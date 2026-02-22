@@ -1,5 +1,6 @@
 ---
 layout: home
+title: New Jersey Board Game Meetups & Events
 ---
 
 <!-- GAMING / COUNTIES -->
