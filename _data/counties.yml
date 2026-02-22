@@ -29,7 +29,12 @@
   active: true
   calendar_id: d3c9e1e0fc8bce5e28bec38a036510f6b8b9e8ef21e6ab00667602284b63cc5e@group.calendar.google.com
 
-# Counties with pages but not yet on homepage
+- slug: hudson
+  name: Hudson
+  active: true
+  calendar_id: f516b780b2fe9dde973467fc55a703631a1e2f38f15faa4b843dd6ba48a18da5@group.calendar.google.com
+
+# Counties with working page/calendar but not yet on homepage
 - slug: bergen
   name: Bergen
   active: false
@@ -58,11 +63,6 @@
 
 - slug: gloucester
   name: Gloucester
-  active: false
-  calendar_id: placeholder@group.calendar.google.com
-
-- slug: hudson
-  name: Hudson
   active: false
   calendar_id: placeholder@group.calendar.google.com
 
