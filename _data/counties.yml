@@ -4,6 +4,11 @@
 # name: Display name
 # calendar_id: Google Calendar ID for events
 
+- slug: atlantic
+  name: Atlantic
+  active: true
+  calendar_id: eb0a52203b7de6a6c3e1df587a41ddebfca5468065c2186bf4cd0aa22d39289b@group.calendar.google.com
+
 - slug: bergen
   name: Bergen
   active: true
@@ -55,11 +60,6 @@
   calendar_id: f7292ff8f720e4df1aee22ec46b0236d35ae4fe42e634856190bf31382f1535d@group.calendar.google.com
 
 # Remaining NJ counties (inactive - add calendar_id when ready)
-- slug: atlantic
-  name: Atlantic
-  active: false
-  calendar_id: placeholder@group.calendar.google.com
-
 - slug: capemay
   name: Cape May
   active: false
