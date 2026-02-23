@@ -4,6 +4,11 @@
 # name: Display name
 # calendar_id: Google Calendar ID for events
 
+- slug: bergen
+  name: Bergen
+  active: true
+  calendar_id: 8d80f3003f460e08ce05eea1596fd59daa6e0bffaf7a44f52738051ef7bc7ed1@group.calendar.google.com
+
 - slug: burlington
   name: Burlington
   active: true
@@ -43,12 +48,6 @@
   name: Mercer
   active: true
   calendar_id: 6e5fba97b9305bfdc839de0688d1d6b636b9d096b3875f33f9238adb83bed8ee@group.calendar.google.com
-
-# Counties with working page/calendar but not yet on homepage
-- slug: bergen
-  name: Bergen
-  active: false
-  calendar_id: 8d80f3003f460e08ce05eea1596fd59daa6e0bffaf7a44f52738051ef7bc7ed1@group.calendar.google.com
 
 # Remaining NJ counties (inactive - add calendar_id when ready)
 - slug: atlantic
