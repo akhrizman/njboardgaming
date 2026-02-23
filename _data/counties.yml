@@ -29,6 +29,11 @@
   active: true
   calendar_id: d3c9e1e0fc8bce5e28bec38a036510f6b8b9e8ef21e6ab00667602284b63cc5e@group.calendar.google.com
 
+- slug: morris
+  name: Morris
+  active: true
+  calendar_id: 85b882450e0bb9fddc318fc3e626fc017405750569184b929e348a292d65dfd0@group.calendar.google.com
+
 - slug: hudson
   name: Hudson
   active: true
@@ -68,11 +73,6 @@
 
 - slug: hunterdon
   name: Hunterdon
-  active: false
-  calendar_id: placeholder@group.calendar.google.com
-
-- slug: morris
-  name: Morris
   active: false
   calendar_id: placeholder@group.calendar.google.com
 
