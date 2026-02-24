@@ -96,5 +96,17 @@ async function fetchEvents() {
   }
 }
 
+/** If the URL has a hash (e.g. #oldBridgeLibrary), scroll that element into view. Call after DOM changes (e.g. calendar load) to avoid layout shift. */
+function scrollToHash() {
+  var hash = window.location.hash;
+  if (!hash) return;
+  var el = document.getElementById(hash.slice(1));
+  if (el) {
+    requestAnimationFrame(function () {
+      el.scrollIntoView({ behavior: 'instant', block: 'start' });
+    });
+  }
+}
+
 // Run on page load
-fetchEvents();
+fetchEvents().then(scrollToHash).catch(function () { scrollToHash(); });
