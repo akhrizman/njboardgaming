@@ -26,29 +26,13 @@ title: New Jersey Board Game Meetups & Events
         and seasoned gamers an easy way to discover local in-person boardgame meet ups and clubs.
         Whether you're into heavy euro, deckbuilding, social deduction, or party games,
         our goal is to connect players with local groups and events throughout the state.
-        Due to its accessibility for new hobbyists, our emphasis is on modern boardgames. However,
-        our platform may still be used to promote niche gaming events within the scope of
-        tabletop gaming.
-    </p>
-</section>
-
-<!-- FOR ORGANIZERS -->
-<section id="organizers">
-    <h2>How It Works</h2>
-    <p>
-        If you would like us to promote your event(s) on our site, please fill out one of the google forms below.
-        Once we approve the request, it will appear on the the page of the county where your event takes place.
-        If your event includes board gaming, is free and open to the general public,
-        and repeats regularly, we may also feature it on the county's page.
-        <br><br>
-        <a href="https://forms.gle/VJZVQHMRtHDHR1hm7">First Time Event Request</a> (Use if this is a new event, or anything other than date & time have changed since the last event)
-        <br><br>
-        <a href="https://forms.gle/tHR4oqyMbhEwxqoF7">Recurring Identical Events</a>
+        Due to its accessibility for new hobbyists, our emphasis is on modern boardgames. On the county pages, we will feature regularly occuring, general boardgaming events which are free and open to the general public. However,
+        our platform may still be used to promote niche gaming events within the scope of tabletop gaming.
     </p>
 </section>
 
 <section id="allowed">
-    <h2>What Events Are Allowed</h2>
+    <h2>What Events We Allow</h2>
     <ul>
         <li>In-person tabletop gaming</li>
         <li>Niche tabletop gaming (Chess, Magic, Warhammer, Pokemon, Scrabble, RPGs, etc.)</li>
@@ -59,7 +43,7 @@ title: New Jersey Board Game Meetups & Events
 </section>
 
 <section id="not-allowed">
-    <h2>What Events Are NOT Allowed</h2>
+    <h2>What Events We Don't Allow</h2>
     <ul>
         <li>Online boardgaming events</li>
         <li>Private events not open to the general public (i.e. in someone's home)</li>
@@ -67,4 +51,19 @@ title: New Jersey Board Game Meetups & Events
             other than gaming (i.e. a promotional presentation, religious service, etc.)</li>
         <li>Retail store sales, flea markets, garage sales, etc.</li>
     </ul>
+</section>
+
+<!-- FOR ORGANIZERS -->
+<section id="organizers">
+    <h2>For Organizers</h2>
+    <p>
+        If you would like us to promote your event(s) on our site, please fill out one of the forms below.
+        Once we approve the request, it will appear on the the page of the county where your event takes place.
+        If your event includes board gaming, is free and open to the general public,
+        and repeats regularly, we may also feature it on the county's page.
+        <br><br>
+        <a href="https://forms.gle/VJZVQHMRtHDHR1hm7">First Time Event Request</a> (Use if this is a new event, or anything other than date & time have changed since the last event)
+        <br><br>
+        <a href="https://forms.gle/tHR4oqyMbhEwxqoF7">Recurring Identical Events</a>
+    </p>
 </section>
