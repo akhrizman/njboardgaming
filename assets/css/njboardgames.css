@@ -18,21 +18,6 @@ body {
 	line-height: 1.6;
 }
 
-section ul {
-    list-style-position: outside;
-    padding-left: 1.25rem; /* controls bullet-to-text spacing */
-    margin-left: 0;
-}
-
-section ul li {
-    margin-bottom: 0.5rem;
-}
-
-section p {
-    text-align: justify;
-/*	hyphens: auto;*/
-}
-
 .attention {
 	color: red;
 }
@@ -114,15 +99,6 @@ section p {
     color: var(--accent);
 }
 
-/* MOBILE */
-@media (max-width: 768px) {
-    .sub-nav ul {
-        gap: 1.25rem;
-        font-size: 0.95rem;
-    }
-}
-
-
 /* SECTIONS */
 section {
 	scroll-margin-top: 130px; /* height of main + sub nav */
@@ -137,6 +113,30 @@ section {
 section h2 {
 	font-size: 2rem;
 	margin-bottom: 1rem;
+}
+
+section p {
+    text-align: justify;
+/*	hyphens: auto;*/
+}
+
+section ul {
+    list-style-position: outside;
+    padding-left: 1.25rem; /* controls bullet-to-text spacing */
+    margin-left: 0;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* FAQs */
+.faq-item {
+	padding-bottom: 3rem;
+}
+
+.faq-item h2 {
+	font-size: 1.5rem;
 }
 
 /* COUNTIES */
@@ -200,12 +200,6 @@ footer {
 	font-size: 0.9rem;
 }
 
-@media (max-width: 768px) {
-	nav ul {
-		gap: 1rem;
-	}
-}
-
 .featured-event {
     display: flex;
     gap: 1.5rem;
@@ -254,6 +248,13 @@ footer {
 }
 
 @media (max-width: 768px) {
+	nav ul {
+		gap: 1rem;
+	}
+    .sub-nav ul {
+        gap: 1.25rem;
+        font-size: 0.95rem;
+    }
     .featured-event {
         flex-direction: column;
     }
