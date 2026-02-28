@@ -51,8 +51,8 @@
 
 - slug: hunterdon
   name: Hunterdon
-  active: false
-  calendar_id: placeholder@group.calendar.google.com
+  active: true
+  calendar_id: 8cf9776d92fb3a09831a5b6c09f20746b48b7df25ee5e7dfaf323e09aa3e8c0a@group.calendar.google.com
 
 - slug: mercer
   name: Mercer
