@@ -37,6 +37,16 @@ section p {
 	color: red;
 }
 
+.page-title-header {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.page-title-header .page-title {
+	text-align: center;
+	margin: 0;
+}
+
 .nav-wrapper {
     position: sticky;
     top: 0;
