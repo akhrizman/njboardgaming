@@ -16,3 +16,11 @@ exclude:
   - Gemfile.lock
   - README.md
   - county_template.html
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+
+# Sitemap
+sitemap:
+  filename: sitemap.xml
