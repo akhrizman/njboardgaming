@@ -15,10 +15,11 @@ const errorDiv = document.getElementById('error');
 async function fetchEvents() {
   try {
     const timeMin = new Date().toISOString();
-		
+    const monthsIntoTheFutureAttr = eventsSection.dataset.monthsIntoFuture;
+    const monthsIntoTheFuture = monthsIntoTheFutureAttr ? parseInt(monthsIntoTheFutureAttr, 10) : 1;
+
     // Format dates for query (n months from now)
-	const monthsIntoTheFuture = 3;
-	const timeMaxDate = new Date();
+    const timeMaxDate = new Date();
 	timeMaxDate.setMonth(timeMaxDate.getMonth() + monthsIntoTheFuture);
 	const timeMax = timeMaxDate.toISOString();
 

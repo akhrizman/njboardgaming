@@ -16,7 +16,9 @@ layout: default
 </div>
 
 <!-- EVENTS -->
-<section id="events" data-calendar-id="{{ county_data.calendar_id }}">
+<section id="events"
+         data-months-into-future="{{ county_data.months_into_future }}"
+         data-calendar-id="{{ county_data.calendar_id }}">
     <h2>Upcoming Events</h2>
     <p>Always check the organizer's website or social media
         for important info like group rules, RSVP requirements, and to confirm that an event has not been cancelled.
