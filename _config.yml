@@ -15,7 +15,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - county_template.html
 
 # Plugins
 plugins:
