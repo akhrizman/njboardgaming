@@ -26,3 +26,9 @@ plugins:
 sitemap:
   filename: sitemap.xml
   lastmod: true
+  priorities:
+    pages: 0.7
+    posts: 0.5
+  changefreqs:
+    pages: weekly
+    posts: weekly
