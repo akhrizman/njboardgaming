@@ -59,10 +59,28 @@ async function fetchEvents() {
       if (event.start.dateTime) {
         const start = new Date(event.start.dateTime);
         const end = event.end.dateTime ? new Date(event.end.dateTime) : null;
+        // Format start
         timeStr = start.toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
-        if (end) timeStr += ` – ${end.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}`;
+        if (end) {
+          // Check if start and end are on the same calendar day
+          const sameDay = start.toDateString() === end.toDateString();
+          if (sameDay) {
+            timeStr += ` – ${end.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}`;
+          } else {              // Show full end date and time
+            timeStr += ` – ${end.toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })}`;
+          }
+        }
       } else if (event.start.date) {
-        timeStr = new Date(event.start.date).toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' }) + ' (All day)';
+        const start = new Date(event.start.date);
+        const end = event.end.date ? new Date(event.end.date) : null;
+        if (end && start.toDateString() !== end.toDateString()) {
+          // Multi-day all-day event
+          timeStr = `${start.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' })} – ` +
+                    `${end.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' })} (All day)`;
+        } else {
+          // Single-day all-day event
+          timeStr = start.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' }) + ' (All day)';
+        }
       }
       const timeEl = document.createElement('div');
       timeEl.className = 'event-time';

@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% include nav-conventions.html %}
+
+<!-- CAROUSEL -->
+<div class="carousel">
+    <div class="carousel-track">
+        <div class="carousel-slide text-slide">
+            <h2>Conventions</h2>
+            <p>~ Located in or near New Jersey ~</p>
+        </div>
+    </div>
+</div>
+
+<!-- CONVENTIONS -->
+<section id="events" data-calendar-id="b264e9fb38f30c5bf1e5e8453ae676848eb937d67c0185b2d1564ce657bdaadf@group.calendar.google.com">
+    <h2>Upcoming Conventions</h2>
+    <p>Check the organization's website for additional details.
+        If you are unable to verify a convention's details because of broken links,
+        please <a href="mailto:info@njboardgames.com" aria-label="Email">contact us</a>.
+        To add your convention, please see the <a href="{{ '/faq/#how-to-add-event' | relative_url }}">How to add an event</a>
+        section on our main page.</p><br>
+    <div id="loading">Loading events...</div>
+    <div id="error" style="display:none; color:red;"></div>
+    <div id="events-container"></div>
+</section>
+
+<!-- FEATURED CONVENTIONS -->
+<!-- <section id="conventions">
+    <h2>Featured Conventions</h2>
+    <p>
+        The following is a list of conventions in New Jersey or within a reasonable driving distance.
+    </p>
+</section> -->
+
+{% include connect.html %}
