@@ -18,11 +18,11 @@ layout: default
 <!-- EVENTS -->
 <section id="events" data-calendar-id="{{ county_data.calendar_id }}">
     <h2>Upcoming Events</h2>
-    <p>Always check the organizer's website or social media 
+    <p>Always check the organizer's website or social media
         for important info like group rules, RSVP requirements, and to confirm that an event has not been cancelled.
         If you are unable to verify an event because of broken links,
         please <a href="mailto:info@njboardgames.com" aria-label="Email">contact us</a>.
-        To add an event, please see the <a href="{{ '/#organizers' | relative_url }}">Organizers</a> 
+        To add an event, please see the <a href="{{ '/#organizers' | relative_url }}">Organizers</a>
         section on our main page.</p><br>
     <div id="loading">Loading events...</div>
     <div id="error" style="display:none; color:red;"></div>
@@ -34,8 +34,8 @@ layout: default
     <h2>Featured</h2>
     <p>
         We only promote regularly occurring, boardgaming events or meet ups that are
-        <strong class="attention">free and open to the general public</strong>. 
-        Below is a list of groups that meet these criteria. 
+        <strong class="attention">free and open to the general public</strong>.
+        Below is a list of groups that meet these criteria.
         We are not directly involved with these events. If you find any information is inaccurate,
         please <a href="mailto:info@njboardgames.com" aria-label="Email">contact us</a>.
     </p>
@@ -43,10 +43,3 @@ layout: default
 </section>
 
 {% include connect.html %}
-
-<!-- Check if the county-specific LD JSON JavaScript file exists and include it if it does -->
-{% assign script_path = '/assets/js/ldjson_' | append: page.county_slug | append: '.js' %}
-{% assign matching_file = site.static_files | where: "path", script_path | first %}
-{% if matching_file %}
-<link rel="stylesheet" href="{{ script_path | relative_url }}">
-{% endif %}

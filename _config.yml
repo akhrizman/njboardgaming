@@ -20,7 +20,9 @@ exclude:
 # Plugins
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Sitemap
 sitemap:
   filename: sitemap.xml
+  lastmod: true

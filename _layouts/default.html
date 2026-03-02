@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     {% if page.layout == 'home' %}
-    {% include meta-home.html %}
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     {% else %}
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     {% endif %}
@@ -20,8 +20,8 @@
     {% endif %}
     <link rel="icon" type="image/png" href="{{ '/assets/images/logo-navbar.png' | relative_url }}">
     <script src="{{ '/assets/js/links.js' | relative_url }}" defer></script>
-    <script type="application/ld+json" src="{{ '/assets/js/home_ld_json.js' | relative_url }}" defer></script>
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    {% seo title=false %}
 </head>
 <body>
 
