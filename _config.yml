@@ -31,3 +31,9 @@ sitemap:
   changefreqs:
     pages: weekly
     posts: weekly
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/logo-navbar.png
