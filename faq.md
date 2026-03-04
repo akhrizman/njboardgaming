@@ -7,12 +7,23 @@ permalink: /faq/
 <section class="faq-item" id="what-is-njb">
     <h2>What is NJ Boardgames?</h2>
     <p>NJ Boardgames is a community-driven hub for tabletop gamers across New Jersey.
-    We list a variety of in-person tabletop gaming event. We emphasise and encourage "free and open boardgaming" so we feature those events. We also list niche tabletop gaming events like RPGs, CCGs, Scrabble, etc. but they will not be featured. We are not affiliated with the individual groups, venues, or their platforms; we simply help surface local options for you.</p>
+    We list a variety of in-person tabletop gaming events. We emphasize and encourage "free and open board gaming" so we feature those events. We also list niche tabletop gaming events like RPGs, CCGs, Scrabble, etc. but they will not be featured. We are not affiliated with the individual groups, venues, or their platforms; we simply help surface local options for you.</p>
 </section>
 
 <section class="faq-item" id="how-to-find-events">
     <h2>How do I find events in my area?</h2>
-    <p>From our <a href="{{ '/' | relative_url }}#gaming">homepage</a>, choose your county. Each county page shows a list of upcoming events pulled from our calendars and a list of featured recurring meetups. Always check the organizer’s site or social media for the latest details, RSVP rules, and any cancellations.</p>
+    <p>From our <a href="{{ '/' | relative_url }}#gaming">homepage</a>, choose your county. Each county page shows a list of upcoming events pulled from our calendars and a list of featured events. Always check the organizer’s site or social media for the latest details, RSVP rules, and holiday exceptions or cancellations.</p>
+</section>
+
+<section class="faq-item" id="what-are-featured-event">
+    <h2>What's a featured event?</h2>
+    <p>Featured events are the focus of NJ Boardgames.  They are events that have a permanent place on our site because they meet all of the following criteria: </p>
+    <ul>
+        <li><strong>FREE!</strong> Organizers may only "request" donations or ask you to support the venue.</li>
+        <li><strong>Open to the general public.</strong> Family Friendly, 18+, or 21+.  (Kids Only, Singles Only, etc. won't be featured.)</li>
+        <li><strong>Board Gaming.</strong> (A variety of games must be played, but organizers can still specify a category like "Party Games" or "Medium-Heavy".)</li>
+        <li><strong>Recurring.</strong> Events must occur at least 4 times a year.</li>
+    </ul>
 </section>
 
 <section class="faq-item" id="what-events-allowed">
