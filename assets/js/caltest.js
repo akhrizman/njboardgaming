@@ -20,16 +20,16 @@ async function fetchEvents() {
 
     // Format dates for query (n months from now)
     const timeMaxDate = new Date();
-	timeMaxDate.setMonth(timeMaxDate.getMonth() + monthsIntoTheFuture);
-	const timeMax = timeMaxDate.toISOString();
+    timeMaxDate.setMonth(timeMaxDate.getMonth() + monthsIntoTheFuture);
+    const timeMax = timeMaxDate.toISOString();
 
     const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(CALENDAR_ID)}/events?` +
-                `key=${API_KEY}&` +
-                `timeMin=${timeMin}&` +
-                `timeMax=${timeMax}&` +
-                `maxResults=${MAX_EVENTS}&` +
-                `singleEvents=true&` +          // Expand recurring events
-                `orderBy=startTime`;
+        `key=${API_KEY}&` +
+        `timeMin=${timeMin}&` +
+        `timeMax=${timeMax}&` +
+        `maxResults=${MAX_EVENTS}&` +
+        `singleEvents=true&` +          // Expand recurring events
+        `orderBy=startTime`;
 
     const response = await fetch(url);
     if (!response.ok) throw new Error(`API error: ${response.status}`);
@@ -83,7 +83,7 @@ async function fetchEvents() {
         if (end && start.toDateString() !== end.toDateString()) {
           // Multi-day all-day event
           timeStr = `${start.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' })} – ` +
-                    `${end.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' })} (All day)`;
+              `${end.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' })} (All day)`;
         } else {
           // Single-day all-day event
           timeStr = start.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' }) + ' (All day)';

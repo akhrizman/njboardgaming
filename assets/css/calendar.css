@@ -16,16 +16,23 @@
   overflow: hidden;
   transition: transform 0.2s, box-shadow 0.2s;
 }
+.event-card-featured {
+  background: #99ffff;
+}
 .event-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
 }
 .event-header {
-  background: #3b82f6; /* Change to match your calendar color */
+  background: #0080ff;
   color: white;
   padding: 1rem;
   font-weight: bold;
   font-size: 1.1rem;
+}
+.event-header-featured {
+  background: #0066cc;
+  color: white;
 }
 .event-body {
   padding: 1rem;
