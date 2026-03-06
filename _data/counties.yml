@@ -90,8 +90,8 @@
 
 - slug: ocean
   name: Ocean
-  active: false
-  calendar_id: placeholder@group.calendar.google.com
+  active: true
+  calendar_id: e9b6199e6e8885cf9b2bae4f994b1decd7779e3cc404a92a595d2599a74726bc@group.calendar.google.com
   months_into_future: 3
 
 - slug: passaic
