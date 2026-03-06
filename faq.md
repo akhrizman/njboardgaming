@@ -6,49 +6,43 @@ permalink: /faq/
 
 <section class="faq-item" id="what-is-njb">
     <h2>What is NJ Boardgames?</h2>
-    <p>NJ Boardgames is a community-driven hub for tabletop gamers across New Jersey.
-    We list a variety of in-person tabletop gaming events. We emphasize and encourage "free and open board gaming" so we feature those events. We also list niche tabletop gaming events like RPGs, CCGs, Scrabble, etc. but they will not be featured. We are not affiliated with the individual groups, venues, or their platforms; we simply help surface local options for you.</p>
-</section>
-
-<section class="faq-item" id="how-to-find-events">
-    <h2>How do I find events in my area?</h2>
-    <p>From our <a href="{{ '/' | relative_url }}#gaming">homepage</a>, choose your county. Each county page shows a list of upcoming events pulled from our calendars and a list of featured events. Always check the organizer’s site or social media for the latest details, RSVP rules, and holiday exceptions or cancellations.</p>
-</section>
-
-<section class="faq-item" id="what-are-featured-event">
-    <h2>What's a featured event?</h2>
-    <p>Featured events are the focus of NJ Boardgames.  They are events that have a permanent place on our site because they meet all of the following criteria: </p>
-    <ul>
-        <li><strong>FREE!</strong> Organizers may only "request" donations or ask you to support the venue.</li>
-        <li><strong>Open to the general public.</strong> Family Friendly, 18+, or 21+.  (Kids Only, Singles Only, etc. won't be featured.)</li>
-        <li><strong>Board Gaming.</strong> (A variety of games must be played, but organizers can still specify a category like "Party Games" or "Medium-Heavy".)</li>
-        <li><strong>Recurring.</strong> Events must occur at least 4 times a year.</li>
-    </ul>
-</section>
-
-<section class="faq-item" id="what-events-allowed">
-    <h2>What kinds of events are allowed on the site?</h2>
-    <p>We only list in-person tabletop gaming (board games, niche games like chess or RPGs, design and playtesting, etc.), as well as conventions with open gaming. Clubs that charge membership are okay if they offer a way for new people to try it out. We do not list online-only events, private events, sales, auctions, or anything that requires non-gaming participation (e.g. religious or promotional content).</p>
-</section>
-
-<section class="faq-item" id="how-to-add-event">
-    <h2>How can I get my event or meetup added to your site?</h2>
-    <p>If this is the first time you are submitting a request, fill out a <a href="https://forms.gle/VJZVQHMRtHDHR1hm7">First Time Event Request</a>. Once we approve the request, it will appear on the the county page where your event takes place and we will notify you to check for accuracy. If you have previously submitted an event and we approved it, you can use the short <a href="https://forms.gle/tHR4oqyMbhEwxqoF7">Recurring Event Request</a> if the only thing that has changed is date and time. </p>
-</section>
-
-<section class="faq-item" id="how-to-be-featured">
-    <h2>How do I get my event featured on your site?</h2>
-    <p>If your event includes board gaming, is free and open to the general public, and repeats regularly, you can submit it by filling out a <a href="https://forms.gle/VJZVQHMRtHDHR1hm7">First Time Event Request</a>. If your event meets the above criteria we will feature it on the appropriate county page in addition to adding it to our calendar. What you provide us is what we will list.  We recommend browsing the site to see how other groups' events are featured.</p>
-</section>
-
-<section class="faq-item" id="event-cancelled">
-    <h2>I need to cancel my event or the details have changed. What should I do?</h2>
-    <p>We get event info from organizers based on what they have provided on their own platforms (Facebook, Meetup, Website, etc.). If your event has been cancelled, your location or time has changed, or any other details need updating, please <a href="mailto:info@njboardgames.com">contact us</a> and we’ll update or remove it as needed.</p>
+    <p>NJ Boardgames is a community-driven hub for tabletop gamers across New Jersey. We list a variety of in-person tabletop gaming events. We encourage "free, open, general board gaming" so we emphasize and highlight those events. We also list niche tabletop gaming events like RPGs, CCGs, Warhammer, as well as single-game events like Scrabble, Rummikub, Chess, etc. We are not affiliated with the individual groups, venues, or their platforms; we simply help surface local options for you.</p>
 </section>
 
 <section class="faq-item" id="about-the-developers">
     <h2>Who runs this site?</h2>
     <p>We are two board gamers passonate about growing our community by promoting the hobby and bringing gamers together. We both live and play in Monmouth County, New Jersey and have been organizing public events and meetups for over a decade. This site's success depends on continued engagement from organizers.</p>
+</section>
+
+<section class="faq-item" id="how-to-find-events">
+    <h2>How do I find events in my area?</h2>
+    <p>From our <a href="{{ '/' | relative_url }}#gaming">homepage</a>, choose your county. Each county page shows a list of upcoming events pulled from our calendars. Highlighted events are ones that meet the criteria for being <a href="#what-are-featured-event">featured</a>. Always check the organizer’s site or social media for the latest details, RSVP rules, and holiday exceptions or cancellations.</p>
+</section>
+
+<section class="faq-item" id="what-are-featured-event">
+    <h2>What is a "FEATURED EVENT" and why are they highlighted?</h2>
+    <p>At NJ Boardames, we want to emphasize events that foster accessibility to the board gaming hobby. We highlight them in the list of Upcoming Events. Information for these events will also have a permanent place on the site. To be featured, an event must meet the following criteria: </p>
+    <ul>
+        <li><strong>FREE!</strong> Organizers may still request donations or ask that you support their venue (e.g. buying food or drinks) but they may not turn you away if you don't.</li>
+        <li><strong>Open to the general public.</strong> Family Friendly, 18+, or 21+ events are ok. (Kids Only, Singles Only, 55+, etc. are exclusive and won't be featured)</li>
+        <li><strong>Board Gaming.</strong> A variety of games must be played, but organizers can still specify a category like "Party Games" or "Medium-Heavy".</li>
+        <li><strong>Recurring.</strong> The event must occur at least 4 times a year.</li>
+    </ul>
+</section>
+
+<section class="faq-item" id="what-events-allowed">
+    <h2>What kinds of events are allowed on the site?</h2>
+    <p>We list <strong>in-person</strong> tabletop gaming events including but not limited to general board games, RPGs, CCGs, Chess, Scrabble, design and playtesting, etc. We also have a dedicated section for conventions with open gaming. Clubs that charge membership are okay if they offer a way for new people to try it out. We do not list online-only events, private events, sales, auctions, or anything that requires non-gaming participation (e.g. religious or promotional content).</p>
+</section>
+
+<section class="faq-item" id="how-to-add-event">
+    <h2>How can I get my event added to your site?</h2>
+    <p>If this is your first time submitting a request, fill out a <a href="https://forms.gle/VJZVQHMRtHDHR1hm7">First Time Event Request</a>. Once we approve the request, it will appear on the the county page where your event takes place and we will notify you to check for accuracy. If you have previously submitted an event and we approved it, the only thing that has changed is date and time, you can use the short <a href="https://forms.gle/tHR4oqyMbhEwxqoF7">Recurring Event Request</a> instead. If your event meets the criteria for being <a href="#what-are-featured-event">featured</a>, we will add it to the Featured section of its county's page, and it will appear highlighted in the Upcoming Events section.</p>
+</section>
+
+<section class="faq-item" id="event-cancelled">
+    <h2>I need to cancel my event or the details have changed. What should I do?</h2>
+    <p>We get event info from organizers based on what they have provided on their own platforms (Facebook, Meetup, Website, etc.). If your event has been cancelled, your location or time has changed, or any other details need updating, please <a href="mailto:info@njboardgames.com">contact us</a> and we’ll update or remove it as needed.</p>
 </section>
 
 <section class="faq-item" id="contact">
