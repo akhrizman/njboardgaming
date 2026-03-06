@@ -48,8 +48,8 @@
 
 - slug: gloucester
   name: Gloucester
-  active: false
-  calendar_id: placeholder@group.calendar.google.com
+  active: true
+  calendar_id: 9fbc21f3478830d6a536a1a10967737077ff61c5af9d62d2a949b06c3cd13b0a@group.calendar.google.com
   months_into_future: 3
 
 - slug: hudson
