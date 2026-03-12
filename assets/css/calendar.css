@@ -62,6 +62,7 @@
 .event-header-featured {
   background: #0066cc;
   color: white;
+  padding-right: 3em;
 }
 .event-body {
   padding: 1rem;

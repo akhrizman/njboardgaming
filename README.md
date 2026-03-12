@@ -51,7 +51,7 @@ ruby -v
 bundle exec jekyll serve
 ```
 
-- Site sould now be hosted at http://localhost:4000
+- Site should now be hosted at http://localhost:4000
 
 - Jekyll will automatically rebuild when files change.
 
