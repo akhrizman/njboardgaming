@@ -12,6 +12,52 @@ const container = document.getElementById('events-container');
 const loading = document.getElementById('loading');
 const errorDiv = document.getElementById('error');
 
+function buildGoogleCalendarUrl(event) {
+  const base = 'https://www.google.com/calendar/render?action=TEMPLATE';
+
+  function formatDateForGoogle(dateStr) {
+    if (!dateStr) return '';
+    const date = new Date(dateStr);
+    // Convert to YYYYMMDDTHHMMSSZ (UTC, no dashes/colons)
+    return date.toISOString().replace(/-|:|\.\d{3}/g, '');
+  }
+
+  let dates = '';
+  if (event.start.dateTime && event.end.dateTime) {
+    // Timed event
+    const start = formatDateForGoogle(event.start.dateTime);
+    const end = formatDateForGoogle(event.end.dateTime);
+    dates = `&dates=${start}/${end}`;
+  } else if (event.start.date) {
+    // All-day event (use date only, extend end by 1 day if missing)
+    const startDate = formatDateForGoogle(event.start.date).slice(0, 8); // YYYYMMDD
+    let endDate = startDate;
+    if (event.end.date) {
+      endDate = formatDateForGoogle(event.end.date).slice(0, 8);
+    } else {
+      // Single all-day → make it span to next day
+      const nextDay = new Date(event.start.date);
+      nextDay.setDate(nextDay.getDate() + 1);
+      endDate = nextDay.toISOString().slice(0, 10).replace(/-/g, '');
+    }
+    dates = `&dates=${startDate}/${endDate}`;
+  }
+
+  const params = new URLSearchParams({
+    text: event.summary || 'Untitled Event',
+    details: event.description || '',
+    location: event.location || '',
+    // ctz: 'America/New_York',  // Optional: add if events are in a specific timezone and not UTC
+  });
+
+  let url = base;
+  if (dates) url += dates;
+  const paramStr = params.toString();
+  if (paramStr) url += (dates ? '&' : '?') + paramStr;
+
+  return encodeURI(url);
+}
+
 async function fetchEvents() {
   try {
     const timeMin = new Date().toISOString();
@@ -20,16 +66,16 @@ async function fetchEvents() {
 
     // Format dates for query (n months from now)
     const timeMaxDate = new Date();
-    timeMaxDate.setMonth(timeMaxDate.getMonth() + monthsIntoTheFuture);
-    const timeMax = timeMaxDate.toISOString();
+	timeMaxDate.setMonth(timeMaxDate.getMonth() + monthsIntoTheFuture);
+	const timeMax = timeMaxDate.toISOString();
 
     const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(CALENDAR_ID)}/events?` +
-        `key=${API_KEY}&` +
-        `timeMin=${timeMin}&` +
-        `timeMax=${timeMax}&` +
-        `maxResults=${MAX_EVENTS}&` +
-        `singleEvents=true&` +          // Expand recurring events
-        `orderBy=startTime`;
+                `key=${API_KEY}&` +
+                `timeMin=${timeMin}&` +
+                `timeMax=${timeMax}&` +
+                `maxResults=${MAX_EVENTS}&` +
+                `singleEvents=true&` +          // Expand recurring events
+                `orderBy=startTime`;
 
     const response = await fetch(url);
     if (!response.ok) throw new Error(`API error: ${response.status}`);
@@ -42,77 +88,86 @@ async function fetchEvents() {
       return;
     }
 
-    data.items.forEach(event => {
-      const card = document.createElement('div');
-      card.className = 'event-card';
+data.items.forEach(event => {
+  const card = document.createElement('div');
+  card.className = 'event-card';
 
-      // Title
-      const header = document.createElement('div');
-      header.className = 'event-header';
-      header.textContent = event.summary || '(No title)';
-      card.appendChild(header);
+  // Title
+  const header = document.createElement('div');
+  header.className = 'event-header';
+  header.textContent = event.summary || '(No title)';
+  card.appendChild(header);
 
-      // Emphasize featured events
-      if (event.description && event.description.includes("njboardgames.com")) {
-        header.classList.add("event-header-featured");
-        card.classList.add('event-card-featured');
+  // Featured check (unchanged)
+  if (event.description && event.description.includes("njboardgames.com")) {
+    header.classList.add("event-header-featured");
+    card.classList.add('event-card-featured');
+  }
+
+  const body = document.createElement('div');
+  body.className = 'event-body';
+
+  // Time (unchanged)
+  let timeStr = '';
+  if (event.start.dateTime) {
+    const start = new Date(event.start.dateTime);
+    const end = event.end.dateTime ? new Date(event.end.dateTime) : null;
+    timeStr = start.toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+    if (end) {
+      const sameDay = start.toDateString() === end.toDateString();
+      if (sameDay) {
+        timeStr += ` – ${end.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}`;
+      } else {
+        timeStr += ` – ${end.toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })}`;
       }
+    }
+  } else if (event.start.date) {
+    const start = new Date(event.start.date);
+    const end = event.end.date ? new Date(event.end.date) : null;
+    if (end && start.toDateString() !== end.toDateString()) {
+      timeStr = `${start.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' })} – ` +
+                `${end.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' })} (All day)`;
+    } else {
+      timeStr = start.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' }) + ' (All day)';
+    }
+  }
+  const timeEl = document.createElement('div');
+  timeEl.className = 'event-time';
+  timeEl.textContent = timeStr;
+  body.appendChild(timeEl);
 
-      const body = document.createElement('div');
-      body.className = 'event-body';
+  // Description
+  if (event.description) {
+    const desc = document.createElement('div');
+    desc.className = 'event-desc';
+    desc.innerHTML = event.description.replace(/\n/g, '<br>');
+    body.appendChild(desc);
+  }
 
-      // Time
-      let timeStr = '';
-      if (event.start.dateTime) {
-        const start = new Date(event.start.dateTime);
-        const end = event.end.dateTime ? new Date(event.end.dateTime) : null;
-        // Format start
-        timeStr = start.toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
-        if (end) {
-          // Check if start and end are on the same calendar day
-          const sameDay = start.toDateString() === end.toDateString();
-          if (sameDay) {
-            timeStr += ` – ${end.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}`;
-          } else {              // Show full end date and time
-            timeStr += ` – ${end.toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })}`;
-          }
-        }
-      } else if (event.start.date) {
-        const start = new Date(event.start.date);
-        const end = event.end.date ? new Date(event.end.date) : null;
-        if (end && start.toDateString() !== end.toDateString()) {
-          // Multi-day all-day event
-          timeStr = `${start.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' })} – ` +
-              `${end.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' })} (All day)`;
-        } else {
-          // Single-day all-day event
-          timeStr = start.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' }) + ' (All day)';
-        }
-      }
-      const timeEl = document.createElement('div');
-      timeEl.className = 'event-time';
-      timeEl.textContent = timeStr;
-      body.appendChild(timeEl);
+  // Location
+  if (event.location) {
+    const loc = document.createElement('div');
+    loc.className = 'event-location';
+    loc.textContent = `Location: ${event.location}`;
+    body.appendChild(loc);
+  }
 
-      // Description
-      if (event.description) {
-        const desc = document.createElement('div');
-        desc.className = 'event-desc';
-        desc.innerHTML = event.description.replace(/\n/g, '<br>'); // Basic formatting
-        body.appendChild(desc);
-      }
+  card.appendChild(body);
 
-      // Location
-      if (event.location) {
-        const loc = document.createElement('div');
-        loc.className = 'event-location';
-        loc.textContent = `📍 ${event.location}`;
-        body.appendChild(loc);
-      }
+  // === NEW: Make the whole card clickable ===
+  const link = document.createElement('a');
+  link.href = buildGoogleCalendarUrl(event);
+  link.target = '_blank';
+  link.rel = 'noopener noreferrer';
+  link.style.textDecoration = 'none';
+  link.style.color = 'inherit';
+  link.style.display = 'block';           // Ensures full card is clickable
+  link.style.height = '100%';
 
-      card.appendChild(body);
-      container.appendChild(card);
-    });
+  link.appendChild(card);                  // Wrap card inside link
+
+  container.appendChild(link);             // Append link (not card)
+});
   } catch (err) {
     loading.style.display = 'none';
     errorDiv.style.display = 'block';
