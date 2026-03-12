@@ -55,7 +55,7 @@ function buildGoogleCalendarUrl(event) {
   const paramStr = params.toString();
   if (paramStr) url += (dates ? '&' : '?') + paramStr;
 
-  return encodeURI(url);
+  return url;
 }
 
 async function fetchEvents() {
@@ -154,6 +154,7 @@ data.items.forEach(event => {
 
   card.appendChild(body);
 
+  /*
   // === NEW: Make the whole card clickable ===
   const link = document.createElement('a');
   link.href = buildGoogleCalendarUrl(event);
@@ -165,8 +166,33 @@ data.items.forEach(event => {
   link.style.height = '100%';
 
   link.appendChild(card);                  // Wrap card inside link
+  */
 
-  container.appendChild(link);             // Append link (not card)
+    // NEW: Add to Google Calendar button
+    const addButton = document.createElement('a');
+    addButton.href = buildGoogleCalendarUrl(event);
+    addButton.target = '_blank';
+    addButton.rel = 'noopener noreferrer';
+    addButton.className = 'add-to-google-btn';  // For styling
+    addButton.textContent = '📅 Add to Google Calendar';
+    addButton.style.display = 'inline-block';
+    addButton.style.marginTop = '12px';  // Space above button
+    addButton.style.padding = '8px 16px';
+    addButton.style.backgroundColor = '#4285f4';  // Google blue
+    addButton.style.color = 'white';
+    addButton.style.textDecoration = 'none';
+    addButton.style.borderRadius = '4px';
+    addButton.style.fontWeight = 'bold';
+    addButton.style.fontSize = '14px';
+    addButton.style.cursor = 'pointer';
+
+    const buttonWrapper = document.createElement('div');
+    buttonWrapper.style.textAlign = 'center';  // Center it, or 'left'/'right'
+    buttonWrapper.appendChild(addButton);
+
+    card.appendChild(buttonWrapper);
+
+  container.appendChild(card);             // Append link (not card)
 });
   } catch (err) {
     loading.style.display = 'none';
