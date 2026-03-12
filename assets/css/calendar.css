@@ -16,9 +16,6 @@
   overflow: hidden;
   transition: transform 0.2s, box-shadow 0.2s;
 }
-.event-card-featured {
-  background: #99ffff;
-}
 .event-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
@@ -29,6 +26,38 @@
   padding: 1rem;
   font-weight: bold;
   font-size: 1.1rem;
+}
+.event-card-featured {
+  background: linear-gradient(135deg, #99ffff 0%, #f0f8ff 100%) !important; /* light blue gradient background */
+  border: 2px solid #c0392b !important; /* red border for featured events */
+  transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+  box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.2) !important; /* outer glow ring */
+  position: relative !important;
+  overflow: hidden !important;
+
+}
+.event-card-featured::before { /* adds featured ribbon */
+  content: "FEATURED";
+  position: absolute;
+  top: 12px;
+  right: -38px;
+  transform: rotate(45deg);
+  width: 140px;
+  height: 32px;
+  background: linear-gradient(90deg, #c0392b, #e74c3c);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  line-height: 32px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  z-index: 1;
+}
+.event-card-featured:hover {
+  transform: translateY(-1px) scale(1.1) !important;
+  box-shadow:
+    0 20px 40px rgba(0,0,0,0.2),
+    0 10px 10px rgba(230, 126, 34, 0.3) !important;
 }
 .event-header-featured {
   background: #0066cc;
