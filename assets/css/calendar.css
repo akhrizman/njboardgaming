@@ -70,7 +70,6 @@
 .event-time {
   font-size: 0.95rem;
   color: #4b5563;
-  margin-bottom: 0.5rem;
 }
 .event-desc {
   margin-top: 0.75rem;
@@ -85,6 +84,20 @@
   text-align: center;
   padding: 2rem;
   font-size: 1.1rem;
+}
+.event-time-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.calendar-add-icon {
+  cursor: pointer;
+  font-size: 18px;
+  opacity: 0.8;
+}
+.calendar-add-icon:hover {
+  transform: scale(1.2);
+  opacity: 1;
 }
 @media (max-width: 600px) {
   #events-container {
