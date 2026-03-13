@@ -168,12 +168,8 @@ data.items.forEach(event => {
       link.style.alignItems = 'center';
       link.style.gap = '6px';             // Space between emoji and text
 
-      const pin = document.createElement('span');
-      pin.textContent = '📍 ';           // Or use CSS for emoji if preferred
-      link.appendChild(pin);
-
       const text = document.createElement('span');
-      text.textContent = event.location;
+      text.textContent = '📍 ' + event.location;
       link.appendChild(text);
 
       loc.appendChild(link);
