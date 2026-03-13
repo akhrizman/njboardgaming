@@ -12,6 +12,8 @@ const container = document.getElementById('events-container');
 const loading = document.getElementById('loading');
 const errorDiv = document.getElementById('error');
 
+const ENABLE_ICS_DOWNLOAD = true;   // ← Comment out this line to disable ICS download icon
+
 function buildGoogleMapsUrl(location) {
   if (!location) return '#'; // Fallback
   // Encode the location string for URL safety
@@ -74,16 +76,16 @@ async function fetchEvents() {
 
     // Format dates for query (n months from now)
     const timeMaxDate = new Date();
-	timeMaxDate.setMonth(timeMaxDate.getMonth() + monthsIntoTheFuture);
-	const timeMax = timeMaxDate.toISOString();
+    timeMaxDate.setMonth(timeMaxDate.getMonth() + monthsIntoTheFuture);
+    const timeMax = timeMaxDate.toISOString();
 
     const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(CALENDAR_ID)}/events?` +
-                `key=${API_KEY}&` +
-                `timeMin=${timeMin}&` +
-                `timeMax=${timeMax}&` +
-                `maxResults=${MAX_EVENTS}&` +
-                `singleEvents=true&` +          // Expand recurring events
-                `orderBy=startTime`;
+        `key=${API_KEY}&` +
+        `timeMin=${timeMin}&` +
+        `timeMax=${timeMax}&` +
+        `maxResults=${MAX_EVENTS}&` +
+        `singleEvents=true&` +          // Expand recurring events
+        `orderBy=startTime`;
 
     const response = await fetch(url);
     if (!response.ok) throw new Error(`API error: ${response.status}`);
@@ -96,116 +98,194 @@ async function fetchEvents() {
       return;
     }
 
-data.items.forEach(event => {
-  const card = document.createElement('div');
-  card.className = 'event-card';
+    data.items.forEach(event => {
+      const card = document.createElement('div');
+      card.className = 'event-card';
 
-  // Title
-  const header = document.createElement('div');
-  header.className = 'event-header';
-  header.textContent = event.summary || '(No title)';
-  card.appendChild(header);
+      // Title
+      const header = document.createElement('div');
+      header.className = 'event-header';
+      header.textContent = event.summary || '(No title)';
+      card.appendChild(header);
 
-  // Featured check (unchanged)
-  if (event.description && event.description.includes("njboardgames.com")) {
-    header.classList.add("event-header-featured");
-    card.classList.add('event-card-featured');
-  }
-
-  const body = document.createElement('div');
-  body.className = 'event-body';
-
-  // Time (unchanged)
-  let timeStr = '';
-  if (event.start.dateTime) {
-    const start = new Date(event.start.dateTime);
-    const end = event.end.dateTime ? new Date(event.end.dateTime) : null;
-    timeStr = start.toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
-    if (end) {
-      const sameDay = start.toDateString() === end.toDateString();
-      if (sameDay) {
-        timeStr += ` – ${end.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}`;
-      } else {
-        timeStr += ` – ${end.toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })}`;
+      // Featured check (unchanged)
+      if (event.description && event.description.includes("njboardgames.com")) {
+        header.classList.add("event-header-featured");
+        card.classList.add('event-card-featured');
       }
-    }
-  } else if (event.start.date) {
-    const start = new Date(event.start.date);
-    const end = event.end.date ? new Date(event.end.date) : null;
-    if (end && start.toDateString() !== end.toDateString()) {
-      timeStr = `${start.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' })} – ` +
-                `${end.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' })} (All day)`;
-    } else {
-      timeStr = start.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' }) + ' (All day)';
-    }
-  }
 
-  const timeRow = document.createElement('div');
-  timeRow.className = 'event-time-row';
+      const body = document.createElement('div');
+      body.className = 'event-body';
 
-  const calendarIcon = document.createElement('span');
-  calendarIcon.className = 'calendar-add-icon';
-  calendarIcon.title = 'Add to calendar';
-  calendarIcon.innerHTML = '🗓';
+      // Time (unchanged)
+      let timeStr = '';
+      if (event.start.dateTime) {
+        const start = new Date(event.start.dateTime);
+        const end = event.end.dateTime ? new Date(event.end.dateTime) : null;
+        timeStr = start.toLocaleString([], {
+          weekday: 'short',
+          month: 'short',
+          day: 'numeric',
+          hour: 'numeric',
+          minute: '2-digit'
+        });
+        if (end) {
+          const sameDay = start.toDateString() === end.toDateString();
+          if (sameDay) {
+            timeStr += ` – ${end.toLocaleTimeString([], {hour: 'numeric', minute: '2-digit'})}`;
+          } else {
+            timeStr += ` – ${end.toLocaleString([], {
+              weekday: 'short',
+              month: 'short',
+              day: 'numeric',
+              hour: 'numeric',
+              minute: '2-digit'
+            })}`;
+          }
+        }
+      } else if (event.start.date) {
+        const start = new Date(event.start.date);
+        const end = event.end.date ? new Date(event.end.date) : null;
+        if (end && start.toDateString() !== end.toDateString()) {
+          timeStr = `${start.toLocaleDateString([], {weekday: 'short', month: 'short', day: 'numeric'})} – ` +
+              `${end.toLocaleDateString([], {weekday: 'short', month: 'short', day: 'numeric'})} (All day)`;
+        } else {
+          timeStr = start.toLocaleDateString([], {weekday: 'short', month: 'short', day: 'numeric'}) + ' (All day)';
+        }
+      }
 
-  calendarIcon.addEventListener('click', (e) => {
-    e.stopPropagation();
+      const timeRow = document.createElement('div');
+      timeRow.className = 'event-time-row';
 
-    const calendarUrl = buildGoogleCalendarUrl(event);
-    window.open(calendarUrl, '_blank');
-  });
+      const calendarIcon = document.createElement('span');
+      calendarIcon.className = 'calendar-add-icon';
+      calendarIcon.title = 'Add to calendar';
+      calendarIcon.innerHTML = '🗓';
 
-  const timeEl = document.createElement('div');
-  timeEl.className = 'event-time';
-  timeEl.textContent = timeStr;
+      calendarIcon.addEventListener('click', (e) => {
+        e.stopPropagation();
 
-  timeRow.appendChild(calendarIcon);
-  timeRow.appendChild(timeEl);
+        const calendarUrl = buildGoogleCalendarUrl(event);
+        window.open(calendarUrl, '_blank');
+      });
 
-  body.appendChild(timeRow);
+      const timeEl = document.createElement('div');
+      timeEl.className = 'event-time';
+      timeEl.textContent = timeStr;
 
-  // Description
-  if (event.description) {
-    const desc = document.createElement('div');
-    desc.className = 'event-desc';
-    desc.innerHTML = event.description.replace(/\n/g, '<br>');
-    body.appendChild(desc);
-  }
+      timeRow.appendChild(calendarIcon);
 
-  // Location – now clickable
-  if (event.location) {
-      const loc = document.createElement('div');
-      loc.className = 'event-location';
+      // Optional ICS download icon
+      if (typeof ENABLE_ICS_DOWNLOAD !== 'undefined') {
 
-      // Add pin emoji + clickable link
-      const link = document.createElement('a');
-      link.href = buildGoogleMapsUrl(event.location);
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
-      link.style.textDecoration = 'none'; // Optional: remove underline, or style in CSS
-      link.style.color = 'inherit';       // Keep original text color
-      link.style.display = 'inline-flex';
-      link.style.alignItems = 'center';
-      link.style.gap = '6px';             // Space between emoji and text
+        const icsIcon = document.createElement('span');
+        icsIcon.className = 'calendar-add-icon';
+        icsIcon.title = 'Download calendar event';
+        icsIcon.innerHTML = '⬇️';
 
-      const text = document.createElement('span');
-      text.textContent = '📍 ' + event.location;
-      link.appendChild(text);
+        icsIcon.addEventListener('click', (e) => {
+          e.stopPropagation();
+          downloadICS(event);
+        });
 
-      loc.appendChild(link);
-      body.appendChild(loc);
-  }
+        timeRow.appendChild(icsIcon);
+      }
 
-  card.appendChild(body);
+      timeRow.appendChild(timeEl);
 
-  container.appendChild(card);             // Append link (not card)
-});
+      body.appendChild(timeRow);
+
+      // Description
+      if (event.description) {
+        const desc = document.createElement('div');
+        desc.className = 'event-desc';
+        desc.innerHTML = event.description.replace(/\n/g, '<br>');
+        body.appendChild(desc);
+      }
+
+      // Location – now clickable
+      if (event.location) {
+        const loc = document.createElement('div');
+        loc.className = 'event-location';
+
+        // Add pin emoji + clickable link
+        const link = document.createElement('a');
+        link.href = buildGoogleMapsUrl(event.location);
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.style.textDecoration = 'none'; // Optional: remove underline, or style in CSS
+        link.style.color = 'inherit';       // Keep original text color
+        link.style.display = 'inline-flex';
+        link.style.alignItems = 'center';
+        link.style.gap = '6px';             // Space between emoji and text
+
+        const text = document.createElement('span');
+        text.textContent = '📍 ' + event.location;
+        link.appendChild(text);
+
+        loc.appendChild(link);
+        body.appendChild(loc);
+      }
+
+      card.appendChild(body);
+
+      container.appendChild(card);             // Append link (not card)
+    });
   } catch (err) {
     loading.style.display = 'none';
     errorDiv.style.display = 'block';
     errorDiv.textContent = `Failed to load events: ${err.message}. Check API key, calendar ID, and that the calendar is public.`;
     console.error(err);
   }
+}
+
+function downloadICS(event) {
+
+  function formatICSDate(dateStr) {
+    if (!dateStr) return '';
+    const d = new Date(dateStr);
+    return d.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+  }
+
+  let start = '';
+  let end = '';
+
+  if (event.start.dateTime) {
+    start = formatICSDate(event.start.dateTime);
+    end = formatICSDate(event.end?.dateTime);
+  } else if (event.start.date) {
+    const s = new Date(event.start.date);
+    const e = event.end?.date ? new Date(event.end.date) : new Date(s);
+
+    if (!event.end?.date) e.setDate(e.getDate() + 1);
+
+    start = s.toISOString().slice(0,10).replace(/-/g,'');
+    end = e.toISOString().slice(0,10).replace(/-/g,'');
+  }
+
+  const ics = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "BEGIN:VEVENT",
+    `SUMMARY:${event.summary || ''}`,
+    `DESCRIPTION:${(event.description || '').replace(/\n/g, '\\n')}`,
+    `LOCATION:${event.location || ''}`,
+    `DTSTART:${start}`,
+    `DTEND:${end}`,
+    "END:VEVENT",
+    "END:VCALENDAR"
+  ].join("\n");
+
+  const blob = new Blob([ics], { type: 'text/calendar' });
+  const url = URL.createObjectURL(blob);
+
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = `${(event.summary || 'event').replace(/[^a-z0-9]/gi, '_')}.ics`;
+
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
 
 /** If the URL has a hash (e.g. #oldBridgeLibrary), scroll that element into view. Call after DOM changes (e.g. calendar load) to avoid layout shift. */
@@ -215,10 +295,12 @@ function scrollToHash() {
   var el = document.getElementById(hash.slice(1));
   if (el) {
     requestAnimationFrame(function () {
-      el.scrollIntoView({ behavior: 'instant', block: 'start' });
+      el.scrollIntoView({behavior: 'instant', block: 'start'});
     });
   }
 }
 
 // Run on page load
-fetchEvents().then(scrollToHash).catch(function () { scrollToHash(); });
+fetchEvents().then(scrollToHash).catch(function () {
+  scrollToHash();
+});
