@@ -12,7 +12,8 @@ const container = document.getElementById('events-container');
 const loading = document.getElementById('loading');
 const errorDiv = document.getElementById('error');
 
-const ENABLE_ICS_DOWNLOAD = true;   // ← Comment out this line to disable ICS download icon
+const ENABLE_ICS_DOWNLOAD = false;
+const ENABLE_GOOGLE_CAL_LINK = true;
 
 function buildGoogleMapsUrl(location) {
   if (!location) return '#'; // Fallback
@@ -20,7 +21,6 @@ function buildGoogleMapsUrl(location) {
   const encoded = encodeURIComponent(location.trim());
   return `https://www.google.com/maps/search/?api=1&query=${encoded}`;
 }
-
 
 function buildGoogleCalendarUrl(event) {
   const base = 'https://www.google.com/calendar/render?action=TEMPLATE';
@@ -157,26 +157,31 @@ async function fetchEvents() {
       const timeRow = document.createElement('div');
       timeRow.className = 'event-time-row';
 
-      const calendarIcon = document.createElement('span');
-      calendarIcon.className = 'calendar-add-icon';
-      calendarIcon.title = 'Add to calendar';
-      calendarIcon.innerHTML = '🗓';
-
-      calendarIcon.addEventListener('click', (e) => {
-        e.stopPropagation();
-
-        const calendarUrl = buildGoogleCalendarUrl(event);
-        window.open(calendarUrl, '_blank');
-      });
-
       const timeEl = document.createElement('div');
       timeEl.className = 'event-time';
       timeEl.textContent = timeStr;
 
-      timeRow.appendChild(calendarIcon);
+
+      // Optional Google Calendar Link
+      if (ENABLE_GOOGLE_CAL_LINK) {
+        const googleCalIcon = document.createElement('span');
+        googleCalIcon.className = 'calendar-add-icon';
+        googleCalIcon.title = 'Add to calendar';
+        googleCalIcon.innerHTML = '🗓';
+
+        googleCalIcon.addEventListener('click', (e) => {
+          e.stopPropagation();
+
+          const calendarUrl = buildGoogleCalendarUrl(event);
+          window.open(calendarUrl, '_blank');
+        });
+
+        timeRow.appendChild(googleCalIcon);
+
+      }
 
       // Optional ICS download icon
-      if (typeof ENABLE_ICS_DOWNLOAD !== 'undefined') {
+      if (ENABLE_ICS_DOWNLOAD) {
 
         const icsIcon = document.createElement('span');
         icsIcon.className = 'calendar-add-icon';
