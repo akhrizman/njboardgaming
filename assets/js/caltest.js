@@ -12,6 +12,14 @@ const container = document.getElementById('events-container');
 const loading = document.getElementById('loading');
 const errorDiv = document.getElementById('error');
 
+function buildGoogleMapsUrl(location) {
+  if (!location) return '#'; // Fallback
+  // Encode the location string for URL safety
+  const encoded = encodeURIComponent(location.trim());
+  return `https://www.google.com/maps/search/?api=1&query=${encoded}`;
+}
+
+
 function buildGoogleCalendarUrl(event) {
   const base = 'https://www.google.com/calendar/render?action=TEMPLATE';
 
@@ -144,12 +152,32 @@ data.items.forEach(event => {
     body.appendChild(desc);
   }
 
-  // Location
+  // Location – now clickable
   if (event.location) {
-    const loc = document.createElement('div');
-    loc.className = 'event-location';
-    loc.textContent = `Location: ${event.location}`;
-    body.appendChild(loc);
+      const loc = document.createElement('div');
+      loc.className = 'event-location';
+
+      // Add pin emoji + clickable link
+      const link = document.createElement('a');
+      link.href = buildGoogleMapsUrl(event.location);
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.style.textDecoration = 'none'; // Optional: remove underline, or style in CSS
+      link.style.color = 'inherit';       // Keep original text color
+      link.style.display = 'inline-flex';
+      link.style.alignItems = 'center';
+      link.style.gap = '6px';             // Space between emoji and text
+
+      const pin = document.createElement('span');
+      pin.textContent = '📍 ';           // Or use CSS for emoji if preferred
+      link.appendChild(pin);
+
+      const text = document.createElement('span');
+      text.textContent = event.location;
+      link.appendChild(text);
+
+      loc.appendChild(link);
+      body.appendChild(loc);
   }
 
   card.appendChild(body);
