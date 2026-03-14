@@ -12,7 +12,7 @@ const container = document.getElementById('events-container');
 const loading = document.getElementById('loading');
 const errorDiv = document.getElementById('error');
 
-const ENABLE_ICS_DOWNLOAD = false;
+const ENABLE_ICS_DOWNLOAD = true;
 const ENABLE_GOOGLE_CAL_LINK = true;
 
 function buildGoogleMapsUrl(location) {
@@ -161,41 +161,6 @@ async function fetchEvents() {
       timeEl.className = 'event-time';
       timeEl.textContent = timeStr;
 
-
-      // Optional Google Calendar Link
-      if (ENABLE_GOOGLE_CAL_LINK) {
-        const googleCalIcon = document.createElement('span');
-        googleCalIcon.className = 'calendar-add-icon';
-        googleCalIcon.title = 'Add to calendar';
-        googleCalIcon.innerHTML = '🗓';
-
-        googleCalIcon.addEventListener('click', (e) => {
-          e.stopPropagation();
-
-          const calendarUrl = buildGoogleCalendarUrl(event);
-          window.open(calendarUrl, '_blank');
-        });
-
-        timeRow.appendChild(googleCalIcon);
-
-      }
-
-      // Optional ICS download icon
-      if (ENABLE_ICS_DOWNLOAD) {
-
-        const icsIcon = document.createElement('span');
-        icsIcon.className = 'calendar-add-icon';
-        icsIcon.title = 'Download calendar event';
-        icsIcon.innerHTML = '⬇️';
-
-        icsIcon.addEventListener('click', (e) => {
-          e.stopPropagation();
-          downloadICS(event);
-        });
-
-        timeRow.appendChild(icsIcon);
-      }
-
       timeRow.appendChild(timeEl);
 
       body.appendChild(timeRow);
@@ -232,6 +197,46 @@ async function fetchEvents() {
         body.appendChild(loc);
       }
 
+      // Calendar Links Footer
+      const calendarLinks = document.createElement('div');
+      calendarLinks.className = 'calendar-links';
+
+      // Google Calendar icon
+      if (ENABLE_GOOGLE_CAL_LINK) {
+        const googleLink = document.createElement('img');
+        googleLink.src = '/assets/images/gCalLogo.png';
+        googleLink.alt = 'Add to Google Calendar';
+        googleLink.title = 'Add to Google Calendar';
+        googleLink.className = 'calendar-icon';
+
+        googleLink.addEventListener('click', (e) => {
+          e.stopPropagation();
+          window.open(buildGoogleCalendarUrl(event), '_blank');
+        });
+
+        calendarLinks.appendChild(googleLink);
+      }
+
+      // ICS download icon (Apple/Generic calendar)
+      if (ENABLE_ICS_DOWNLOAD) {
+        const icsLink = document.createElement('img');
+        icsLink.src = '/assets/images/iCalLogo.png';
+        icsLink.alt = 'Download Calendar Event';
+        icsLink.title = 'Download Calendar Event';
+        icsLink.className = 'calendar-icon';
+
+        icsLink.addEventListener('click', (e) => {
+          e.stopPropagation();
+          downloadICS(event);
+        });
+
+        calendarLinks.appendChild(icsLink);
+      }
+
+      if (calendarLinks.children.length > 0) {
+        body.appendChild(calendarLinks);
+      }
+
       card.appendChild(body);
 
       container.appendChild(card);             // Append link (not card)
@@ -264,8 +269,8 @@ function downloadICS(event) {
 
     if (!event.end?.date) e.setDate(e.getDate() + 1);
 
-    start = s.toISOString().slice(0,10).replace(/-/g,'');
-    end = e.toISOString().slice(0,10).replace(/-/g,'');
+    start = s.toISOString().slice(0, 10).replace(/-/g, '');
+    end = e.toISOString().slice(0, 10).replace(/-/g, '');
   }
 
   const ics = [
@@ -281,7 +286,7 @@ function downloadICS(event) {
     "END:VCALENDAR"
   ].join("\n");
 
-  const blob = new Blob([ics], { type: 'text/calendar' });
+  const blob = new Blob([ics], {type: 'text/calendar'});
   const url = URL.createObjectURL(blob);
 
   const link = document.createElement('a');

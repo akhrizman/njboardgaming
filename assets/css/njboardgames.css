@@ -102,11 +102,8 @@ body {
 /* SECTIONS */
 section {
 	scroll-margin-top: 130px; /* height of main + sub nav */
-	padding-top: 1rem;
-	padding-bottom: 6rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
-	max-width: 1200px;
+    padding: 1rem 1.2rem 6rem;
+    max-width: 1200px;
 	margin: auto;
 }
 

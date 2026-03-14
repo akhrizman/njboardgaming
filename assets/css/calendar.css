@@ -15,10 +15,9 @@
   box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
   overflow: hidden;
   transition: transform 0.2s, box-shadow 0.2s;
-}
-.event-card:hover {
-  transform: translateY(-1px) scale(1.03);
-  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+
+  display: flex;
+  flex-direction: column;
 }
 .event-header {
   background: #0080ff;
@@ -53,12 +52,6 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
   z-index: 1;
 }
-.event-card-featured:hover {
-  transform: translateY(-1px) scale(1.1) !important;
-  box-shadow:
-    0 20px 40px rgba(0,0,0,0.2),
-    0 10px 10px rgba(230, 126, 34, 0.3) !important;
-}
 .event-header-featured {
   background: #0066cc;
   color: white;
@@ -66,6 +59,10 @@
 }
 .event-body {
   padding: 1rem;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 .event-time {
   font-size: 0.95rem;
@@ -90,17 +87,36 @@
   align-items: center;
   gap: 8px;
 }
-.calendar-add-icon {
+.calendar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 20px;
+  margin-top: auto;
+}
+.calendar-icon {
+  height: 26px;
   cursor: pointer;
-  font-size: 18px;
-  opacity: 0.8;
+  opacity: 0.85;
+  transition: transform 0.15s ease, opacity 0.15s ease;
 }
-.calendar-add-icon:hover {
-  transform: scale(1.2);
-  opacity: 1;
-}
+
 @media (max-width: 600px) {
   #events-container {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .event-card:hover {
+    transform: translateY(-1px) scale(1.03);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+  }
+  .event-card-featured:hover {
+    transform: translateY(-1px) scale(1.1) !important;
+    box-shadow:
+            0 20px 40px rgba(0,0,0,0.2),
+            0 10px 10px rgba(230, 126, 34, 0.3) !important;
   }
 }
