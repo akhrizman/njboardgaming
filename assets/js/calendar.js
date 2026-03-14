@@ -102,6 +102,11 @@ async function fetchEvents() {
       const card = document.createElement('div');
       card.className = 'event-card';
 
+      // Add event ID (instance ID for recurring events)
+      if (event.id) {
+        card.id = event.id;
+      }
+
       // Title
       const header = document.createElement('div');
       header.className = 'event-header';
