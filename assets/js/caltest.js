@@ -238,6 +238,62 @@ async function fetchEvents() {
         calendarLinks.appendChild(icsLink);
       }
 
+      // Share button (mobile devices)
+      // if (navigator.share) {
+      //
+      //   const shareIcon = document.createElement('img');
+      //   shareIcon.src = '/assets/images/share.png';   // your icon
+      //   shareIcon.alt = 'Share Event';
+      //   shareIcon.title = 'Share Event';
+      //   shareIcon.className = 'calendar-icon';
+      //
+      //   shareIcon.addEventListener('click', async (e) => {
+      //     e.stopPropagation();
+      //
+      //     try {
+      //       await navigator.share({
+      //         title: event.summary || 'Event',
+      //         text: event.summary || '',
+      //         url: window.location.href.split('#')[0] + '#' + (event.id || '')
+      //       });
+      //     } catch (err) {
+      //       console.log('Share cancelled or failed', err);
+      //     }
+      //   });
+      //
+      //   calendarLinks.appendChild(shareIcon);
+      // }
+
+      // Share button (mobile devices) with fallback for desktops
+      const shareIcon = document.createElement('img');
+      shareIcon.src = '/assets/images/share.png';
+      shareIcon.alt = 'Share Event';
+      shareIcon.title = 'Share Event';
+      shareIcon.className = 'calendar-icon';
+
+      shareIcon.addEventListener('click', async (e) => {
+        e.stopPropagation();
+
+        const shareUrl = window.location.href.split('#')[0] + '#' + (event.id || '');
+
+        if (navigator.share) {
+          try {
+            await navigator.share({
+              title: event.summary || 'Event',
+              text: event.summary || '',
+              url: shareUrl
+            });
+          } catch (err) {
+            console.log('Share cancelled');
+          }
+        } else {
+          await navigator.clipboard.writeText(shareUrl);
+          alert('Event link copied to clipboard');
+        }
+      });
+
+      calendarLinks.appendChild(shareIcon);
+
       if (calendarLinks.children.length > 0) {
         body.appendChild(calendarLinks);
       }
