@@ -238,6 +238,43 @@ async function fetchEvents() {
         calendarLinks.appendChild(icsLink);
       }
 
+      // Share button (mobile devices) with fallback for desktops
+      const shareIcon = document.createElement('img');
+      const supportsShare = !!navigator.share;
+
+      shareIcon.src = supportsShare
+          ? '/assets/images/share.png'       // mobile icon
+          : '/assets/images/copy-link.png';  // desktop icon
+
+      shareIcon.alt = supportsShare ? 'Share Event' : 'Copy Event Link';
+      shareIcon.title = supportsShare ? 'Share Event' : 'Copy Event Link';
+
+      shareIcon.className = 'calendar-icon';
+
+      shareIcon.addEventListener('click', async (e) => {
+        e.stopPropagation();
+
+        const shareUrl = window.location.href.split('#')[0] + '#' + (event.id || '');
+
+        if (navigator.share) {
+          try {
+            await navigator.share({
+              title: event.summary || 'Event',
+              text: event.summary || '',
+              url: shareUrl
+            });
+          } catch (err) {
+            console.log('Share cancelled');
+          }
+        } else {
+          await navigator.clipboard.writeText(shareUrl);
+          showCopyToast('Event link copied');
+          // showCopyToast(`"${event.summary}" link copied`);
+        }
+      });
+
+      calendarLinks.appendChild(shareIcon);
+
       if (calendarLinks.children.length > 0) {
         body.appendChild(calendarLinks);
       }
@@ -301,6 +338,18 @@ function downloadICS(event) {
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
+}
+
+function showCopyToast(message = 'Link copied') {
+  const toast = document.getElementById('copy-toast');
+  if (!toast) return;
+
+  toast.textContent = message;
+  toast.classList.add('show');
+
+  setTimeout(() => {
+    toast.classList.remove('show');
+  }, 2000);
 }
 
 /** If the URL has a hash (e.g. #oldBridgeLibrary), scroll that element into view. Call after DOM changes (e.g. calendar load) to avoid layout shift. */
