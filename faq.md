@@ -16,10 +16,10 @@ permalink: /faq/
 
 <section class="faq-item" id="how-to-find-events">
     <h2>How do I find events in my area?</h2>
-    <p>From our <a href="{{ '/' | relative_url }}#gaming">homepage</a>, choose your county. Each county page shows a list of upcoming events pulled from our calendars. Highlighted events are ones that meet the criteria for being <a href="#what-are-featured-event">featured</a>. Always check the organizer’s site or social media for the latest details, RSVP rules, and holiday exceptions or cancellations.</p>
+    <p>From our <a href="{{ '/' | relative_url }}#gaming">homepage</a>, choose your county. Each county page shows a list of upcoming events pulled from our calendars. Highlighted events are ones that meet the criteria for being <a href="#what-are-featured-events">featured</a>. Always check the organizer’s site or social media for the latest details, RSVP rules, and holiday exceptions or cancellations.</p>
 </section>
 
-<section class="faq-item" id="what-are-featured-event">
+<section class="faq-item" id="what-are-featured-events">
     <h2>What is a "FEATURED EVENT" and why are they highlighted?</h2>
     <p>At NJ Boardames, we want to emphasize events that foster accessibility to the board gaming hobby. We highlight them in the list of Upcoming Events. Information for these events will also have a permanent place on the site. To be featured, an event must meet the following criteria: </p>
     <ul>
@@ -37,7 +37,7 @@ permalink: /faq/
 
 <section class="faq-item" id="how-to-add-event">
     <h2>How can I get my event added to your site?</h2>
-    <p>If this is your first time submitting a request, fill out a <a href="https://forms.gle/VJZVQHMRtHDHR1hm7">First Time Event Request</a>. Once we approve the request, it will appear on the the county page where your event takes place and we will notify you to check for accuracy. If you have previously submitted an event and we approved it, the only thing that has changed is date and time, you can use the short <a href="https://forms.gle/tHR4oqyMbhEwxqoF7">Recurring Event Request</a> instead. If your event meets the criteria for being <a href="#what-are-featured-event">featured</a>, we will add it to the Featured section of its county's page, and it will appear highlighted in the Upcoming Events section.</p>
+    <p>If this is your first time submitting a request, fill out a <a href="https://forms.gle/VJZVQHMRtHDHR1hm7">First Time Event Request</a>. Once we approve the request, it will appear on the the county page where your event takes place and we will notify you to check for accuracy. If you have previously submitted an event and we approved it, the only thing that has changed is date and time, you can use the short <a href="https://forms.gle/tHR4oqyMbhEwxqoF7">Recurring Event Request</a> instead. If your event meets the criteria for being <a href="#what-are-featured-events">featured</a>, we will add it to the Featured section of its county's page, and it will appear highlighted in the Upcoming Events section.</p>
 </section>
 
 <section class="faq-item" id="event-cancelled">
