@@ -238,37 +238,17 @@ async function fetchEvents() {
         calendarLinks.appendChild(icsLink);
       }
 
-      // Share button (mobile devices)
-      // if (navigator.share) {
-      //
-      //   const shareIcon = document.createElement('img');
-      //   shareIcon.src = '/assets/images/share.png';   // your icon
-      //   shareIcon.alt = 'Share Event';
-      //   shareIcon.title = 'Share Event';
-      //   shareIcon.className = 'calendar-icon';
-      //
-      //   shareIcon.addEventListener('click', async (e) => {
-      //     e.stopPropagation();
-      //
-      //     try {
-      //       await navigator.share({
-      //         title: event.summary || 'Event',
-      //         text: event.summary || '',
-      //         url: window.location.href.split('#')[0] + '#' + (event.id || '')
-      //       });
-      //     } catch (err) {
-      //       console.log('Share cancelled or failed', err);
-      //     }
-      //   });
-      //
-      //   calendarLinks.appendChild(shareIcon);
-      // }
-
       // Share button (mobile devices) with fallback for desktops
       const shareIcon = document.createElement('img');
-      shareIcon.src = '/assets/images/share.png';
-      shareIcon.alt = 'Share Event';
-      shareIcon.title = 'Share Event';
+      const supportsShare = !!navigator.share;
+
+      shareIcon.src = supportsShare
+          ? '/assets/images/share.png'       // mobile icon
+          : '/assets/images/copy-link.png';  // desktop icon
+
+      shareIcon.alt = supportsShare ? 'Share Event' : 'Copy Event Link';
+      shareIcon.title = supportsShare ? 'Share Event' : 'Copy Event Link';
+
       shareIcon.className = 'calendar-icon';
 
       shareIcon.addEventListener('click', async (e) => {
@@ -288,7 +268,8 @@ async function fetchEvents() {
           }
         } else {
           await navigator.clipboard.writeText(shareUrl);
-          alert('Event link copied to clipboard');
+          showCopyToast('Event link copied');
+          // showCopyToast(`"${event.summary}" link copied`);
         }
       });
 
@@ -357,6 +338,18 @@ function downloadICS(event) {
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
+}
+
+function showCopyToast(message = 'Link copied') {
+  const toast = document.getElementById('copy-toast');
+  if (!toast) return;
+
+  toast.textContent = message;
+  toast.classList.add('show');
+
+  setTimeout(() => {
+    toast.classList.remove('show');
+  }, 2000);
 }
 
 /** If the URL has a hash (e.g. #oldBridgeLibrary), scroll that element into view. Call after DOM changes (e.g. calendar load) to avoid layout shift. */
