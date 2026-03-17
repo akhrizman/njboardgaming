@@ -94,7 +94,7 @@ async function fetchEvents() {
     loading.style.display = 'none';
 
     if (!data.items || data.items.length === 0) {
-      container.innerHTML = '<p>No upcoming events found.</p>';
+      container.innerHTML = '<p>No upcoming events found. Please check your neighboring counties!</p>';
       return;
     }
 
