@@ -11,7 +11,7 @@ permalink: /faq/
 
 <section class="faq-item" id="about-the-developers">
     <h2>Who runs this site?</h2>
-    <p>We are two board gamers passonate about growing our community by promoting the hobby and bringing gamers together. We both live and play in Monmouth County, New Jersey and have been organizing public events and meetups for over a decade. This site's success depends on continued engagement from organizers.</p>
+    <p>We are two board gamers passionate about growing our community by promoting the hobby and bringing gamers together. We both live and play in Monmouth County, New Jersey and have been organizing public events and meetups for over a decade. This site's success depends on continued engagement from organizers.</p>
 </section>
 
 <section class="faq-item" id="how-to-find-events">
@@ -21,7 +21,7 @@ permalink: /faq/
 
 <section class="faq-item" id="what-are-featured-events">
     <h2>What is a "FEATURED EVENT" and why are they highlighted?</h2>
-    <p>At NJ Boardames, we want to emphasize events that foster accessibility to the board gaming hobby. We highlight them in the list of Upcoming Events. Information for these events will also have a permanent place on the site. To be featured, an event must meet the following criteria: </p>
+    <p>At NJ Boardgames, we want to emphasize events that foster accessibility to the board gaming hobby. We highlight them in the list of Upcoming Events. Information for these events will also have a permanent place on the site. To be featured, an event must meet the following criteria: </p>
     <ul>
         <li><strong>FREE!</strong> Organizers may still request donations or ask that you support their venue (e.g. buying food or drinks) but they may not turn you away if you don't.</li>
         <li><strong>Open to the general public.</strong> Family Friendly, 18+, or 21+ events are ok. (Kids Only, Singles Only, 55+, etc. are exclusive and won't be featured)</li>
