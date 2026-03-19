@@ -244,6 +244,17 @@ footer {
     border-radius: 6px;
 }
 
+.form-container {
+    width: 100%;
+}
+
+.form-container iframe {
+    max-width: none;
+    width: 100%;
+    height: 80vh;
+    border: none;
+}
+
 @media (max-width: 768px) {
 	nav ul {
 		gap: 1rem;
