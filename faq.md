@@ -16,7 +16,7 @@ permalink: /faq/
 
 <section class="faq-item" id="how-to-find-events">
     <h2>How do I find events in my area?</h2>
-    <p>From our <a href="{{ '/' | relative_url }}#gaming">homepage</a>, choose your county. Each county page shows a list of upcoming events pulled from our calendars. Highlighted events are ones that meet the criteria for being <a href="#what-are-featured-events">featured</a>. Always check the organizer’s site or social media for the latest details, RSVP rules, and holiday exceptions or cancellations.</p>
+    <p>From our <a href="{{ '/' | relative_url }}#gaming">homepage</a>, choose your county. Each county page shows a list of upcoming events pulled from our calendars. Highlighted events are ones that meet the criteria for being <a href="#what-are-featured-events">featured</a>. At this time, organizers can add events to our site but must contact us to have them removed, so some listed events have have changed or been cancelled. Always check the organizer’s site or social media for the latest details, RSVP rules, and holiday exceptions or cancellations.</p>
 </section>
 
 <section class="faq-item" id="what-are-featured-events">
@@ -37,7 +37,7 @@ permalink: /faq/
 
 <section class="faq-item" id="how-to-add-event">
     <h2>How can I get my event added to your site?</h2>
-    <p>If this is your first time submitting a request, fill out a <a href="https://forms.gle/VJZVQHMRtHDHR1hm7">First Time Event Request</a>. Once we approve the request, it will appear on the the county page where your event takes place and we will notify you to check for accuracy. If you have previously submitted an event and we approved it, the only thing that has changed is date and time, you can use the short <a href="https://forms.gle/tHR4oqyMbhEwxqoF7">Recurring Event Request</a> instead. If your event meets the criteria for being <a href="#what-are-featured-events">featured</a>, we will add it to the Featured section of its county's page, and it will appear highlighted in the Upcoming Events section.</p>
+    <p>Whether you have a one-off event, or have already been featured on our site, fill out an <a href="{{ '/event' | relative_url }}">Ad Hoc Event Request</a>. Once we approve the request, it will appear on the county page where your event takes place. If you meet all of the criteria and would like your event & group to be <a href="#what-are-featured-events">featured</a>, please fill out the <a href="{{ '/feature' | relative_url }}">Get Featured! Request</a>. Your event & group will be added Featured section of its county's page, and it will appear highlighted in the Upcoming Events section.</p>
 </section>
 
 <section class="faq-item" id="event-cancelled">
