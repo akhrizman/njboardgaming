@@ -69,10 +69,10 @@ body {
     opacity: 0.9;
 }
 
-.logo {
+.logo { // for logo background;
     width: 40px;
     height: 40px;
-    background: #334155;
+    /*background: #334155;*/
     border-radius: 6px;
 }
 
