@@ -291,7 +291,7 @@ We will use a few of the tables at the Panera to play some board games! I will b
     - county: middlesex
       enabled: true
       id: oldBridgeLibrary
-      title: Boardgame Club @ Old Bridge Public Library
+      title: Board Game Club @ Old Bridge Public Library
       frequency: SUNDAY, Monthly
       time: "12:00PM - 4:30PM"
       address: 1 Old Bridge Plaza, Old Bridge, NJ 08857
