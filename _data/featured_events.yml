@@ -1,0 +1,444 @@
+    - county: atlantic
+      enabled: true
+      id: linwoodLibrary
+      title: Dominos & Board Games @ Linwood Public Library
+      frequency: THURSDAY, Weekly
+      time: "5:30PM - 8:30PM"
+      address: 301 Davis Ave, Linwood, NJ 08221
+      audience: Adults (18+)
+      organizer_name: South Jersey Board Gaming League
+      organizer_url: https://www.facebook.com/groups/SJGamingLeague/events
+      description: Join us for a fun night of dominoes and board games. We meet in the Senior Meeting Room (door is on the left of the building, past the bike racks).
+
+    - county: atlantic
+      enabled: true
+      id: seaviewBaptistChurch
+      title: Board Games @ Seaview Baptist Church
+      frequency: 1st FRIDAY, Monthly
+      time: "6:00PM - 10:30PM"
+      address: 2025 Shore Rd, Linwood, NJ 08221
+      audience: Check with Organizer
+      organizer_name: South Jersey Board Gaming League
+      organizer_url: https://www.facebook.com/groups/SJGamingLeague/events
+      description: "Come join us for the monthly SJBGL Game Night! We have games or bring your own - all are welcome! We normally play games until 10:30-ish, so that we can clean up and lock up by 11. There are usually between 10 - 20 gamers in attendance with 3 or 4 games being played simultaneously at different tables. A few of the regulars normally being a couple of snacks, but there are many restaurants nearby if you’re needing real food."
+
+    - county: atlantic
+      enabled: true
+      id: gardenStateBrewery
+      title: Board Game Night @ Garden State Brewery
+      frequency: "TUESDAY, Bi-Weekly"
+      time: "5:00PM - 9:00PM"
+      address: 247 E White Horse Pike, Galloway, NJ 08205
+      audience: Adults (18+)
+      organizer_name: South Jersey Board Game Time (Discord)
+      organizer_url: https://discord.gg/GbDeKuCdr
+      description: "We are just a group of people who play all kinds of board games. We always like to try new board games, but we have regular games we play like Wingspan, Quacks, Everdell, Flip 7, Splendor and more! If there are a bunch of us we break up into groups, if there aren't as many we try to find games that works for everyone! Bring your own board games, or enjoy the board games some of the other board gamers bring. If you don't use Discord, we usually post updates about our event on <a href=\"https://www.facebook.com/groups/SJGamingLeague\" aria-label=\"Events\">South Jersey Board Gaming League's</a> Facebook page.
+Hope to see you there!"
+
+    - county: bergen
+      enabled: true
+      id: crownePlaza
+      title: Afternoon Board Games @ Crowne Plaza Hotel
+      frequency: SUNDAY, Weekly
+      time: "2:30PM - 5:30PM"
+      address: 50 Kenny Pl, Saddle Brook, NJ 07663
+      audience: Adults (18+)
+      organizer_name: Fun & Games MeetUp
+      organizer_url: https://www.meetup.com/fun-and-games-meetup-tenafly-northern-new-jersey-nj/events/
+      description: We like to start the first game by 2.45 and depending on the group size we’ll have multiple games. The event hosts will bring games but you are welcom to bring your favorite board games too!  There’s parking on all sides of the building. Where we play in the hotel depends on the space given to us by the hotel event staff. We, usually, play on the 12th floor of the hotel at their Sky Restaurant & Bar BUT sometimes we are on the 2nd floor. When in doubt, stay in the lobby and wait for the event host to comment where exactly we are playing. Please RSVP by each Sunday afternoon (and/or have it updated since it helps us with the tables and picking the right games).
+
+    - county: bergen
+      enabled: true
+      id: sundayBellaPizza
+      title: Board & Card Game Day @ Bella Pizza
+      frequency: SUNDAY, Weekly
+      time: "12:00PM - 5:00PM"
+      address: 197 Boulevard, Hasbrouck Heights, NJ 07604
+      audience: Adults (18+), unless parent present
+      organizer_name: North Jersey Geeks & Nerds
+      organizer_url: https://www.meetup.com/northjerseygeeksandnerds/events/
+      description: Come out for fun games, good people, and great food! We're located at Bella Pizza on Boulevard in Hasbrouck Heights. We use the tables on the left hand side right after you get through the door. We play everything, including games like Skyjo, Five Crowns, Cover Your Assets, Ticket to Ride, and more. We welcome people of all experience levels and all ages. There is always someone willing to teach and always plenty of games to play. We can even offer food suggestions since, at this point, we've had most everything on the menu. If you have a new game you've been meaning to try out, a social game that will leave everyone in stitches, a cerebral game where only the most crafty will survive, or just an old favorite you want to share with the group, please bring it out, we can easily make time. We look forward to having you join our little slice of heaven!
+
+    - county: bergen
+      enabled: true
+      id: tuesdayBellaPizza
+      title: Board & Card Game Night @ Bella Pizza
+      frequency: TUESDAY, Weekly
+      time: "6:00PM - 9:00PM"
+      address: 197 Boulevard, Hasbrouck Heights, NJ 07604
+      audience: Adults (18+), unless parent present
+      organizer_name: North Jersey Geeks & Nerds
+      organizer_url: https://www.meetup.com/northjerseygeeksandnerds/events/
+      description: Come out for fun games, good people, and great food! We're located at Bella Pizza on Boulevard in Hasbrouck Heights. We use the tables on the left hand side right after you get through the door. We play everything, including games like Skyjo, Five Crowns, Cover Your Assets, Ticket to Ride, and more. We welcome people of all experience levels and all ages. There is always someone willing to teach and always plenty of games to play. We can even offer food suggestions since, at this point, we've had most everything on the menu. If you have a new game you've been meaning to try out, a social game that will leave everyone in stitches, a cerebral game where only the most crafty will survive, or just an old favorite you want to share with the group, please bring it out, we can easily make time. We look forward to having you join our little slice of heaven!
+
+    - county: burlington
+      enabled: true
+      id: guildHall
+      title: Board Games @ The Guild Hall
+      frequency: SUNDAY, Weekly
+      time: "12:00PM - 6:00PM"
+      address: "400 NJ-38 #1360, Moorestown, NJ 08057"
+      audience: Family Friendly
+      organizer_name: Lumberton Board Game Group
+      organizer_url: https://www.facebook.com/groups/lumbertonboardgames
+      description: Come play Board Games at The Guild Hall Hobby in the Moorestown Mall. All games in their extensive library of over 600 games are FREE to play on Sundays. You are also welcome to bring your own games to play. The Guild Hall Hobby website has a list of most of the games in their library, but sometimes new release games may be available to play that haven't been added to the list yet. If you haven't been here in a while note that they have moved from their previous location and are now directly across from the food court, where FYE used to be. If you enter the mall via the food court just keep walking straight into the main section of the mall and they are straight ahead, just down from where they they used to be. It is very helpful if you RSVP if you plan to come as this event may be canceled if no one other than the organizer signs up for it.
+
+    - county: burlington
+      enabled: true
+      id: wargamersGuild
+      title: Board Game Night @ The Wargamers Guild
+      frequency: THURSDAY, Weekly
+      time: "6:30PM - 10:00PM"
+      address: "59 US-130, Bordentown, NJ 08620"
+      audience: Family Friendly
+      organizer_name: The Wargamers Guild
+      organizer_url: https://www.thewargamersguild.com/service/socialmedia/
+      description: Come play board games every Thursday at The Wargamers Guild! Free to play! Use a game from our demo library or bring your own from home.
+
+    - county: camden
+      enabled: true
+      id: firstPresbytarian
+      title: Board Game Night @ First Presbyterian
+      frequency: 1st SATURDAY, Monthly
+      time: "6:00PM - 10:00PM"
+      address: 10 W Maple Ave, Merchantville, NJ 08109
+      audience: Family Friendly (13+)
+      organizer_name: Gamers of the Cherry Hill Area (GOTCHA)
+      organizer_url: https://www.meetup.com/gamersofthecherryhillarea/events/
+      description: Whether you're new to board games or a veteran, all are welcome. Kids, families, adults, seniors. Everyone has a place at the table. We will host in our Hearth Room in a temperature controlled room. If we need a bigger space we have a large gym to host and a few rooms near by, should they become needed. In the event we are not able to use the Hearth Room, we will be on the top floor. Please use the back entrance connected to the church parking lot. The church's front doors will not be open. Do not let the stairs scare you, this event is handicap accessible. We have an elevator that can get you to where the event is being held. The church is allowing us to use this space for free. There will be no evangelism at the event. If you have any issues or concerns, Amanda is always available to speak with. Everyone is welcome. No alcohol is permitted on site. Anyone under 16 requires adult supervision. Foul language may be used by members and some games have themes that may not be suitable for children. Seating at some events are limited, so please RSVP in advance and if your plans change then change your RSVP.
+
+    - county: camden
+      enabled: true
+      id: cultivate
+      title: Family Game Night @ Cultivate Church
+      frequency: 3rd SATURDAY, Monthly
+      time: "6:00PM - 9:00PM"
+      address: 2303 E Evesham Rd, Voorhees Township, NJ 08043
+      audience: Family Friendly (13+)
+      organizer_name: Gamers of the Cherry Hill Area (GOTCHA)
+      organizer_url: https://www.meetup.com/gamersofthecherryhillarea/events/
+      description: Join us on the third Saturday of each month for an evening of games & friendship. Bring a game or two or your favorite snack—or just come and see what the othets brought. Anyone under 16 requires adult supervision. Foul language may be used by members and some games have themes that may not be suitable for children. Seating at some events are limited, so please RSVP in advance and if your plans change then change your RSVP.
+
+    - county: camden
+      enabled: true
+      id: hooked
+      title: Weekly Games @ Hooked
+      frequency: THURSDAY, Weekly
+      time: "7:30PM - 10:00PM"
+      address: 411 N Haddon Ave, Haddonfield, NJ 08033
+      audience: Teen, Adult
+      organizer_name: Jay's Basement
+      organizer_url: https://www.facebook.com/groups/jaysbasement
+      description: "Parking is free after 6 and you can park in bank parking lot. You can bring games and any food/drinks you like. We usually have about 3-4 tables in play so something for everyone! Reach out with any questions."
+
+    - county: essex
+      enabled: true
+      id: veronaInn
+      title: Board Game Night @ Verona Inn
+      frequency: Last WEDNESDAY, Monthly
+      time: "6:30PM - 9:30PM"
+      address: 624 Bloomfield Ave, Verona, NJ 07044
+      audience: Adults (21+)
+      organizer_name: Board Game Night At Verona Inn Meetup Group
+      organizer_url: https://www.meetup.com/board-game-night-at-verona-inn/events/
+      description: "We will be meeting up to organize games starting at 7:30, with food and drinks available courtesy of our host! You can play any game provided by hosts or bring your own! If you do not have a friend group to play games, hosts will organize you into pods with other people who need players. There are no dues. See more information and ground rules on the Meetup page."
+
+    - county: essex
+      enabled: true
+      id: jagTimeWarp
+      title: Board Games @ Time Warp Comics and Games
+      frequency: 1st & 3rd SUNDAY, Monthly
+      time: "12:00PM - 10:00PM"
+      address: 555A Pompton Ave, Cedar Grove, NJ 07009
+      audience: Adults (18+)
+      organizer_name: Jersey Association of Gamers (JAG)
+      organizer_url: https://www.meetup.com/jag-jersey-association-of-gamers/events/
+      description: Jersey Association of Gamers (JAG) is a group of adults who get together twice a month to play board games including “euros”, war games, and “ameritrash”. Our meetings are held at Time Warp Comics in Cedar Grove, NJ. Game play usually starts soon after noon with a second round of gaming starting in the midafternoon. During the fall of every year we ask members who attend meetings regularly to contribute ($20) to cover the cost of JAG’s Meetup group subscription.
+
+    - county: essex
+      enabled: true
+      id: mabgTownPub
+      title: Board Games @ Town Pub
+      frequency: "THURSDAY, Bi-Monthly"
+      time: "7:45PM - 12:00PM"
+      address: 378 Broad St, Bloomfield, NJ, 07003
+      audience: Adults (21+)
+      organizer_name: Montclair Area Board Gamers
+      organizer_url: https://www.facebook.com/groups/316729955389976
+      description: "We host biweekly-ish meetups typically at Town Pub of Bloomfield or Verona Cafe. We play a mix of light to heavy games. We teach all games, and typically our regulars bring enough games so there is always a great selection. We play a mix of light filler games for newcomers/casual crowds (Ticket to Ride, Scout, Flip 7, For Sale) and mid-heavy games (Heat, Dune Imperium, El Grande) depending on interest and familiarity. No experience or need to bring games - we teach and bring enough to choose from!"
+
+    - county: essex
+      enabled: true
+      id: mabgVeronaInn
+      title: Board Games @ Verona Inn
+      frequency: "THURSDAY, Bi-Monthly"
+      time: "7:45PM - 12:00PM"
+      address: 624 Bloomfield Ave, Verona, NJ 07044
+      audience: Adults (21+)
+      organizer_name: Montclair Area Board Gamers
+      organizer_url: https://www.facebook.com/groups/316729955389976
+      description: "This is the backup location for the <a href=\"#mabgTownPub\" aria-label=\"Events\">Board Games @ Town Pub</a> event."
+
+    - county: essex
+      enabled: true
+      id: playerAgency
+      title: Gayme Night @ The Player Agency
+      frequency: MONDAY, Weekly
+      time: "6:00PM - 10:00PM"
+      address: 5 Mead Street, South Orange, NJ 07079
+      audience: Check with Organizer
+      organizer_name: The Player Agency
+      organizer_url: https://www.theplayeragency.com/events
+      description: An inclusive evening of board games and fun. Bring a game or play one of ours. Bring some friends or make some new ones!!
+
+    - county: gloucester
+      enabled: true
+      id: nerdMall
+      title: Board Games @ The Nerd Mall
+      frequency: SUNDAY, Weekly
+      time: "12:00PM - 6:00PM"
+      address: 164 S Broad St, Woodbury, NJ 08096
+      audience: Family Friendly (13+)
+      organizer_name: Gamers of the Cherry Hill Area (GOTCHA)
+      organizer_url: https://www.meetup.com/gamersofthecherryhillarea/events/
+      description: Please sign up if you plan to attend as we try to plan our gaming to prevent late arrivals from having to spectate a game before playing. If you have questions look for Kyt, Jerry, or Don. Play something you like, play something old, play something new, meet other gamers, have some laughs. Group (and location) are LGBTQ+ friendly. We generally play 'modern' style board games. This includes both Eurogames and Amerithrash board games. But there are plenty of nostalgia games available as well if you can find some players. Feel free to bring some games and group up with other attendees. You can list what you'd like to play or bring in the comments section of our Meetup Group. Feel free to bring some longer games. We meet at Polsky's Corner (The Nerd Mall). Parking is available across the street in the Police parking lot (It is public) and on the street itself. Anyone under 16 requires adult supervision. Foul language may be used by members and some games have themes that may not be suitable for children. Seating at some events are limited, so please RSVP in advance and if your plans change then change your RSVP.
+
+    - county: gloucester
+      enabled: true
+      id: abundantLivingChurch
+      title: Community Board Game Night @ Abundant Living Church
+      frequency: Last FRIDAY, Monthly
+      time: "6:00PM - 11:00PM"
+      address: "849 NJ-54, Williamstown, NJ 08094"
+      audience: Check with Organizer
+      organizer_name: South Jersey Board Gaming League
+      organizer_url: https://www.facebook.com/groups/SJGamingLeague/events
+      description: Join us for our monthly Board Game Night. You can bring your own friends and games and use one of our tables. Or you can come and join a game that we are hosting or play one from our constantly growing game library. There is always plenty of room and plenty of fun. Snacks are set out as well.
+
+    - county: hudson
+      enabled: true
+      id: victoryPoint
+      title: Board Game Night @ Victory Point
+      frequency: WEDNESDAY, Weekly
+      time: "6:00PM - 11:00PM"
+      address: 112 Brunswick St, Jersey City, NJ 07302
+      audience: Check with Organizer
+      organizer_name: Victory Point Games
+      organizer_url: https://www.victorypointjc.com/calendar
+      description: Visit organizer's website for more information.
+
+    - county: hunterdon
+      enabled: true
+      id: itHappensPanera
+      title: Boardgame Night @ Panera
+      frequency: "TUESDAY, Bi-Weekly"
+      time: "6:30PM - 9:30PM"
+      address: "325 US-202, Flemington, NJ 08822"
+      audience: Check with Organizer
+      organizer_name: It Happens! Meetup Group
+      organizer_url: https://www.meetup.com/it-happens/events/
+      description: "*** We ask that only those that are fully immunized against Covid-19 join us. ***
+We will use a few of the tables at the Panera to play some board games! I will bring some of my favorite games to teach or play and if you have a favorite bring it along! We will start with a larger group game and then we may split off into smaller games as the night goes on. Since this meet up will be taking place at a Panera, please respect their rules and please consider purchasing either a meal or beverage so we will be welcome for future meet ups! I look forward to seeing you all their!"
+
+    - county: mercer
+      enabled: true
+      id: pbgOnTheCasual
+      title: Board Games on the Casual @ Panera
+      frequency: WEDNESDAY, Weekly
+      time: "7:00PM - 10:00PM"
+      address: 510 Nassau Park Blvd, Princeton, NJ 08540
+      audience: Check with Organizer
+      organizer_name: Princeton Board Games on the Casual
+      organizer_url: https://www.meetup.com/princetonbgc/events/
+      description: "The drinks are good, the tables are big and empty, and the people are friendly. You're welcome to bring your own game or join one on someone else's, we always have plenty. If you're a veteran gamer, you'll find plenty of company. If you're brand new or just want to expand your horizons, you'll find that everyone is excited to include and teach new players. If you're not sure where to start, look for me, Scott, or Jess, and we can help you find a game we think you'll enjoy. We usually have about 25-35 people each week, so there's always a game looking for a new player! PLEASE NOTE: We do not meet when Panera is Closed (i.e. Christmas, New Years, etc.) Always check our Meetup Page for the official event."
+
+    - county: mercer
+      enabled: true
+      id: round2gaming
+      title: Family Board Game Night @ Round 2 Gaming
+      frequency: SATURDAY, Weekly
+      time: "4:30PM - 9:00PM"
+      address: 3320 US Highway, 1 Quakerbridge Mall Unit 256, Lawrenceville, NJ 08648
+      audience: Family Friendly
+      organizer_name: Round 2 Gaming
+      organizer_url: https://round2gaming.com/event-calendar/
+      description: Spend time with your family and friends playing board games at Round 2 Gaming!  Use any of our demo games in the store or bring your own!  The event is Free and we have plenty of games for all ages.
+
+    - county: mercer
+      enabled: true
+      id: oldHightsBrewing
+      title: Game Night @ Old Hights Brewing
+      frequency: 3rd THURSDAY, Monthly
+      time: "7:00PM - 9:00PM"
+      address: 123 W Ward St, Hightstown, NJ 08520
+      audience: Adults (21+)
+      organizer_name: Let's Play Games (Hightstown/East Windsor, NJ)
+      organizer_url: https://www.facebook.com/groups/letsplayhightstown
+      description: Join your friends and neighbors for a night of fun and games. This group meets upstairs in the brewery. The games for that month's meetup are announced one week prior via the Facebook group. This meetup is primarily for those living in the Hightstown/East Windsor/Roosevelt area.
+
+    - county: mercer
+      enabled: true
+      id: ewingLibrary
+      title: Board Game Club @ Ewing Library
+      frequency: TUESDAY, Weekly
+      time: "2:30PM - 4:30PM"
+      address: 61 Scotch Rd, Ewing Township, NJ 08628
+      audience: Adults (18+)
+      organizer_name: "Mercer County Library - Ewing Branch"
+      organizer_url: https://events.mcl.org/calendar/ewing
+      description: "Join our club for board and card game enthusiasts. Bring your own games or use one of ours. Drop-ins welcome. Bring a friend! Registration is preferred. Search The events page for \"Board Game Club\""
+
+    - county: middlesex
+      enabled: true
+      id: oldBridgeLibrary
+      title: Boardgame Club @ Old Bridge Public Library
+      frequency: SUNDAY, Monthly
+      time: "12:00PM - 4:30PM"
+      address: 1 Old Bridge Plaza, Old Bridge, NJ 08857
+      audience: Family Friendly (14+), 8+ with participating adult
+      organizer_name: Monmouth Board Game Enthusiasts
+      organizer_url: https://www.facebook.com/groups/monmouthboardgameenthusiasts/events
+      image_url: https://drive.google.com/thumbnail?id=1HvsaLCf-8UCDPbAm1_CCB2ZJ_4MHiZ8E&sz=w1000
+      image_alt: Event banner
+      description: "We will have beginner games like Sushi Go!, Splendor, Carcassonne, Ticket to Ride, Catan, & Codenames, as well as more advanced games like Wingspan and Everdell. Our typical turn-out is anywhere between 15-25. For people familiar with the hobby, feel free to bring your own games if you'd like. If you don't know how to play a game, we'll teach you! You should not expect to see anything mainstream like Monopoly, Scrabble, Boggle, Risk, Battleship, Yahtzee, or Poker. Anyone age 14 and up who is interested in playing great games with great people! Age 8 and up if accompanied by a participating adult and able to learn & play age 8+ games. If you don't use facebook, you can also search the <a href=\"https://oldbridgelibrary.events.mylibrary.digital/\" target=\"_blank\" aria-label=\"Events\">Old Bridge Public Library Events Calendar</a> for \"Modern Boardgaming Get Together\""
+
+    - county: middlesex
+      enabled: true
+      id: southBrunswickLibrary
+      title: Board Games @ South Brunswick Public Library
+      frequency: SATURDAY or SUNDAY, Monthly
+      time: "1:30PM - 4:00PM"
+      address: 110 Kingston Ln, Monmouth Junction, NJ 08852
+      audience: Adults (18+)
+      organizer_name: Fantastic Happenings Meetup Group
+      organizer_url: https://www.meetup.com/fantastic-happenings/events/
+      description: "The South Brunswick Library has a selection of games and staff members bring some of their own to share. Feel free to bring your favorite games or play one of ours. Learn new games or enjoy getting to play with real, actual people! We should be in our small meeting room (1A/1B), located to the right of the Borrower Services desk, however look for a sign just in case we have to change rooms. No registration is required but space is limited and will be given on a first come, first served basis. If parking is an issue, please feel free to park at the Municipal Lot nearby. Information is also available on the <a href=\"https://sbpl.libnet.info/events?n=30&r=days\" aria-label=\"Events\">South Brunswick Public Library Calendar</a>."
+
+    - county: middlesex
+      enabled: true
+      id: hphrPinos
+      title: Game Night @ Pino’s
+      frequency: 1st & 3rd MONDAY, Monthly
+      time: "6:30PM - 9:30PM"
+      address: 13 N 4th Ave, Highland Park, NJ 08904
+      audience: Family Friendly (16+)
+      organizer_name: Highland Park High Rollers
+      organizer_url: https://highland-park.games
+      description: "Join the Highland Park High Rollers as we play board games at the local pub. Bring your own games from home or show up and play someone else’s! Any and all games are welcome, though we skew towards games that take no more than 45-60 minutes to play. For larger games, show up early and/or reach out to the group in advance to find players! No RSVP necessary, we only ask that you buy some kind of drink (alcoholic or not) from the bar if you can."
+
+    - county: middlesex
+      enabled: true
+      id: hphrHighlandParkLibrary
+      title: Game Night @ Highland Park Library
+      frequency: 2nd MONDAY, Monthly
+      time: "6:30PM - 8:45PM"
+      address: 31 N 5th Ave, Highland Park, NJ 08904
+      audience: Family Friendly (16+)
+      organizer_name: Highland Park High Rollers
+      organizer_url: https://highland-park.games
+      description: "Join the Highland Park High Rollers to play games with other adults in the area at the Highland Park Public Library. Given the limited time, we aim to play games that take 45-60 minutes or less. Some games will be provided by the library, but we encourage everyone to bring their own."
+
+    - county: middlesex
+      enabled: true
+      id: glitchArcade
+      title: "Board Game Night @ George Street Co-op!"
+      frequency: TUESDAY, Weekly
+      time: "7:00PM - 10:00PM"
+      address: 89 Morris St, New Brunswick, NJ 08901
+      audience: Check with Organizer
+      organizer_name: Glitch Arcade NJ Tabletop Collective
+      organizer_url: https://www.meetup.com/glitcharcadenj/events/
+      description: "We are a diverse community of gamers passionate about Board Gaming, Tabletop Gaming, Social Events, and more. We welcome all individuals from all walks of life, and are very accommodating for newcomers, people new to board games, or people wanting to check us out. This is a relaxed, drop-in community event focused on playing games, meeting people, and having a good time — no experience required. We bring a curated selection of modern board games, party games, and approachable strategy games. Whether you’re brand new to tabletop games or a seasoned player, there’s always something you can jump into. Our hosts are happy to teach rules and help match people to games. Come solo, bring friends, or just stop by to hang out. There’s no cost to attend — just show up, grab a seat, and play. Food and Drink also available on site before 8pm."
+
+    - county: middlesex
+      enabled: true
+      id: illustrious
+      title: Board Game Night @ Illustrious
+      frequency: WEDNESDAY, Weekly
+      time: "6:00PM - 9:50PM"
+      address: 45 Lafayette Rd, Fords, NJ 08863
+      audience: Family Friendly
+      organizer_name: Boardgames NJ Meetup Group
+      organizer_url: https://www.meetup.com/boardgamesnj/events/
+      description: "RSVP REQUIRED!!!
+Game players under the age of 18 must be accompanied by an adult!
+New members must fill out a profile when applying to Boardgames NJ
+
+Games will vary depending upon what members decide to bring. If you want to play something specific, bring it with you or request it with your RSVP or leave a comment. Beginners and experts alike are welcome. If you're a new player, please see a host if you need help to find a seat at a game. We have a limit of 25, so please RSVP each time you plan to attend. The owners of the store have an event running on the same night so they asked for a headcount from us to make sure they have enough space. So please RSVP as soon as you know you can attend. Gaming starts at 6 p.m. and ends at 9:50 p.m. The owners sell snacks and drinks and they are fine with food in the store, so feel free to bring your own food or grab something from the Italian/Mexican restaurant next door and bring it back to the store to eat!"
+
+    - county: monmouth
+      enabled: true
+      id: holyInnocents
+      title: Board Game Night @ Holy Innocents Spiritual Center
+      frequency: FRIDAY, Monthly
+      time: "5:00PM - 10:00PM"
+      address: 3455 W Bangs Ave, Neptune City, NJ 07753
+      audience: Family Friendly
+      organizer_name: Boardgames NJ Meetup Group
+      organizer_url: https://www.meetup.com/boardgamesnj/events/
+      description: Todd has arranged for space in the Holy Innocents Spiritual center for a gathering of gamers, and has kindly welcomed Boardgames NJ to join in the fun. End time is flexible, and feel free to arrive anytime after 5 pm. If you'd like to bring some yummies to share, please do! Pizza will be available. A donation box will be available to help buy pizza for the next one! Come one, come all!
+
+    - county: monmouth
+      enabled: true
+      id: sourceBrewing
+      title: Beers & Board Games @ Source Brewing
+      frequency: FRIDAY, ~Monthly
+      time: "5:30PM - 9:30PM"
+      address: "300 RT-34, Colts Neck, NJ 07722"
+      audience: Adults (21+)
+      organizer_name: Monmouth Board Game Enthusiasts
+      organizer_url: https://www.facebook.com/groups/monmouthboardgameenthusiasts/events
+      image_url: https://drive.google.com/thumbnail?id=1Ajy9-CcgtsxLJNpr8bv0l594xXwqea4i&sz=w1000
+      image_alt: Event banner
+      description: "Meet at Source Brewing in Colts Neck to share some beers and board games, 21+ only. It would be great to see you there! We usually play more casual games that are under 90 minutes and easy to learn. Great way to break into board gaming for newer folks. Enjoy a board game with the brewery drinks. No outside beverages (including water bottles), they have water and seltzers for non-alcoholic options. BYO Food: bring lunch or snacks."
+
+    - county: morris
+      enabled: true
+      id: tipsyMeeple
+      title: Game Night @ Wegmans
+      frequency: MONDAY, Weekly
+      time: "6:00PM - 11:00PM"
+      address: "34 Sylvan Way, Parsippany-Troy Hills, NJ 07054"
+      audience: Adults (18+)
+      organizer_name: The Tipsy Meeple
+      organizer_url: https://www.meetup.com/thetipsymeeple/events/
+      description: Whether you're looking for something new and different, or you're a seasoned gamer, you'll find a friendly and welcoming bunch of friends to game with. We bring some of our games but feel free to bring your favorites, or, learn one of ours! Don't be shy about learning new games either, everyone is more than willing to teach new players! We encourage everyone to stay home if you are feeling ill and do your best to protect your fellow gamers. We want to make sure that everyone is safe, healthy, and included so please be respectful of your fellow players.
+
+    - county: ocean
+      enabled: true
+      id: oceanLanes
+      title: Gaming @ Ocean Lanes
+      frequency: 1st WEDNESDAY, Monthly
+      time: "7:00PM - 11:30PM"
+      address: 2085 Lanes Mill Rd, Lakewood, NJ 08701
+      audience: Family Friendly
+      organizer_name: Ocean County Boardgamers
+      organizer_url: https://www.facebook.com/groups/2359660137704909
+      description: "A bunch of knuckleheads whose gaming preferences span an eclectic range of games from Euros to co-ops to Ameritrash."
+
+    - county: passaic
+      enabled: true
+      id: ihop
+      title: Gaming @ IHOP!
+      frequency: 3rd WEDNESDAY, Monthly
+      time: "6:00PM - 9:00PM"
+      address: "680 NJ-3, Clifton, NJ 07012"
+      audience: Check with Organizer
+      organizer_name: Fun & Games MeetUp Group
+      organizer_url: https://www.meetup.com/fun-and-games-meetup-tenafly-northern-new-jersey-nj/events/
+      description: Visit organizer's website for more information.
+
+    - county: somerset
+      enabled: true
+      id: branchburgShoprite
+      title: Game Night @ Shoprite
+      frequency: MONDAY, Weekly
+      time: "6:00PM - 11:00PM"
+      address: 3166 U.S. 22, Branchburg, NJ 08876
+      audience: Family Friendly
+      organizer_name: Boardgames NJ Meetup Group
+      organizer_url: https://www.meetup.com/boardgamesnj/events/
+      description: "Game players under the age of 18 must be accompanied by an adult!
+New members must fill out a profile when applying to Boardgames NJ
+
+This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the food court tables, which is hidden in the far back by the deli. This will be on the left side in the far back when you enter Shoprite. It's our Monday Game Night! Join us to play a variety of Euro games! Games will vary depending upon what members decide to bring. If you want to play something specific, bring it with you or request it in your RSVP. Beginners and experts alike are welcome. Gaming starts at 6:00 p.m. and usually ends close to 11:00 p.m. (closing time). Most of the regulars never RSVP, so even if it looks like only a few people are coming we always have enough people to play a few games (usually 10-12 people)."

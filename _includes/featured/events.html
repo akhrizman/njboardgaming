@@ -1,0 +1,31 @@
+{% assign county_events = site.data.featured_events | where: "county", page.county_slug %}
+{% assign enabled_events = county_events | where: "enabled", true %}
+
+{% if enabled_events.size > 0 %}
+{% for event in enabled_events %}
+<div class="featured-event"{% if event.id %} id="{{ event.id }}"{% endif %}>
+    {% if event.image_url %}
+    <div class="featured-event-media">
+        <img src="{{ event.image_url }}" alt="{{ event.image_alt | default: 'Event banner' }}">
+    </div>
+    {% endif %}
+    <div class="featured-event-content">
+        <h3 class="featured-event-name">{{ event.title }}</h3>
+        <div class="featured-event-meta">
+            <p><strong>FREQUENCY:</strong> {{ event.frequency }}</p>
+            <p><strong>WHEN:</strong> {{ event.time }}</p>
+            <p><strong>WHERE:</strong> {{ event.address }}</p>
+            <p><strong>AUDIENCE:</strong> {{ event.audience }}</p>
+            <p><strong>ORGANIZER:</strong>
+                <a href="{{ event.organizer_url }}" target="_blank" aria-label="Events">{{ event.organizer_name }}</a>
+            </p>
+        </div>
+        <p class="featured-event-description">{{ event.description }}</p>
+    </div>
+</div>
+{% endfor %}
+{% else %}
+<div class="featured-event">
+    Coming Soon!
+</div>
+{% endif %}
