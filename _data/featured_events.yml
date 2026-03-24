@@ -24,8 +24,8 @@
 
     - county: atlantic
       enabled: true
-      id: gardenStateBrewery
-      title: Board Game Night @ Garden State Brewery
+      id: gardenStateBeerCompany
+      title: Board Game Night @ Garden State Beer Company
       frequency: "TUESDAY, Bi-Weekly"
       time: "5:00PM - 9:00PM"
       address: 247 E White Horse Pike, Galloway, NJ 08205
