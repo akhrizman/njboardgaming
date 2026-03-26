@@ -414,11 +414,11 @@ Games will vary depending upon what members decide to bring. If you want to play
       audience: Family Friendly
       organizer_name: Ocean County Boardgamers
       organizer_url: https://www.facebook.com/groups/2359660137704909
-      description: "A bunch of knuckleheads whose gaming preferences span an eclectic range of games from Euros to co-ops to Ameritrash."
+      description: "A group of typically between 5-8 gamers interested in a variety of games including mostly lighter euros, some Ameritrash, and some social deduction."
 
     - county: passaic
       enabled: true
-      id: ihop
+      id: fgIHOP
       title: Gaming @ IHOP!
       frequency: 3rd WEDNESDAY, Monthly
       time: "6:00PM - 9:00PM"
