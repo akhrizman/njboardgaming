@@ -215,6 +215,18 @@ Hope to see you there!"
   organizer_url: https://www.facebook.com/groups/SJGamingLeague/events
   description: Join us for our monthly Board Game Night. You can bring your own friends and games and use one of our tables. Or you can come and join a game that we are hosting or play one from our constantly growing game library. There is always plenty of room and plenty of fun. Snacks are set out as well.
 
+- county: hudson
+  enabled: true
+  id: jcbcZeppelinHall
+  title: Beers and Board Games @ Zeppelin Hall
+  frequency: Monthly
+  time: "12:30pm - 6:00pm or closing"
+  address: 88 Liberty View Dr., Jersey City, NJ 07302
+  audience: Adults (21+)
+  organizer_name: Jersey City Boardgames & Cardgames
+  organizer_url: https://www.facebook.com/groups/JCboardgames/events
+  description: Welcome one and all to our gaming group in the burgeoning neighborhood of Jersey City! Old and New, Euro or Ameritrash, Strategic or Party style, we invite you to join us as we play games and get the word out about this great hobby. We try to meet regularly to play games in Jersey City, NJ on a monthly schedule but by no means have to be the only ones! Venues that serve alcohol will require 21 and older verification.
+
 - county: hunterdon
   enabled: true
   id: itHappensPanera
