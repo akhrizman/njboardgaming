@@ -37,7 +37,9 @@ permalink: /faq/
 
 <section class="faq-item" id="how-to-add-event">
     <h2>How can I get my event added to your site?</h2>
-    <p>Whether you have a one-off event, or have already been featured on our site, fill out an <a href="{{ '/event' | relative_url }}">Ad Hoc Event Request</a>. Once we approve the request, it will appear on the county page where your event takes place. If you meet all of the criteria and would like your event & group to be <a href="#what-are-featured-events">featured</a>, please fill out the <a href="{{ '/feature' | relative_url }}">Get Featured! Request</a>. Your event & group will be added Featured section of its county's page, and it will appear highlighted in the Upcoming Events section.</p>
+    <p>If your event is currently <a href="#what-are-featured-events">featured</a> on the site, please contact us and we will provide you with a code to use when adding your event using the <a href="{{ '/featured-event' | relative_url }}">FEATURED EVENT REQUEST</a> form. For all other events, please fill out an <a href="{{ '/event' | relative_url }}">EVENT REQUEST</a> form. Once we approve the request, it will appear on the county page where your event takes place.</p><br>
+    <p>If you meet all the criteria and would like your event & group to be featured, please fill out the <a href="{{ '/get-featured' | relative_url }}">GET FEATURED!</a> form. Your event & group will be added to the Featured section of its county's page, and it will appear highlighted in the Upcoming Events section. We will then contact you with a re-useable code to use when adding your event to our calendar.</p>
+
 </section>
 
 <section class="faq-item" id="event-cancelled">

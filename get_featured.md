@@ -1,7 +1,7 @@
 ---
-layout: submit_feature
+layout: get_featured
 title: Get Featured
-permalink: /feature/
+permalink: /get-featured/
 ---
 
 <div class="form-container">
