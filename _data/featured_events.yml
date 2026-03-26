@@ -216,7 +216,7 @@ Hope to see you there!"
       description: Join us for our monthly Board Game Night. You can bring your own friends and games and use one of our tables. Or you can come and join a game that we are hosting or play one from our constantly growing game library. There is always plenty of room and plenty of fun. Snacks are set out as well.
 
     - county: hudson
-      enabled: true
+      enabled: false
       id: victoryPoint
       title: Board Game Night @ Victory Point
       frequency: WEDNESDAY, Weekly
