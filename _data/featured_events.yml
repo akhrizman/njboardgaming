@@ -24,7 +24,7 @@
 
 - county: atlantic
   enabled: true
-  id: gardenStateBrewery
+  id: gardenStateBeerCompany
   title: Board Game Night @ Garden State Brewery
   frequency: "TUESDAY, Bi-Weekly"
   time: "5:00PM - 9:00PM"
