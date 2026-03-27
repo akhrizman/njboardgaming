@@ -30,14 +30,14 @@
 
 - slug: capemay
   name: Cape May
-  active: false
-  calendar_id: placeholder@group.calendar.google.com
+  active: true
+  calendar_id: 9e2d1295f8f70ada1f45c3dd98141bca3666b7d4e97dec201f77aeac8cb63f7e@group.calendar.google.com
   months_into_future: 3
 
 - slug: cumberland
   name: Cumberland
-  active: false
-  calendar_id: placeholder@group.calendar.google.com
+  active: true
+  calendar_id: adb5bdc5755e75c4c36e6a04f67f7010c0e6a71104a9090a48d9507811db47f6@group.calendar.google.com
   months_into_future: 3
 
 - slug: essex
@@ -102,8 +102,8 @@
 
 - slug: salem
   name: Salem
-  active: false
-  calendar_id: placeholder@group.calendar.google.com
+  active: true
+  calendar_id: 86d0dc538aa872977a2d04c4f152a796047a56b2b50f675f6b316d36e7ab2eaf@group.calendar.google.com
   months_into_future: 3
 
 - slug: somerset
@@ -114,18 +114,18 @@
 
 - slug: sussex
   name: Sussex
-  active: false
-  calendar_id: placeholder@group.calendar.google.com
+  active: true
+  calendar_id: 6b85567b46186bec3bc5dd2e6c468d4373424cd545a9aad26875256f90a59e55@group.calendar.google.com
   months_into_future: 3
 
 - slug: union
   name: Union
-  active: false
-  calendar_id: placeholder@group.calendar.google.com
+  active: true
+  calendar_id: 882b65e718c3c28815d364b3dc99aa2f29aa7175f95b0c55e86f3031a50d9b62@group.calendar.google.com
   months_into_future: 3
 
 - slug: warren
   name: Warren
-  active: false
-  calendar_id: placeholder@group.calendar.google.com
+  active: true
+  calendar_id: 4f932069a2610552ff5e10930bbc83b054fb20c090ee78f246f3309edc8ca155@group.calendar.google.com
   months_into_future: 3
