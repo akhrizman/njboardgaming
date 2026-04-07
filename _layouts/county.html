@@ -26,8 +26,22 @@ layout: default
         please <a href="mailto:info@njboardgames.com" aria-label="Email">contact us</a>.
         To add your event, please see the <a href="{{ '/faq/#how-to-add-event' | relative_url }}">How to add an event</a>
         section on our FAQ page.</p><br>
+    <div class="events-filters">
+        <label class="events-filter-checkbox">
+            <input type="checkbox" id="filter-featured-only">
+            Featured Only
+        </label>
+        <input
+            type="text"
+            id="filter-events-search"
+            placeholder="Search title, description, or address"
+            aria-label="Search events by title, description, or address"
+        >
+        <button type="button" id="filter-events-reset">Reset</button>
+    </div>
     <div id="loading">Loading events...</div>
     <div id="error" style="display:none; color:red;"></div>
+    <div id="events-filter-empty" style="display:none;">No events match your current filters.</div>
     <div id="events-container"></div>
 </section>
 

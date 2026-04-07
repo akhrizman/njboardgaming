@@ -11,6 +11,10 @@ const MAX_EVENTS = 30; // How many to show
 const container = document.getElementById('events-container');
 const loading = document.getElementById('loading');
 const errorDiv = document.getElementById('error');
+const featuredOnlyInput = document.getElementById('filter-featured-only');
+const searchInput = document.getElementById('filter-events-search');
+const resetFiltersBtn = document.getElementById('filter-events-reset');
+const emptyFilterMsg = document.getElementById('events-filter-empty');
 
 const ENABLE_ICS_DOWNLOAD = true;
 const ENABLE_GOOGLE_CAL_LINK = true;
@@ -66,6 +70,50 @@ function buildGoogleCalendarUrl(event) {
   if (paramStr) url += (dates ? '&' : '?') + paramStr;
 
   return url;
+}
+
+function normalizeText(value) {
+  return (value || '').toString().toLowerCase();
+}
+
+function applyFilters() {
+  if (!container) return;
+
+  const onlyFeatured = featuredOnlyInput ? featuredOnlyInput.checked : false;
+  const searchTerm = searchInput ? normalizeText(searchInput.value).trim() : '';
+  const cards = Array.from(container.querySelectorAll('.event-card'));
+  let visibleCount = 0;
+
+  cards.forEach((card) => {
+    const isFeatured = card.classList.contains('event-card-featured');
+    const haystack = normalizeText(card.dataset.searchText);
+    const matchesFeatured = !onlyFeatured || isFeatured;
+    const matchesSearch = !searchTerm || haystack.includes(searchTerm);
+    const isVisible = matchesFeatured && matchesSearch;
+
+    card.style.display = isVisible ? '' : 'none';
+    if (isVisible) visibleCount += 1;
+  });
+
+  if (emptyFilterMsg) {
+    emptyFilterMsg.style.display = visibleCount === 0 && cards.length > 0 ? 'block' : 'none';
+  }
+}
+
+function setupEventFilters() {
+  if (featuredOnlyInput) {
+    featuredOnlyInput.addEventListener('change', applyFilters);
+  }
+  if (searchInput) {
+    searchInput.addEventListener('input', applyFilters);
+  }
+  if (resetFiltersBtn) {
+    resetFiltersBtn.addEventListener('click', () => {
+      if (featuredOnlyInput) featuredOnlyInput.checked = false;
+      if (searchInput) searchInput.value = '';
+      applyFilters();
+    });
+  }
 }
 
 async function fetchEvents() {
@@ -202,6 +250,13 @@ async function fetchEvents() {
         body.appendChild(loc);
       }
 
+      // Search index (title + description + address/location)
+      card.dataset.searchText = [
+        event.summary || '',
+        event.description || '',
+        event.location || ''
+      ].join(' ');
+
       // Calendar Links Footer
       const calendarLinks = document.createElement('div');
       calendarLinks.className = 'calendar-links';
@@ -283,6 +338,8 @@ async function fetchEvents() {
 
       container.appendChild(card);             // Append link (not card)
     });
+
+    applyFilters();
   } catch (err) {
     loading.style.display = 'none';
     errorDiv.style.display = 'block';
@@ -365,6 +422,7 @@ function scrollToHash() {
 }
 
 // Run on page load
+setupEventFilters();
 fetchEvents().then(scrollToHash).catch(function () {
   scrollToHash();
 });
