@@ -37,8 +37,9 @@ permalink: /faq/
 
 <section class="faq-item" id="how-to-add-event">
     <h2>How can I get my event added to your site?</h2>
-    <p>If your event is currently <a href="#what-are-featured-events">featured</a> on the site, use the <a href="{{ '/featured-event' | relative_url }}">FEATURED EVENT REQUEST</a> form and use the code we provided you (contact us if you dont have a code). For all other events, please fill out an <a href="{{ '/event' | relative_url }}">EVENT REQUEST</a> form. Once we approve the request, it will appear on the county page where your event takes place.</p><br>
-    <p>If you meet all the criteria and would like your event & group to be featured, please fill out the <a href="{{ '/get-featured' | relative_url }}">GET FEATURED!</a> form. Your event & group will be added to the Featured section of its county's page, and it will appear highlighted in the Upcoming Events section. We will then contact you with a re-useable code to use when adding your event to our calendar.</p>
+    <p><a href="{{ '/featured-event' | relative_url }}">FEATURED EVENT REQUEST</a> - If your event is currently <a href="#what-are-featured-events">featured</a> on the site, use this form and the code we provided you. Contact us if you don't have a code.</p><br>
+    <p><a href="{{ '/event' | relative_url }}">EVENT REQUEST</a> - Use this form for all other events. Once we approve the request, it will appear on the county page where your event takes place.</p><br>
+    <p><a href="{{ '/get-featured' | relative_url }}">GET FEATURED!</a> - If you meet all the criteria and would like your event & group to be <a href="#what-are-featured-events">featured</a>, please fill out this form. Your event & group will be added to the Featured section of its county's page, and it will appear highlighted in the Upcoming Events section. We will then contact you with a re-useable code to use when adding your event to our calendar in the future.</p>
 </section>
 
 <section class="faq-item" id="event-cancelled">
