@@ -27,17 +27,19 @@ layout: default
         To add your event, please see the <a href="{{ '/faq/#how-to-add-event' | relative_url }}">How to add an event</a>
         section on our FAQ page.</p><br>
     <div class="events-filters">
-        <label class="events-filter-checkbox">
-            <input type="checkbox" id="filter-featured-only">
-            Featured Only
-        </label>
         <input
             type="text"
             id="filter-events-search"
             placeholder="Search title, description, or address"
             aria-label="Search events by title, description, or address"
         >
-        <button type="button" id="filter-events-reset">Reset</button>
+        <div class="events-filters-row">
+            <label class="events-filter-checkbox">
+                <input type="checkbox" id="filter-featured-only">
+                Only Show Featured Events
+            </label>
+            <button type="button" id="filter-events-reset">Reset</button>
+        </div>
     </div>
     <div id="loading">Loading events...</div>
     <div id="error" style="display:none; color:red;"></div>
