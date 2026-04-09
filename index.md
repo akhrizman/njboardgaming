@@ -6,46 +6,51 @@ title: NJ Boardgames - New Jersey Board Game Meetups & Events
 <!-- GAMING / COUNTIES -->
 <section id="gaming">
     <h2>Find Gaming Near You</h2>
-    <p>Select your county to discover local boardgame groups, meetups, and events.</p>
-
-    <h3>New Jersey</h3>
-    <div class="counties">
-        {% for county in site.data.counties.nj %}
-        {% if county.active %}
-        <a href="{{ '/' | append: county.state | append: '/' | append: county.slug | append: '/' | relative_url }}" class="county">{{ county.name }}</a>
-        {% endif %}
-        {% endfor %}
+    <p>Select your county to discover local boardgame groups, meetups, and events.</p><br>
+    <div class="state">
+        <h3>New Jersey</h3>
+        <div class="counties">
+            {% for county in site.data.counties.nj %}
+            {% if county.active %}
+            <a href="{{ '/' | append: county.state | append: '/' | append: county.slug | append: '/' | relative_url }}" class="county">{{ county.name }}</a>
+            {% endif %}
+            {% endfor %}
+        </div>
     </div>
-
     <hr>
-    <h3>Pennsylvania</h3>
-    <div class="counties">
-        {% for county in site.data.counties.pa %}
-        {% if county.active %}
-        <a href="{{ '/' | append: county.state | append: '/' | append: county.slug | append: '/' | relative_url }}" class="county">{{ county.name }}</a>
-        {% endif %}
-        {% endfor %}
+    <div class="state">
+        <h3>Pennsylvania</h3>
+        <div class="counties">
+            {% for county in site.data.counties.pa %}
+            {% if county.active %}
+            <a href="{{ '/' | append: county.state | append: '/' | append: county.slug | append: '/' | relative_url }}" class="county">{{ county.name }}</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <hr>
+    <div class="state">
+        <h3>New York</h3>
+        <div class="counties">
+            {% for county in site.data.counties.ny %}
+            {% if county.active %}
+            <a href="{{ '/' | append: county.state | append: '/' | append: county.slug | append: '/' | relative_url }}" class="county">{{ county.name }}</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <hr>
+    <div class="state">
+        <h3>Delaware</h3>
+        <div class="counties">
+            {% for county in site.data.counties.de %}
+            {% if county.active %}
+            <a href="{{ '/' | append: county.state | append: '/' | append: county.slug | append: '/' | relative_url }}" class="county">{{ county.name }}</a>
+            {% endif %}
+            {% endfor %}
+        </div>
     </div>
 
-    <hr>
-    <h3>New York</h3>
-    <div class="counties">
-        {% for county in site.data.counties.ny %}
-        {% if county.active %}
-        <a href="{{ '/' | append: county.state | append: '/' | append: county.slug | append: '/' | relative_url }}" class="county">{{ county.name }}</a>
-        {% endif %}
-        {% endfor %}
-    </div>
-
-    <hr>
-    <h3>Delaware</h3>
-    <div class="counties">
-        {% for county in site.data.counties.de %}
-        {% if county.active %}
-        <a href="{{ '/' | append: county.state | append: '/' | append: county.slug | append: '/' | relative_url }}" class="county">{{ county.name }}</a>
-        {% endif %}
-        {% endfor %}
-    </div>
 </section>
 
 <!-- ABOUT -->

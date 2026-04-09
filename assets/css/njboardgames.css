@@ -169,6 +169,17 @@ section ul li {
     transform: translateY(-2px);
 }
 
+/* STATES */
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.state {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
 /* CONNECT */
 .connect-icons {
 	display: flex;
