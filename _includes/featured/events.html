@@ -1,5 +1,10 @@
-{% assign county_events = site.data.featured_events | where: "county", page.county_slug %}
-{% assign enabled_events = county_events | where: "enabled", true %}
+{% assign enabled_events = "" | split: "" %}
+{% for event in site.data.featured_events %}
+{% assign event_state = event.state | default: "nj" %}
+{% if event_state == page.state_slug and event.county == page.county_slug and event.enabled == true %}
+{% assign enabled_events = enabled_events | push: event %}
+{% endif %}
+{% endfor %}
 
 {% if enabled_events.size > 0 %}
 {% for event in enabled_events %}

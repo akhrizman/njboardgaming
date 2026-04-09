@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% assign county_data = site.data.counties | where: "slug", page.county_slug | first %}
+{% assign state_counties = site.data.counties[page.state_slug] %}
+{% assign county_data = state_counties | where: "slug", page.county_slug | first %}
 {% include nav-county.html %}
 
 <!-- CAROUSEL -->

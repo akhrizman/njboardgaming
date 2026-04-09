@@ -1,0 +1,20 @@
+- state: ny
+  slug: rockland
+  name: Rockland
+  active: true
+  calendar_id: 2eca154ed1a3bbbf7ce4b2cc8ce3b379651943abbbb19b166324240ddc337e48@group.calendar.google.com
+  months_into_future: 3
+
+- state: ny
+  slug: orange
+  name: Orange
+  active: true
+  calendar_id: 215943b3015e757be8454d79298b9cedf11781b788a1a2fb0274ce7d316ee465@group.calendar.google.com
+  months_into_future: 3
+
+- state: ny
+  slug: richmond
+  name: Richmond
+  active: true
+  calendar_id: bcd2ab2f5377012b9db57cdf7fafe1ad18fc8943acd5bbe0f721feeee2d6fcf5@group.calendar.google.com
+  months_into_future: 3

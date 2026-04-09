@@ -1,0 +1,41 @@
+- state: pa
+  slug: bucks
+  name: Bucks
+  active: true
+  calendar_id: 6d984eedcdc6c1b42311ff5590af7682e2dd9ae930516a14d2f505b9b9a7b1d6@group.calendar.google.com
+  months_into_future: 3
+
+- state: pa
+  slug: philadelphia
+  name: Philadelphia
+  active: true
+  calendar_id: a81c7641c9b089ccb16453718c8fcb6974f1101b3b84810096f6c5e8174297e6@group.calendar.google.com
+  months_into_future: 3
+
+- state: pa
+  slug: northampton
+  name: Northampton
+  active: true
+  calendar_id: 6fbfe1e6c1cbd7e21881c0a8ade9543b2928070bd87990d37c589707379f14ff@group.calendar.google.com
+  months_into_future: 3
+
+- state: pa
+  slug: delaware
+  name: Delaware
+  active: true
+  calendar_id: 436252bddd2f05228fce3df5e11eed12af20312732a81d01a68b715a0de5fff4@group.calendar.google.com
+  months_into_future: 3
+
+- state: pa
+  slug: monroe
+  name: Monroe
+  active: true
+  calendar_id: 82b7262dfd53233ae7dedab8b8eb640b32cd9666dd75475006c1e805af1e4620@group.calendar.google.com
+  months_into_future: 3
+
+- state: pa
+  slug: pike
+  name: Pike
+  active: true
+  calendar_id: 2177e6019a7fc2cdcf957d4413bfb0a00745e8b529e9d4e651fe482c4d8406ea@group.calendar.google.com
+  months_into_future: 3
