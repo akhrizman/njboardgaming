@@ -16,7 +16,7 @@ permalink: /faq/
 
 <section class="faq-item" id="how-to-find-events">
     <h2>How do I find events in my area?</h2>
-    <p>From our <a href="{{ '/' | relative_url }}#gaming">homepage</a>, choose your county. Each county page shows a list of upcoming events pulled from our calendars. Highlighted events are ones that meet the criteria for being <a href="#what-are-featured-events">featured</a>. At this time, organizers can add events to our site but must contact us to have them removed, so some listed events have changed or been cancelled. Always check the organizer’s site or social media for the latest details, RSVP rules, and holiday exceptions or cancellations.</p>
+    <p>From our <a href="{{ '/' | relative_url }}#gaming">homepage</a>, choose your county. Each county page shows a list of upcoming events pulled from our calendars. Highlighted events are ones that meet the criteria for being <a href="#what-are-featured-events">featured</a>. At this time, organizers can add events to our site but must contact us to have them removed, in case some listed events have changed or been cancelled. Always check the organizer’s site or social media for the latest details, RSVP rules, and holiday exceptions or cancellations.</p>
 </section>
 
 <section class="faq-item" id="what-are-featured-events">
