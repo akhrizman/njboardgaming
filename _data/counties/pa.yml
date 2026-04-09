@@ -6,20 +6,6 @@
   months_into_future: 3
 
 - state: pa
-  slug: philadelphia
-  name: Philadelphia
-  active: true
-  calendar_id: a81c7641c9b089ccb16453718c8fcb6974f1101b3b84810096f6c5e8174297e6@group.calendar.google.com
-  months_into_future: 3
-
-- state: pa
-  slug: northampton
-  name: Northampton
-  active: true
-  calendar_id: 6fbfe1e6c1cbd7e21881c0a8ade9543b2928070bd87990d37c589707379f14ff@group.calendar.google.com
-  months_into_future: 3
-
-- state: pa
   slug: delaware
   name: Delaware
   active: true
@@ -31,6 +17,20 @@
   name: Monroe
   active: true
   calendar_id: 82b7262dfd53233ae7dedab8b8eb640b32cd9666dd75475006c1e805af1e4620@group.calendar.google.com
+  months_into_future: 3
+
+- state: pa
+  slug: northampton
+  name: Northampton
+  active: true
+  calendar_id: 6fbfe1e6c1cbd7e21881c0a8ade9543b2928070bd87990d37c589707379f14ff@group.calendar.google.com
+  months_into_future: 3
+
+- state: pa
+  slug: philadelphia
+  name: Philadelphia
+  active: true
+  calendar_id: a81c7641c9b089ccb16453718c8fcb6974f1101b3b84810096f6c5e8174297e6@group.calendar.google.com
   months_into_future: 3
 
 - state: pa
