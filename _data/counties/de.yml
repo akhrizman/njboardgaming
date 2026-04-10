@@ -1,6 +1,7 @@
 - state: de
   slug: newcastle
   name: New Castle
+  display_name: New Castle County
   active: true
   calendar_id: e95a9287642364e4128152e820f7c5e1eaf968d4a7e4056cd46c4f5edf8e3b56@group.calendar.google.com
-  months_into_future: 3
+  months_into_future: 2
