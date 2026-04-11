@@ -49,7 +49,7 @@ Hope to see you there!"
   audience: Adults (18+)
   organizer_name: Fun & Games MeetUp
   organizer_url: https://www.meetup.com/fun-and-games-meetup-tenafly-northern-new-jersey-nj/events/
-  description: We like to start the first game by 2.45 and depending on the group size we’ll have multiple games. The event hosts will bring games but you are welcom to bring your favorite board games too!  There’s parking on all sides of the building. Where we play in the hotel depends on the space given to us by the hotel event staff. We, usually, play on the 12th floor of the hotel at their Sky Restaurant & Bar BUT sometimes we are on the 2nd floor. When in doubt, stay in the lobby and wait for the event host to comment where exactly we are playing. Please RSVP by each Sunday afternoon (and/or have it updated since it helps us with the tables and picking the right games).
+  description: We like to start the first game by 2.45 and depending on the group size we’ll have multiple games. The event hosts will bring games but you are welcome to bring your favorite board games too!  There’s parking on all sides of the building. Where we play in the hotel depends on the space given to us by the hotel event staff. We, usually, play on the 12th floor of the hotel at their Sky Restaurant & Bar BUT sometimes we are on the 2nd floor. When in doubt, stay in the lobby and wait for the event host to comment where exactly we are playing. Please RSVP by each Sunday afternoon (and/or have it updated since it helps us with the tables and picking the right games).
 
 - state: nj
   county: bergen
@@ -478,3 +478,18 @@ Games will vary depending upon what members decide to bring. If you want to play
 New members must fill out a profile when applying to Boardgames NJ
 
 This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the food court tables, which is hidden in the far back by the deli. This will be on the left side in the far back when you enter Shoprite. It's our Monday Game Night! Join us to play a variety of Euro games! Games will vary depending upon what members decide to bring. If you want to play something specific, bring it with you or request it in your RSVP. Beginners and experts alike are welcome. Gaming starts at 6:00 p.m. and usually ends close to 11:00 p.m. (closing time). Most of the regulars never RSVP, so even if it looks like only a few people are coming we always have enough people to play a few games (usually 10-12 people)."
+
+- state: nj
+  county: camden
+  enabled: true
+  id: mrEsGameWorld
+  title: Weekly Game Night @ Mr. E's Game World
+  frequency: THURSDAY, Weekly
+  time: "4:00PM - 8:00PM"
+  address: 18 Cross Keys Rd., Berlin, NJ 09009
+  audience: Family Friendly (13+)
+  organizer_name: Mr. E's Game World
+  organizer_url: https://www.facebook.com/mresgameworld/events
+  image_url: https://drive.google.com/thumbnail?id=1u7Zpbo030HaofZLXksWy1GJ4-lYnrkQZ&sz=w1000
+  image_alt: Event banner
+  description: Weekly Board Game Night! FREE to play! All welcome. Play games from our demo shelves, bring your own, or see what others have to play. Message us on Facebook with questions.
