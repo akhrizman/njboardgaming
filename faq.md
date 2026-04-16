@@ -32,7 +32,7 @@ permalink: /faq/
 
 <section class="faq-item" id="what-events-allowed">
     <h2>What kinds of events are allowed on the site?</h2>
-    <p>We list <strong>in-person</strong> tabletop gaming events including but not limited to general board games, RPGs, CCGs, Chess, Scrabble, design and playtesting, etc. We also have a dedicated section for conventions with open gaming. Clubs that charge long term membership are okay if they offer a way for new people to try it out. We do not list events that are online-only, at private residences, workplaces, or undisclosed locations, sales, auctions, or anything that requires non-gaming participation (e.g. religious or promotional content).</p>
+    <p>We list <strong>in-person</strong> tabletop gaming events including but not limited to general board games, RPGs, CCGs, Chess, Scrabble, design and playtesting, etc. We also have a dedicated section for conventions with open gaming. Clubs that charge long term membership are okay if they offer a way for new people to try it out. We do not list events that are online-only or those located at private residences, workplaces, or undisclosed locations. We also do not list sales, auctions, or anything that requires non-gaming participation (e.g. religious or promotional content).</p>
 </section>
 
 <section class="faq-item" id="how-to-add-event">
