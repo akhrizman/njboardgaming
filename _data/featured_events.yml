@@ -35,7 +35,7 @@
   audience: Adults (18+)
   organizer_name: South Jersey Board Game Time (Discord)
   organizer_url: https://discord.gg/GbDeKuCdr
-  description: "We are just a group of people who play all kinds of board games. We always like to try new board games, but we have regular games we play like Wingspan, Quacks, Everdell, Flip 7, Splendor and more! If there are a bunch of us we break up into groups, if there aren't as many we try to find games that works for everyone! Bring your own board games, or enjoy the board games some of the other board gamers bring. If you don't use Discord, we usually post updates about our event on <a href=\"https://www.facebook.com/groups/SJGamingLeague\" aria-label=\"Events\">South Jersey Board Gaming League's</a> Facebook page.
+  description: "We are just a group of people who play all kinds of board games. We always like to try new board games, but we have regular games we play like Wingspan, Quacks, Everdell, Flip 7, Splendor and more! If there are a bunch of us we break up into groups, if there aren't as many we try to find games that works for everyone! Bring your own board games, or enjoy the board games some of the other board gamers bring. If you don't use Discord, we usually post updates about our event on <a href=\"https://www.facebook.com/groups/SJGamingLeague\" target=\"_blank\" aria-label=\"Events\">South Jersey Board Gaming League's</a> Facebook page.
 Hope to see you there!"
 
 - state: nj
@@ -338,7 +338,7 @@ We will use a few of the tables at the Panera to play some board games! I will b
   audience: Adults (18+)
   organizer_name: Fantastic Happenings Meetup Group
   organizer_url: https://www.meetup.com/fantastic-happenings/events/
-  description: "The South Brunswick Library has a selection of games and staff members bring some of their own to share. Feel free to bring your favorite games or play one of ours. Learn new games or enjoy getting to play with real, actual people! We should be in our small meeting room (1A/1B), located to the right of the Borrower Services desk, however look for a sign just in case we have to change rooms. No registration is required but space is limited and will be given on a first come, first served basis. If parking is an issue, please feel free to park at the Municipal Lot nearby. Information is also available on the <a href=\"https://sbpl.libnet.info/events?n=30&r=days\" aria-label=\"Events\">South Brunswick Public Library Calendar</a>."
+  description: "The South Brunswick Library has a selection of games and staff members bring some of their own to share. Feel free to bring your favorite games or play one of ours. Learn new games or enjoy getting to play with real, actual people! We should be in our small meeting room (1A/1B), located to the right of the Borrower Services desk, however look for a sign just in case we have to change rooms. No registration is required but space is limited and will be given on a first come, first served basis. If parking is an issue, please feel free to park at the Municipal Lot nearby. Information is also available on the <a href=\"https://sbpl.libnet.info/events?n=30&r=days\" target=\"_blank\" aria-label=\"Events\">South Brunswick Public Library Calendar</a>."
 
 - state: nj
   county: middlesex
@@ -493,3 +493,21 @@ This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the f
   image_url: https://drive.google.com/thumbnail?id=1u7Zpbo030HaofZLXksWy1GJ4-lYnrkQZ&sz=w1000
   image_alt: Event banner
   description: Weekly Board Game Night! FREE to play! All welcome. Play games from our demo shelves, bring your own, or see what others have to play. Message us on Facebook with questions.
+
+- state: nj
+  county: middlesex
+  enabled: true
+  id: plainsboroPreserve
+  title: Nature Board Game Nights @ The Plainsboro Preserve
+  frequency: Last FRIDAY, Monthly
+  time: "5:30 PM - 7:30 PM"
+  address: 80 Scotts Corner Road, Cranbury, NJ 08512
+  audience: Family Friendly
+  organizer_name: "Plainsboro Preserve - Plainsboro Township Department of Parks & Recreation"
+  organizer_url: https://anc.apm.activecommunities.com/plainsboronj/activity/search?onlineSiteId=0&activity_select_param=2&activity_keyword=Nature%20Board%20Game&viewMode=list
+  description: "Come out to the Preserve and enjoy some good old-fashioned family fun at our monthly nature-themed board game nights! We can’t think of anything better than a fun evening spent with family & friends, relaxing and surrounded by nature. Even if you arrive as a solo player, you'll be sure to have fun & meet some new friends by the end of the night!Inside our environmental education center, you’ll be able to choose from our selection of nature-inspired puzzles and board games. You may also bring an on-theme game or puzzle of your own to play and share! We even have a group of adult LEGO enthusiasts who regularly attend, bringing their botanical-themed building kits to work on - so feel free to bring your kits as well! Participants are also welcome to bring snacks and non-alcoholic beverages to enjoy.
+
+IMPORTANT: Our game night events are free, but we do request you register in advance so we know how many people to expect. When registering for our game nights, be aware that minors are not permitted to remain on site without a chaperone. Children participating in game night activities must attend with and be supervised by an adult who is registered for the same program.
+
+Find information regarding this program and more, including how to register, through our website: <a href=\"https://www.plainsboronj.com/250/Plainsboro-Preserve\" target=\"_blank\" aria-label=\"Events\">Plainsboro-Preserve</a>. The following is a list of some of the board games we have on site to play, if anyone would like to research game rules in advance:
+Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 14+), Bird Spotting Opoly (for 2-6 players, ages 8+), Trellis (for 2-4 players, ages 10+), Bird Call card game (for 3-8 players, ages 7+), Scram! Critters vs. Campers (for 3-6 players, ages 15+), Parks from Keymaster Games (for 1-5 players, ages 10+), Catan (for 3-4 players, ages 10+), Ecosystem (for 2-6 players, ages 10+), Trails: A Parks Game (for 2-4 players, ages 10+), Happy Salmon (for 3-8 players, ages 6+), Water Works (for 2-4 players, ages 8+), Cat Ladies of Maple Street (for 2-4 players, ages 12+), Moose Match Mayhem (for 3-6 players, ages 7+), Birds of North America Memory Card Game (for 1 or more players, ages 3+), Don’t Break the Ice: Mammoth Edition (for 2-4 players, ages 3+)…and more!"
