@@ -511,3 +511,16 @@ IMPORTANT: Our game night events are free, but we do request you register in adv
 
 Find information regarding this program and more, including how to register, through our website: <a href=\"https://www.plainsboronj.com/250/Plainsboro-Preserve\" target=\"_blank\" aria-label=\"Events\">Plainsboro-Preserve</a>. The following is a list of some of the board games we have on site to play, if anyone would like to research game rules in advance:
 Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 14+), Bird Spotting Opoly (for 2-6 players, ages 8+), Trellis (for 2-4 players, ages 10+), Bird Call card game (for 3-8 players, ages 7+), Scram! Critters vs. Campers (for 3-6 players, ages 15+), Parks from Keymaster Games (for 1-5 players, ages 10+), Catan (for 3-4 players, ages 10+), Ecosystem (for 2-6 players, ages 10+), Trails: A Parks Game (for 2-4 players, ages 10+), Happy Salmon (for 3-8 players, ages 6+), Water Works (for 2-4 players, ages 8+), Cat Ladies of Maple Street (for 2-4 players, ages 12+), Moose Match Mayhem (for 3-6 players, ages 7+), Birds of North America Memory Card Game (for 1 or more players, ages 3+), Don’t Break the Ice: Mammoth Edition (for 2-4 players, ages 3+)…and more!"
+
+- state: nj
+  county: middlesex
+  enabled: true
+  id: jamesburgLibrary
+  title: Game Night @ Jamesburg Public Library
+  frequency: Monthly
+  time: "6:30 PM - 8:30 PM"
+  address: 229 Gatzmer Ave., Jamesburg, NJ 08831
+  audience: Adults (18+)
+  organizer_name: Jamesburg Public Library
+  organizer_url: https://jamesburglibrary.events.mylibrary.digital/
+  description: Game night is for adults who want to play a tabletop board game and engage with other members of the community.  Bring your own game or pick from our selection.  We highlight game publishers, and you may have an opportunity to enter to win your own board game bundle.
