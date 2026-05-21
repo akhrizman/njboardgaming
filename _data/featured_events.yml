@@ -500,7 +500,7 @@ This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the f
   id: plainsboroPreserve
   title: Nature Board Game Nights @ The Plainsboro Preserve
   frequency: Last FRIDAY, Monthly
-  time: "5:30 PM - 7:30 PM"
+  time: "5:30PM - 7:30PM"
   address: 80 Scotts Corner Road, Cranbury, NJ 08512
   audience: Family Friendly
   organizer_name: "Plainsboro Preserve - Plainsboro Township Department of Parks & Recreation"
@@ -518,9 +518,28 @@ Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 
   id: jamesburgLibrary
   title: Game Night @ Jamesburg Public Library
   frequency: Monthly
-  time: "6:30 PM - 8:30 PM"
+  time: "6:30PM - 8:30PM"
   address: 229 Gatzmer Ave., Jamesburg, NJ 08831
   audience: Adults (18+)
   organizer_name: Jamesburg Public Library
   organizer_url: https://jamesburglibrary.events.mylibrary.digital/
   description: Game night is for adults who want to play a tabletop board game and engage with other members of the community.  Bring your own game or pick from our selection.  We highlight game publishers, and you may have an opportunity to enter to win your own board game bundle.
+
+- state: nj
+  county: essex
+  enabled: true
+  id: eastOrangePublicLibrary
+  title: Game Day @ East Orange Public Library
+  frequency: SATURDAY, Monthly
+  time: "12:00PM - 4:00PM"
+  address: 21 South Arlington Avenue, East Orange, NJ, 07018
+  audience: Adults (18+)
+  organizer_name: East Orange Public Library
+  organizer_url: https://events.eopl.org/calendar?cid=19881
+  image_url: https://drive.google.com/thumbnail?id=1rvPTQWYP17GTcsx8vDpzGy1gh8iteigf&sz=w1000
+  image_alt: Event banner
+  description: "EOPL hosts a monthly game day. This is a casual social get together. 
+Test your skills at trick taking card games, TTRPGs, or a collaborative cozy board game. Improve your expertise, make new friends, and have a fun afternoon with family or friends. This is a free adult program. 18+. Registration required.
+Games we've played: Taco, cat, goat, cheese, pizza; Beat the heat; Flip 7; Blank Slate; Hues and Cues; Wingspan; King of Tokyo; Between two cities; The Red Dragon Inn; Flamecraft; Sequence.
+See a full list of games the library owns, and games that our librarian owns (and can bring in to play): <a href=\"https://docs.google.com/spreadsheets/d/1bAWkSpPra34opvde_J5fg1_JCbwQ2ORbzO2PoxwC500/edit?usp=sharing\" target=\"_blank\" aria-label=\"Events\">EOPL Game Collection</a> 
+The library provides chips and cookies, but you are welcome to bring in your own snacks."
