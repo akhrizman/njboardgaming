@@ -569,3 +569,16 @@ The library provides chips and cookies, but you are welcome to bring in your own
   organizer_name: J2 Games Manalapan Store
   organizer_url: https://j2games.com/pages/events
   description: Bring your favorite board game and enjoy an evening of fun with fellow board game fans. Whether you're a seasoned player or just getting started, everyone is welcome. Come hang out, share your favorite games, and meet others who love board games as much as you do!
+
+- state: nj
+  county: mercer
+  enabled: true
+  id: mclsWestWindsor
+  title: Game Night @ West Windsor MCLS Branch
+  frequency: 2nd THURSDAY, Monthly
+  time: "5:30PM - 8:00PM"
+  address: 333 N Post Rd, Princeton Junction, NJ 08550
+  audience: Adults (18+)
+  organizer_name: "Mercer County Library System - West Windsor Branch"
+  organizer_url: https://events.mcl.org/calendar/west
+  description: "Take a break from screens and enjoy an evening of games at the library. We will have a variety of games to pick from, but feel free to bring your own card or board games. Have a fun time with friends, family, and other game-enthusiasts. For ages 18 and older, please register for the event on the website."
