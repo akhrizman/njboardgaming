@@ -549,7 +549,7 @@ The library provides chips and cookies, but you are welcome to bring in your own
   enabled: true
   id: keyportFunHouse
   title: Board Game Night @ Keyport FunHouse Boutique
-  frequency: 4th Wednesday of every month
+  frequency: 4th WEDNESDAY, Monthly
   time: "5:00PM - 9:00PM"
   address: 81 Broad St, Keyport NJ 07735
   audience: Adults (18+)
