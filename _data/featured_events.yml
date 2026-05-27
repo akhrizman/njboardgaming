@@ -548,7 +548,7 @@ The library provides chips and cookies, but you are welcome to bring in your own
   county: monmouth
   enabled: true
   id: keyportFunHouse
-  title: Board Game Night @ Keyport FunHouse Boutique ft. Junior's Game Group
+  title: Board Game Night @ Keyport FunHouse Boutique
   frequency: 4th Wednesday of every month
   time: "5:00PM - 9:00PM"
   address: 81 Broad St, Keyport NJ 07735
@@ -561,7 +561,7 @@ The library provides chips and cookies, but you are welcome to bring in your own
   county: monmouth
   enabled: true
   id: j2gamesManalapan
-  title: Board Game Meet & Hangout @ J2Games Manalapan Store
+  title: Board Game Meet & Hangout @ J2Games Manalapan
   frequency: "SATURDAY, BI-Weekly"
   time: "5:00PM - 9:00PM"
   address: "356 US-9, Manalapan, NJ 07726"
@@ -574,7 +574,7 @@ The library provides chips and cookies, but you are welcome to bring in your own
   county: mercer
   enabled: true
   id: mclsWestWindsor
-  title: Game Night @ West Windsor MCLS Branch
+  title: Game Night @ MCLS West Windsor
   frequency: 2nd THURSDAY, Monthly
   time: "5:30PM - 8:00PM"
   address: 333 N Post Rd, Princeton Junction, NJ 08550
