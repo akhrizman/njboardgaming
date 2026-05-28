@@ -582,3 +582,48 @@ Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 
 New members must fill out a profile when applying to Boardgames NJ
 
 This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the food court tables, which is hidden in the far back by the deli. This will be on the left side in the far back when you enter Shoprite. It's our Monday Game Night! Join us to play a variety of Euro games! Games will vary depending upon what members decide to bring. If you want to play something specific, bring it with you or request it in your RSVP. Beginners and experts alike are welcome. Gaming starts at 6:00 p.m. and usually ends close to 11:00 p.m. (closing time). Most of the regulars never RSVP, so even if it looks like only a few people are coming we always have enough people to play a few games (usually 10-12 people)."
+
+- state: pa
+  county: monroe
+  enabled: true
+  id: pttgMountaintop
+  title: Game Day @ Mountaintop Lodge
+  frequency: 1st SUNDAY, 2nd SATURDAY, monthly
+  time: "12:00PM - 6:00PM(Sun) / 8:00PM(Sat)"
+  address: 2137 Route 940 Pocono Pines, PA 18350
+  audience: Family Friendly (14+)
+  organizer_name: Pocono Table Top Gaming
+  organizer_url: https://www.facebook.com/groups/6897211033696170/events
+  image_url: https://drive.google.com/thumbnail?id=1d3-HxhLVI55YCCYfwQcI3KXUOXLeyK0G&sz=w1000
+  image_alt: Event banner
+  description: We cater to all types of gamers and gaming levels. We usually have however a group of seasoned gamers who attend. We always encourage people to bring an assortment of games to try for different player counts and levels.
+
+- state: pa
+  county: monroe
+  enabled: true
+  id: pttgCloudCity
+  title: Game Day @ Cloud City
+  frequency: 1st SUNDAY, 2nd SATURDAY, monthly
+  time: "12:00PM - 6:00PM(Sun) / 8:00PM(Sat)"
+  address: 344 Stroud Mall Rd Suite 136, Stroudsburg, PA 18360
+  audience: Family Friendly (14+)
+  organizer_name: Pocono Table Top Gaming
+  organizer_url: https://www.facebook.com/groups/6897211033696170/events
+  image_url: https://drive.google.com/thumbnail?id=1d3-HxhLVI55YCCYfwQcI3KXUOXLeyK0G&sz=w1000
+  image_alt: Event banner
+  description: We cater to all types of gamers and gaming levels. We usually have however a group of seasoned gamers who attend. We always encourage people to bring an assortment of games to try for different player counts and levels.
+
+- state: pa
+  county: monroe
+  enabled: true
+  id: pttgTomX
+  title: Game Day @ Tom X Pub
+  frequency: 1st SUNDAY, 2nd SATURDAY, monthly
+  time: "12:00PM - 6:00PM"
+  address: 100 Tom X Rd, East Stroudsburg, PA 18302
+  audience: Family Friendly (14+)
+  organizer_name: Pocono Table Top Gaming
+  organizer_url: https://www.facebook.com/groups/6897211033696170/events
+  image_url: https://drive.google.com/thumbnail?id=1d3-HxhLVI55YCCYfwQcI3KXUOXLeyK0G&sz=w1000
+  image_alt: Event banner
+  description: We cater to all types of gamers and gaming levels. We usually have however a group of seasoned gamers who attend. We always encourage people to bring an assortment of games to try for different player counts and levels.
