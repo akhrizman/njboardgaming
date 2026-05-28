@@ -489,7 +489,7 @@ Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 
 
 - state: nj
   county: monmouth
-  enabled: true
+  enabled: false
   id: sourceBrewing
   title: Beers & Board Games @ Source Brewing
   frequency: FRIDAY, ~Monthly
