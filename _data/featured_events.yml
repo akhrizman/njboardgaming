@@ -13,7 +13,7 @@
 
 - state: nj
   county: atlantic
-  enabled: true
+  enabled: false
   id: seaviewBaptistChurch
   title: Board Games @ Seaview Baptist Church
   frequency: 1st FRIDAY, Monthly
@@ -28,7 +28,7 @@
   county: atlantic
   enabled: true
   id: gardenStateBeerCompany
-  title: Board Game Night @ Garden State Brewery
+  title: Board Game Night @ Garden State Beer Co.
   frequency: "TUESDAY, Bi-Weekly"
   time: "5:00PM - 9:00PM"
   address: 247 E White Horse Pike, Galloway, NJ 08205
@@ -131,7 +131,7 @@ Hope to see you there!"
 
 - state: nj
   county: camden
-  enabled: true
+  enabled: false
   id: hooked
   title: Weekly Games @ Hooked
   frequency: THURSDAY, Weekly
@@ -141,6 +141,21 @@ Hope to see you there!"
   organizer_name: Jay's Basement
   organizer_url: https://www.facebook.com/groups/jaysbasement
   description: "Parking is free after 6 and you can park in bank parking lot. You can bring games and any food/drinks you like. We usually have about 3-4 tables in play so something for everyone! Reach out with any questions."
+
+- state: nj
+  county: camden
+  enabled: true
+  id: mrEsGameWorld
+  title: Weekly Game Night @ Mr. E's Game World
+  frequency: THURSDAY, Weekly
+  time: "4:00PM - 8:00PM"
+  address: 18 Cross Keys Rd., Berlin, NJ 09009
+  audience: Family Friendly (13+)
+  organizer_name: Mr. E's Game World
+  organizer_url: https://www.facebook.com/mresgameworld/events
+  image_url: https://drive.google.com/thumbnail?id=1u7Zpbo030HaofZLXksWy1GJ4-lYnrkQZ&sz=w1000
+  image_alt: Event banner
+  description: Weekly Board Game Night! FREE to play! All welcome. Play games from our demo shelves, bring your own, or see what others have to play. Message us on Facebook with questions.
 
 - state: nj
   county: essex
@@ -170,7 +185,7 @@ Hope to see you there!"
 
 - state: nj
   county: essex
-  enabled: true
+  enabled: false
   id: mabgTownPub
   title: Board Games @ Town Pub
   frequency: "THURSDAY, Bi-Monthly"
@@ -183,7 +198,7 @@ Hope to see you there!"
 
 - state: nj
   county: essex
-  enabled: true
+  enabled: false
   id: mabgVeronaInn
   title: Board Games @ Verona Inn
   frequency: "THURSDAY, Bi-Monthly"
@@ -206,6 +221,25 @@ Hope to see you there!"
   organizer_name: The Player Agency
   organizer_url: https://www.theplayeragency.com/events
   description: An inclusive evening of board games and fun. Bring a game or play one of ours. Bring some friends or make some new ones!!
+
+- state: nj
+  county: essex
+  enabled: true
+  id: eastOrangePublicLibrary
+  title: Game Day @ East Orange Public Library
+  frequency: SATURDAY, Monthly
+  time: "12:00PM - 4:00PM"
+  address: 21 South Arlington Avenue, East Orange, NJ, 07018
+  audience: Adults (18+)
+  organizer_name: East Orange Public Library
+  organizer_url: https://events.eopl.org/calendar?cid=19881
+  image_url: https://drive.google.com/thumbnail?id=1rvPTQWYP17GTcsx8vDpzGy1gh8iteigf&sz=w1000
+  image_alt: Event banner
+  description: "EOPL hosts a monthly game day. This is a casual social get together. 
+Test your skills at trick taking card games, TTRPGs, or a collaborative cozy board game. Improve your expertise, make new friends, and have a fun afternoon with family or friends. This is a free adult program. 18+. Registration required.
+Games we've played: Taco, cat, goat, cheese, pizza; Beat the heat; Flip 7; Blank Slate; Hues and Cues; Wingspan; King of Tokyo; Between two cities; The Red Dragon Inn; Flamecraft; Sequence.
+See a full list of games the library owns, and games that our librarian owns (and can bring in to play): <a href=\"https://docs.google.com/spreadsheets/d/1bAWkSpPra34opvde_J5fg1_JCbwQ2ORbzO2PoxwC500/edit?usp=sharing\" target=\"_blank\" aria-label=\"Events\">EOPL Game Collection</a> 
+The library provides chips and cookies, but you are welcome to bring in your own snacks."
 
 - state: nj
   county: gloucester
@@ -235,7 +269,7 @@ Hope to see you there!"
 
 - state: nj
   county: hudson
-  enabled: true
+  enabled: false
   id: jcbcZeppelinHall
   title: Beers and Board Games @ Zeppelin Hall
   frequency: Monthly
@@ -311,6 +345,19 @@ We will use a few of the tables at the Panera to play some board games! I will b
   organizer_name: "Mercer County Library - Ewing Branch"
   organizer_url: https://events.mcl.org/calendar/ewing
   description: "Join our club for board and card game enthusiasts. Bring your own games or use one of ours. Drop-ins welcome. Bring a friend! Registration is preferred. Search The events page for \"Board Game Club\""
+
+- state: nj
+  county: mercer
+  enabled: true
+  id: mclsWestWindsor
+  title: Game Night @ MCLS West Windsor
+  frequency: 2nd THURSDAY, Monthly
+  time: "5:30PM - 8:00PM"
+  address: 333 N Post Rd, Princeton Junction, NJ 08550
+  audience: Adults (18+)
+  organizer_name: "Mercer County Library System - West Windsor Branch"
+  organizer_url: https://events.mcl.org/calendar/west
+  description: "Take a break from screens and enjoy an evening of games at the library. We will have a variety of games to pick from, but feel free to bring your own card or board games. Have a fun time with friends, family, and other game-enthusiasts. For ages 18 and older, please register for the event on the website."
 
 - state: nj
   county: middlesex
@@ -397,8 +444,39 @@ New members must fill out a profile when applying to Boardgames NJ
 Games will vary depending upon what members decide to bring. If you want to play something specific, bring it with you or request it with your RSVP or leave a comment. Beginners and experts alike are welcome. If you're a new player, please see a host if you need help to find a seat at a game. We have a limit of 25, so please RSVP each time you plan to attend. The owners of the store have an event running on the same night so they asked for a headcount from us to make sure they have enough space. So please RSVP as soon as you know you can attend. Gaming starts at 6 p.m. and ends at 9:50 p.m. The owners sell snacks and drinks and they are fine with food in the store, so feel free to bring your own food or grab something from the Italian/Mexican restaurant next door and bring it back to the store to eat!"
 
 - state: nj
-  county: monmouth
+  county: middlesex
   enabled: true
+  id: plainsboroPreserve
+  title: Nature Board Game Nights @ The Plainsboro Preserve
+  frequency: Last FRIDAY, Monthly
+  time: "5:30PM - 7:30PM"
+  address: 80 Scotts Corner Road, Cranbury, NJ 08512
+  audience: Family Friendly
+  organizer_name: "Plainsboro Preserve - Plainsboro Township Department of Parks & Recreation"
+  organizer_url: https://anc.apm.activecommunities.com/plainsboronj/activity/search?onlineSiteId=0&activity_select_param=2&activity_keyword=Nature%20Board%20Game&viewMode=list
+  description: "Come out to the Preserve and enjoy some good old-fashioned family fun at our monthly nature-themed board game nights! We can’t think of anything better than a fun evening spent with family & friends, relaxing and surrounded by nature. Even if you arrive as a solo player, you'll be sure to have fun & meet some new friends by the end of the night!Inside our environmental education center, you’ll be able to choose from our selection of nature-inspired puzzles and board games. You may also bring an on-theme game or puzzle of your own to play and share! We even have a group of adult LEGO enthusiasts who regularly attend, bringing their botanical-themed building kits to work on - so feel free to bring your kits as well! Participants are also welcome to bring snacks and non-alcoholic beverages to enjoy.
+
+IMPORTANT: Our game night events are free, but we do request you register in advance so we know how many people to expect. When registering for our game nights, be aware that minors are not permitted to remain on site without a chaperone. Children participating in game night activities must attend with and be supervised by an adult who is registered for the same program.
+
+Find information regarding this program and more, including how to register, through our website: <a href=\"https://www.plainsboronj.com/250/Plainsboro-Preserve\" target=\"_blank\" aria-label=\"Events\">Plainsboro-Preserve</a>. The following is a list of some of the board games we have on site to play, if anyone would like to research game rules in advance:
+Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 14+), Bird Spotting Opoly (for 2-6 players, ages 8+), Trellis (for 2-4 players, ages 10+), Bird Call card game (for 3-8 players, ages 7+), Scram! Critters vs. Campers (for 3-6 players, ages 15+), Parks from Keymaster Games (for 1-5 players, ages 10+), Catan (for 3-4 players, ages 10+), Ecosystem (for 2-6 players, ages 10+), Trails: A Parks Game (for 2-4 players, ages 10+), Happy Salmon (for 3-8 players, ages 6+), Water Works (for 2-4 players, ages 8+), Cat Ladies of Maple Street (for 2-4 players, ages 12+), Moose Match Mayhem (for 3-6 players, ages 7+), Birds of North America Memory Card Game (for 1 or more players, ages 3+), Don’t Break the Ice: Mammoth Edition (for 2-4 players, ages 3+)…and more!"
+
+- state: nj
+  county: middlesex
+  enabled: true
+  id: jamesburgLibrary
+  title: Game Night @ Jamesburg Public Library
+  frequency: Monthly
+  time: "6:30PM - 8:30PM"
+  address: 229 Gatzmer Ave., Jamesburg, NJ 08831
+  audience: Adults (18+)
+  organizer_name: Jamesburg Public Library
+  organizer_url: https://jamesburglibrary.events.mylibrary.digital/
+  description: Game night is for adults who want to play a tabletop board game and engage with other members of the community.  Bring your own game or pick from our selection.  We highlight game publishers, and you may have an opportunity to enter to win your own board game bundle.
+
+- state: nj
+  county: monmouth
+  enabled: false
   id: holyInnocents
   title: Board Game Night @ Holy Innocents Spiritual Center
   frequency: FRIDAY, Monthly
@@ -423,6 +501,32 @@ Games will vary depending upon what members decide to bring. If you want to play
   image_url: https://drive.google.com/thumbnail?id=1Ajy9-CcgtsxLJNpr8bv0l594xXwqea4i&sz=w1000
   image_alt: Event banner
   description: "Meet at Source Brewing in Colts Neck to share some beers and board games, 21+ only. It would be great to see you there! We usually play more casual games that are under 90 minutes and easy to learn. Great way to break into board gaming for newer folks. Enjoy a board game with the brewery drinks. No outside beverages (including water bottles), they have water and seltzers for non-alcoholic options. BYO Food: bring lunch or snacks."
+
+- state: nj
+  county: monmouth
+  enabled: true
+  id: keyportFunHouse
+  title: Board Game Night @ Keyport FunHouse Boutique
+  frequency: 4th WEDNESDAY, Monthy
+  time: "5:00PM - 9:00PM"
+  address: 81 Broad St, Keyport NJ 07735
+  audience: Adults (18+)
+  organizer_name: Keyport FunHouse Boutique
+  organizer_url: https://www.facebook.com/profile.php?id=61573259611330&sk=upcoming_hosted_events
+  description: Bring your friends for a night of fun and laughter! We've got a wide selection of games to choose from, BYOGame if you'd like. Junior's game group starts at 7pm. No cover but you could support us and purchase some snacks.beverages!
+
+- state: nj
+  county: monmouth
+  enabled: true
+  id: j2gamesManalapan
+  title: Board Game Meet & Hangout @ J2Games Manalapan
+  frequency: "SATURDAY, BI-Weekly"
+  time: "5:00PM - 9:00PM"
+  address: "356 US-9, Manalapan, NJ 07726"
+  audience: Family Friendly
+  organizer_name: J2 Games Manalapan Store
+  organizer_url: https://j2games.com/pages/events
+  description: Bring your favorite board game and enjoy an evening of fun with fellow board game fans. Whether you're a seasoned player or just getting started, everyone is welcome. Come hang out, share your favorite games, and meet others who love board games as much as you do!
 
 - state: nj
   county: morris
@@ -478,107 +582,3 @@ Games will vary depending upon what members decide to bring. If you want to play
 New members must fill out a profile when applying to Boardgames NJ
 
 This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the food court tables, which is hidden in the far back by the deli. This will be on the left side in the far back when you enter Shoprite. It's our Monday Game Night! Join us to play a variety of Euro games! Games will vary depending upon what members decide to bring. If you want to play something specific, bring it with you or request it in your RSVP. Beginners and experts alike are welcome. Gaming starts at 6:00 p.m. and usually ends close to 11:00 p.m. (closing time). Most of the regulars never RSVP, so even if it looks like only a few people are coming we always have enough people to play a few games (usually 10-12 people)."
-
-- state: nj
-  county: camden
-  enabled: true
-  id: mrEsGameWorld
-  title: Weekly Game Night @ Mr. E's Game World
-  frequency: THURSDAY, Weekly
-  time: "4:00PM - 8:00PM"
-  address: 18 Cross Keys Rd., Berlin, NJ 09009
-  audience: Family Friendly (13+)
-  organizer_name: Mr. E's Game World
-  organizer_url: https://www.facebook.com/mresgameworld/events
-  image_url: https://drive.google.com/thumbnail?id=1u7Zpbo030HaofZLXksWy1GJ4-lYnrkQZ&sz=w1000
-  image_alt: Event banner
-  description: Weekly Board Game Night! FREE to play! All welcome. Play games from our demo shelves, bring your own, or see what others have to play. Message us on Facebook with questions.
-
-- state: nj
-  county: middlesex
-  enabled: true
-  id: plainsboroPreserve
-  title: Nature Board Game Nights @ The Plainsboro Preserve
-  frequency: Last FRIDAY, Monthly
-  time: "5:30PM - 7:30PM"
-  address: 80 Scotts Corner Road, Cranbury, NJ 08512
-  audience: Family Friendly
-  organizer_name: "Plainsboro Preserve - Plainsboro Township Department of Parks & Recreation"
-  organizer_url: https://anc.apm.activecommunities.com/plainsboronj/activity/search?onlineSiteId=0&activity_select_param=2&activity_keyword=Nature%20Board%20Game&viewMode=list
-  description: "Come out to the Preserve and enjoy some good old-fashioned family fun at our monthly nature-themed board game nights! We can’t think of anything better than a fun evening spent with family & friends, relaxing and surrounded by nature. Even if you arrive as a solo player, you'll be sure to have fun & meet some new friends by the end of the night!Inside our environmental education center, you’ll be able to choose from our selection of nature-inspired puzzles and board games. You may also bring an on-theme game or puzzle of your own to play and share! We even have a group of adult LEGO enthusiasts who regularly attend, bringing their botanical-themed building kits to work on - so feel free to bring your kits as well! Participants are also welcome to bring snacks and non-alcoholic beverages to enjoy.
-
-IMPORTANT: Our game night events are free, but we do request you register in advance so we know how many people to expect. When registering for our game nights, be aware that minors are not permitted to remain on site without a chaperone. Children participating in game night activities must attend with and be supervised by an adult who is registered for the same program.
-
-Find information regarding this program and more, including how to register, through our website: <a href=\"https://www.plainsboronj.com/250/Plainsboro-Preserve\" target=\"_blank\" aria-label=\"Events\">Plainsboro-Preserve</a>. The following is a list of some of the board games we have on site to play, if anyone would like to research game rules in advance:
-Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 14+), Bird Spotting Opoly (for 2-6 players, ages 8+), Trellis (for 2-4 players, ages 10+), Bird Call card game (for 3-8 players, ages 7+), Scram! Critters vs. Campers (for 3-6 players, ages 15+), Parks from Keymaster Games (for 1-5 players, ages 10+), Catan (for 3-4 players, ages 10+), Ecosystem (for 2-6 players, ages 10+), Trails: A Parks Game (for 2-4 players, ages 10+), Happy Salmon (for 3-8 players, ages 6+), Water Works (for 2-4 players, ages 8+), Cat Ladies of Maple Street (for 2-4 players, ages 12+), Moose Match Mayhem (for 3-6 players, ages 7+), Birds of North America Memory Card Game (for 1 or more players, ages 3+), Don’t Break the Ice: Mammoth Edition (for 2-4 players, ages 3+)…and more!"
-
-- state: nj
-  county: middlesex
-  enabled: true
-  id: jamesburgLibrary
-  title: Game Night @ Jamesburg Public Library
-  frequency: Monthly
-  time: "6:30PM - 8:30PM"
-  address: 229 Gatzmer Ave., Jamesburg, NJ 08831
-  audience: Adults (18+)
-  organizer_name: Jamesburg Public Library
-  organizer_url: https://jamesburglibrary.events.mylibrary.digital/
-  description: Game night is for adults who want to play a tabletop board game and engage with other members of the community.  Bring your own game or pick from our selection.  We highlight game publishers, and you may have an opportunity to enter to win your own board game bundle.
-
-- state: nj
-  county: essex
-  enabled: true
-  id: eastOrangePublicLibrary
-  title: Game Day @ East Orange Public Library
-  frequency: SATURDAY, Monthly
-  time: "12:00PM - 4:00PM"
-  address: 21 South Arlington Avenue, East Orange, NJ, 07018
-  audience: Adults (18+)
-  organizer_name: East Orange Public Library
-  organizer_url: https://events.eopl.org/calendar?cid=19881
-  image_url: https://drive.google.com/thumbnail?id=1rvPTQWYP17GTcsx8vDpzGy1gh8iteigf&sz=w1000
-  image_alt: Event banner
-  description: "EOPL hosts a monthly game day. This is a casual social get together. 
-Test your skills at trick taking card games, TTRPGs, or a collaborative cozy board game. Improve your expertise, make new friends, and have a fun afternoon with family or friends. This is a free adult program. 18+. Registration required.
-Games we've played: Taco, cat, goat, cheese, pizza; Beat the heat; Flip 7; Blank Slate; Hues and Cues; Wingspan; King of Tokyo; Between two cities; The Red Dragon Inn; Flamecraft; Sequence.
-See a full list of games the library owns, and games that our librarian owns (and can bring in to play): <a href=\"https://docs.google.com/spreadsheets/d/1bAWkSpPra34opvde_J5fg1_JCbwQ2ORbzO2PoxwC500/edit?usp=sharing\" target=\"_blank\" aria-label=\"Events\">EOPL Game Collection</a> 
-The library provides chips and cookies, but you are welcome to bring in your own snacks."
-
-- state: nj
-  county: monmouth
-  enabled: true
-  id: keyportFunHouse
-  title: Board Game Night @ Keyport FunHouse Boutique
-  frequency: 4th WEDNESDAY, Monthly
-  time: "5:00PM - 9:00PM"
-  address: 81 Broad St, Keyport NJ 07735
-  audience: Adults (18+)
-  organizer_name: Keyport FunHouse Boutique
-  organizer_url: https://www.facebook.com/profile.php?id=61573259611330&sk=upcoming_hosted_events
-  description: Bring your friends for a night of fun and laughter! We've got a wide selection of games to choose from, BYOGame if you'd like. Junior's game group starts at 7pm. No cover but you could support us and purchase some snacks.beverages!
-
-- state: nj
-  county: monmouth
-  enabled: true
-  id: j2gamesManalapan
-  title: Board Game Meet & Hangout @ J2Games Manalapan
-  frequency: "SATURDAY, BI-Weekly"
-  time: "5:00PM - 9:00PM"
-  address: "356 US-9, Manalapan, NJ 07726"
-  audience: Family Friendly
-  organizer_name: J2 Games Manalapan Store
-  organizer_url: https://j2games.com/pages/events
-  description: Bring your favorite board game and enjoy an evening of fun with fellow board game fans. Whether you're a seasoned player or just getting started, everyone is welcome. Come hang out, share your favorite games, and meet others who love board games as much as you do!
-
-- state: nj
-  county: mercer
-  enabled: true
-  id: mclsWestWindsor
-  title: Game Night @ MCLS West Windsor
-  frequency: 2nd THURSDAY, Monthly
-  time: "5:30PM - 8:00PM"
-  address: 333 N Post Rd, Princeton Junction, NJ 08550
-  audience: Adults (18+)
-  organizer_name: "Mercer County Library System - West Windsor Branch"
-  organizer_url: https://events.mcl.org/calendar/west
-  description: "Take a break from screens and enjoy an evening of games at the library. We will have a variety of games to pick from, but feel free to bring your own card or board games. Have a fun time with friends, family, and other game-enthusiasts. For ages 18 and older, please register for the event on the website."
