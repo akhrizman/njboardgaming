@@ -627,3 +627,74 @@ This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the f
   image_url: https://drive.google.com/thumbnail?id=1d3-HxhLVI55YCCYfwQcI3KXUOXLeyK0G&sz=w1000
   image_alt: Event banner
   description: We cater to all types of gamers and gaming levels. We usually have however a group of seasoned gamers who attend. We always encourage people to bring an assortment of games to try for different player counts and levels.
+
+- state: pa
+  county: philadelphia
+  enabled: true
+  id: wissahickonBrewingCo
+  title: Game Night @ Wissahickon Brewing Company
+  frequency: TUESDAY, Weekly
+  time: "6:00PM - 10:00PM"
+  address: 3705 W School House Ln Philadelphia, PA 19129
+  audience: Adults (21+)
+  organizer_name: Northwest Philly Board Games Group
+  organizer_url: https://www.meetup.com/mt-airy-board-games-group/events
+  image_url: https://drive.google.com/thumbnail?id=1IO8LDx4ugw-FDyn34Ms0gqUguodz61Rk&sz=w1000
+  image_alt: Event banner
+  description: "An inclusive, local group created to bring together Northwest Philly community members of all ages and experience levels around board games. Enjoy playing games? All are welcome! There will be all sorts of games available, and you can bring your own! The only requirement is to please support the venue by purchasing drinks. A food truck will be on site too. We’ll be outside and/or in either room - look around if you don’t spot us."
+
+- state: pa
+  county: montgomery
+  enabled: true
+  id: wafflesAndEnthusiasm
+  title: Board Games @ Waffles and Enthusiasm
+  frequency: THURSDAY, Weekly
+  time: "6:30PM - 10:00PM"
+  address: 414 W Ridge Pike Conshohocken, PA 19428
+  audience: Family Friendly
+  organizer_name: Plymouth Meeting Board Games at Waffles and Enthusiasm
+  organizer_url: https://www.meetup.com/plymouth-meeting-board-games-at-waffles-and-enthusiasm/events
+  description: Come and play modern board games, Euro games, and card games. Feel free to bring games or just come as you are and play with other people who love board games. All skill levels are welcome and there will be some people there open to teaching you the game as we go. From Ticket to Ride to Heavy Eurostyle Games and even some party games and family friend titles. Bring a game or just come and play some games brought by other members of the group. There is no hard out so if the games go a little long that's ok.
+
+- state: pa
+  county: montgomery
+  enabled: true
+  id: elkinsParkPublicLibrary
+  title: Board and Card Games Night Out @ Elkins Park Public Library
+  frequency: 3rd MONDAY, Monthly
+  time: "6:30PM - 8:30PM"
+  address: 563 Church Rd Elkins Park, PA 19027
+  audience: Adults (18+)
+  organizer_name: MontCo Board and Card Games
+  organizer_url: https://www.meetup.com/montco-board-games/events
+  description: "Have a fun night out playing board and card games with our group. Volunteers will host tables featuring a variety of games. No prior knowledge of the games are needed, just your interest in having fun and learning new games. Optionally, you can bring a game you love to teach and play. The games vary by host but it has ranged from traditional games like Rack-o, to party games to word games, to modern Euro games like Catan and Wingspan. The library also has games you can borrow to play.  While many games have a competitive feel to them, this group strives to be open and friendly. No matter who is winning or losing, we are all here to have fun. Note that you should aim to arrive close to the start time or even a little early; if you're late the game tables may have formed already and it could be difficult to find a seat."
+
+- state: pa
+  county: philadelphia
+  enabled: true
+  id: plbGlory
+  title: Board Games @ Glory Beer Bar & Kitchen
+  frequency: MONDAY, Weekly
+  time: "6:00PM - 10:00PM"
+  address: 126 Chestnut St Philadelphia, PA 19106
+  audience: Adults (21+)
+  organizer_name: Philly Loves Boardgames
+  organizer_url: https://www.meetup.com/plbgames/events
+  image_url: https://drive.google.com/thumbnail?id=18xThydbh65u3a4S95-LXIx6U0SJpfFtd&sz=w1000
+  image_alt: Event banner
+  description: We will be upstairs on the 2nd Floor, a large space with big tables and our own bar where we can order food & drinks! The affordable menu welcomes all palates, including a number of vegetarian and vegan options! And the tables on the second floor look large enough for both food & board gaming at the same time. Glory is at 126 Chestnut Street (between Front & 2nd Street).
+
+- state: pa
+  county: philadelphia
+  enabled: true
+  id: plbLadder15
+  title: Board Games Night @ Ladder 15
+  frequency: TUESDAY, Weekly
+  time: "6:00PM - 10:00PM"
+  address: 1528 Sansom St Philadelphia, PA 19102
+  audience: Adults (21+)
+  organizer_name: Philly Loves Boardgames
+  organizer_url: https://www.meetup.com/plbgames/events
+  image_url: https://drive.google.com/thumbnail?id=1jF2-5OI7wC34n3Ij5cwdPQDZVaBgUUZ0&sz=w1000
+  image_alt: Event banner
+  description: We start gathering at Ladder 15 at 6pm and we can stay until it closes around 11pm. We usually have a crowd of 30+ people. We bring some board games, but we're also counting on many of you to bring some as well. Ladder 15 is a bar with drinks and standard bar fare so some of us eat dinner there too. All of the first floor tables are Reserved for us so we should be easy to find. Ask for Emma or Jose and we'll help introduce you & get you started board gaming with others from our MeetUp. You can also talk to our bartender Andy and he'll point you to us!
