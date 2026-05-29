@@ -23,6 +23,14 @@
   months_into_future: 2
 
 - state: pa
+  slug: montgomery
+  name: Montgomery
+  display_name: Montgomery County
+  active: true
+  calendar_id: 9f3fc209e64d213ac2776d6d16833b0f70c2395f3e97363f69f6f65be55f28f3@group.calendar.google.com
+  months_into_future: 2
+
+- state: pa
   slug: northampton
   name: Northampton
   display_name: Northampton County
@@ -44,14 +52,4 @@
   display_name: Pike County
   active: true
   calendar_id: 2177e6019a7fc2cdcf957d4413bfb0a00745e8b529e9d4e651fe482c4d8406ea@group.calendar.google.com
-  months_into_future: 2
-
-
-
-- state: pa
-  slug: montgomery
-  name: Montgomery
-  display_name: Montgomery County
-  active: true
-  calendar_id: 9f3fc209e64d213ac2776d6d16833b0f70c2395f3e97363f69f6f65be55f28f3@group.calendar.google.com
   months_into_future: 2
