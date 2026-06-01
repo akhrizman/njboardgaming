@@ -15,7 +15,7 @@
     </div>
     {% endif %}
     <div class="featured-event-content">
-        <h3 class="featured-event-name">{{ event.title }}</h3>
+        <h3 class="featured-event-name">{{ event.title }}{% if event.id %} <a href="#{{ event.id }}" class="copy-link" aria-label="Copy link to this group">🔗</a>{% endif %}</h3>
         <div class="featured-event-meta">
             <p><strong>FREQUENCY:</strong> {{ event.frequency }}</p>
             <p><strong>WHEN:</strong> {{ event.time }}</p>
