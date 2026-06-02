@@ -42,7 +42,7 @@
 # Featuring an Event
 
 1. User submits a Featured Event Request form.
-2. Admin thoroughly reviews the **"Requests"** sheet in **"Featured Events"** spreadsheet to ensure it meets "featured" criteria.
+2. Admin thoroughly reviews the **"Requests"** sheet in **"Featured Groups"** spreadsheet to ensure it meets "featured" criteria.
     - Edit provided **Description** to remove redundant information (location, time, frequency, etc.).
     - It is **NOT necessary** to select a county in the dropdown.
     - Links should be verified working (click to see where they go).
@@ -53,9 +53,9 @@
 4. Refresh the page *(Open-page trigger does not appear to work on iOS Google Sheets app.)*.
 5. Script should populate the appropriate county.
     - If error, manually set the county and refresh the page.
-6. The row will be moved to the **"Featured Events"** sheet.
+6. The row will be moved to the **"Featured Groups"** sheet.
 7. It will appear with an **Enabled** status of `YES`, however, it is not yet on the site.
-8. The contents of the **"Featured Events"** sheet control all featured events on the site.
+8. The contents of the **"Featured Groups"** sheet control all featured groups on the site.
     - A script, **FeaturedEventYmlGenerator**, must be manually run to generate a YAML file.
     - The contents of this file must replace the contents of `featured_events.yml` in the `njboardgames` repo.
     - Automation for this step is still in progress.

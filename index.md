@@ -56,7 +56,7 @@ title: NJ Boardgames - New Jersey Board Game Meetups & Events
 
 <!-- MAP -->
 <section id="map">
-  <h2>Featured Events</h2>
+  <h2>Featured Groups</h2>
   <div class="map-container">
     <iframe 
       src="https://www.google.com/maps/d/u/0/embed?mid=1vtaDEGYIG0798Y2MpUdLngzJkLwYo6E&ehbc=2E312F&noprof=1"
