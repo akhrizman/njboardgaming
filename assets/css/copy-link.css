@@ -1,6 +1,8 @@
 /* Hide the link icon by default */
 .featured-event-name .copy-link {
-  visibility: hidden;
+  @media (min-width: 768px) {
+    visibility: hidden;
+  }
   padding: 4px 8px;
   text-decoration: none;
   font-size: 1.1em;
