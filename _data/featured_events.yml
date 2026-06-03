@@ -698,3 +698,16 @@ This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the f
   image_url: https://drive.google.com/thumbnail?id=1jF2-5OI7wC34n3Ij5cwdPQDZVaBgUUZ0&sz=w1000
   image_alt: Event banner
   description: We start gathering at Ladder 15 at 6pm and we can stay until it closes around 11pm. We usually have a crowd of 30+ people. We bring some board games, but we're also counting on many of you to bring some as well. Ladder 15 is a bar with drinks and standard bar fare so some of us eat dinner there too. All of the first floor tables are Reserved for us so we should be easy to find. Ask for Emma or Jose and we'll help introduce you & get you started board gaming with others from our MeetUp. You can also talk to our bartender Andy and he'll point you to us!
+
+- state: nj
+  county: somerset
+  enabled: true
+  id: bcjGildedRaven
+  title: Board Game Meetup @ Gilded Raven
+  frequency: SUNDAY, Weekly (occasionally SATURDAY)
+  time: "Afternoons: ~12:30PM-5:30PM (Times Vary)"
+  address: 120 Cedar Grove Ln, Somerset, NJ 08873
+  audience: Adults (18+)
+  organizer_name: Boardgaming Central Jersey
+  organizer_url: https://discord.gg/SPPUMBSc6p
+  description: "We mostly play heavy and medium Euros such as SETI, Brass: Burmingham, Great West Trail. We are a flexible group, therefore we adjust the time based on the availability of everyone who wants to attend. We use Discord to discuss what games to play, when the meetup happens and manage the RSVP. Be sure to join our Discord server. Learning the rules before the meetup is recommended but not required."
