@@ -588,7 +588,7 @@ This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the f
   enabled: true
   id: pttgMountaintop
   title: Game Day @ Mountaintop Lodge
-  frequency: 1st SUNDAY, 2nd SATURDAY, monthly
+  frequency: 1st SUNDAY, 2nd SATURDAY, Monthly
   time: "12:00PM - 6:00PM(Sun) / 8:00PM(Sat)"
   address: 2137 Route 940 Pocono Pines, PA 18350
   audience: Family Friendly (14+)
@@ -603,7 +603,7 @@ This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the f
   enabled: true
   id: pttgCloudCity
   title: Game Day @ Cloud City
-  frequency: 1st SUNDAY, 2nd SATURDAY, monthly
+  frequency: 1st SUNDAY, 2nd SATURDAY, Monthly
   time: "12:00PM - 6:00PM(Sun) / 8:00PM(Sat)"
   address: 344 Stroud Mall Rd Suite 136, Stroudsburg, PA 18360
   audience: Family Friendly (14+)
@@ -618,7 +618,7 @@ This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the f
   enabled: true
   id: pttgTomX
   title: Game Day @ Tom X Pub
-  frequency: 1st SUNDAY, 2nd SATURDAY, monthly
+  frequency: 1st SUNDAY, 2nd SATURDAY, Monthly
   time: "12:00PM - 6:00PM"
   address: 100 Tom X Rd, East Stroudsburg, PA 18302
   audience: Family Friendly (14+)
@@ -711,3 +711,16 @@ This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the f
   organizer_name: Boardgaming Central Jersey
   organizer_url: https://discord.gg/SPPUMBSc6p
   description: "We mostly play heavy and medium Euros such as SETI, Brass: Burmingham, Great West Trail. We are a flexible group, therefore we adjust the time based on the availability of everyone who wants to attend. We use Discord to discuss what games to play, when the meetup happens and manage the RSVP. Be sure to join our Discord server. Learning the rules before the meetup is recommended but not required."
+
+- state: nj
+  county: union
+  enabled: true
+  id: untiedBrewery
+  title: Board Games @ Untied Brewery
+  frequency: 1st THURSDAY, Monthly
+  time: "7:30PM - 10:00PM"
+  address: 140 Spring St Unit C, New Providence, NJ 07974
+  audience: Adults (18+)
+  organizer_name: Board Games at the Brewery (New Providence Library)
+  organizer_url: https://newprovidence.librarycalendar.com/events/month
+  description: Buy yourself a beer or soda and play a board game in the back room at Untied Brewing! Mark and Elizabeth will introduce you to a new board game every month that go beyond the usual suspects you grew up playing. We’ll play easy, quick to learn games like Otrio, Ticket to Ride, Catan, Sushi Go, Mysterium, and King of Tokyo. Feel free to bring your own board game to play/ teach others. And your friends!  This event is made possible by the Friends of New Providence Memorial Library.
