@@ -268,19 +268,6 @@ The library provides chips and cookies, but you are welcome to bring in your own
   description: Join us for our monthly Board Game Night. You can bring your own friends and games and use one of our tables. Or you can come and join a game that we are hosting or play one from our constantly growing game library. There is always plenty of room and plenty of fun. Snacks are set out as well.
 
 - state: nj
-  county: hudson
-  enabled: false
-  id: jcbcZeppelinHall
-  title: Beers and Board Games @ Zeppelin Hall
-  frequency: Monthly
-  time: "12:30PM - 6:00PM or closing"
-  address: 88 Liberty View Dr., Jersey City, NJ 07302
-  audience: Adults (21+)
-  organizer_name: Jersey City Boardgames & Cardgames
-  organizer_url: https://www.facebook.com/groups/JCboardgames/events
-  description: Welcome one and all to our gaming group in the burgeoning neighborhood of Jersey City! Old and New, Euro or Ameritrash, Strategic or Party style, we invite you to join us as we play games and get the word out about this great hobby. We try to meet regularly to play games in Jersey City, NJ on a monthly schedule but by no means have to be the only ones! Venues that serve alcohol will require 21 and older verification.
-
-- state: nj
   county: hunterdon
   enabled: true
   id: itHappensPanera
@@ -574,7 +561,7 @@ Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 
   title: Game Night @ Shoprite
   frequency: MONDAY, Weekly
   time: "6:00PM - 11:00PM"
-  address: 3166 U.S. 22, Branchburg, NJ 08876
+  address: ShopRite of Branchburg, 3166 U.S. 22, Branchburg, NJ 08876
   audience: Family Friendly
   organizer_name: Boardgames NJ Meetup Group
   organizer_url: https://www.meetup.com/boardgamesnj/events/
@@ -724,3 +711,18 @@ This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the f
   organizer_name: Board Games at the Brewery (New Providence Library)
   organizer_url: https://newprovidence.librarycalendar.com/events/month
   description: Buy yourself a beer or soda and play a board game in the back room at Untied Brewing! Mark and Elizabeth will introduce you to a new board game every month that go beyond the usual suspects you grew up playing. We’ll play easy, quick to learn games like Otrio, Ticket to Ride, Catan, Sushi Go, Mysterium, and King of Tokyo. Feel free to bring your own board game to play/ teach others. And your friends!  This event is made possible by the Friends of New Providence Memorial Library.
+
+- state: nj
+  county: hudson
+  enabled: true
+  id: hbgZeppelinHall
+  title: Beers & Board Games @ Zeppelin Hall
+  frequency: Monthly
+  time: "12:00PM - 5:00PM"
+  address: Zeppelin Hall, 88 Liberty View Dr., Jersey City, NJ 07302
+  audience: Adults (21+)
+  organizer_name: Hudson Board Games
+  organizer_url: https://discord.gg/Q3ayjXfCWe
+  image_url: https://www.facebook.com/photo/?fbid=10101554335067022&set=g.466204670148037
+  image_alt: Event banner
+  description: "BOARD GAMES, DRINKS, and FOOD. Invite your family, friends, co-workers anyone interested in playing some friendly board games. Bring a game, request a game, or just come without a game and join a game when you get there. Usually in the first room with plenty of light. There is more space in second room near at the tables near the windows and the bathrooms. There is free parking in the big lot across the LightRail tracks. Conveniently close to PATH, LightRail, and Ferries."
