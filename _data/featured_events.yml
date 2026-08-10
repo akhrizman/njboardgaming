@@ -463,7 +463,7 @@ Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 
 
 - state: nj
   county: monmouth
-  enabled: false
+  enabled: true
   id: holyInnocents
   title: Board Game Night @ Holy Innocents Spiritual Center
   frequency: FRIDAY, Monthly
