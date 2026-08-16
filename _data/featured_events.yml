@@ -725,5 +725,19 @@ This meetup is held at the Shoprite along Hwy 22 in Branchburg. We meet in the f
   organizer_url: https://discord.gg/Q3ayjXfCWe
   image_url: https://drive.google.com/thumbnail?id=1WtXZfyodtzrZvGP98BvnRCwr8NZf1_YW&sz=w1000
   image_alt: Event banner
-  description: "BOARD GAMES, DRINKS, and FOOD. Invite your family, friends, co-workers anyone interested in playing some friendly board games. Bring a game, request a game, or just come without a game and join a game when you get there. Usually in the first room with plenty of light. There is more space in second room near at the tables near the windows and the bathrooms. There is free parking in the big lot across the LightRail tracks. Conveniently close to PATH, LightRail, and Ferries."
+  description: "BOARD GAMES, DRINKS, and FOOD. Invite your family, friends, co-workers anyone interested in playing some friendly board games. Bring a game, request a game, or just come without a game and join a game when you get there.
 
+Usually in the first room with plenty of light. There is more space in second room near at the tables near the windows and the bathrooms. There is free parking in the big lot across the LightRail tracks. Conveniently close to PATH, LightRail, and Ferries."
+
+- state: pa
+  county: philadelphia
+  enabled: true
+  id: prhHigherGrounds
+  title: Board Game Day @ Higher Grounds
+  frequency: SUNDAY, Weekly
+  time: "1:00PM - 4:00PM"
+  address: 631 N 3rd St, Philadelphia, PA 19123
+  audience: Family Friendly
+  organizer_name: Philly Random Happenings
+  organizer_url: https://www.meetup.com/randominphilly/events
+  description: "Each week is a featured game or theme, publicised at least one week in advance. Plenty of games onsite plus bring what you'd like! Family-friendly, chill and cozy atmosphere. Check the meetup group since one Sunday of each month we run a sci-fi- movie discussion group instead. + Great food / drinks!"
