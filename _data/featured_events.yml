@@ -503,19 +503,6 @@ Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 
   description: Bring your friends for a night of fun and laughter! We've got a wide selection of games to choose from, BYOGame if you'd like. Junior's game group starts at 7pm. No cover but you could support us and purchase some snacks/beverages!
 
 - state: nj
-  county: monmouth
-  enabled: true
-  id: j2gamesManalapan
-  title: Board Game Meet & Hangout @ J2Games Manalapan
-  frequency: "SATURDAY, BI-Weekly"
-  time: "5:00PM - 9:00PM"
-  address: "356 US-9, Manalapan, NJ 07726"
-  audience: Family Friendly
-  organizer_name: J2 Games Manalapan Store
-  organizer_url: https://j2games.com/pages/events
-  description: Bring your favorite board game and enjoy an evening of fun with fellow board game fans. Whether you're a seasoned player or just getting started, everyone is welcome. Come hang out, share your favorite games, and meet others who love board games as much as you do!
-
-- state: nj
   county: morris
   enabled: true
   id: tipsyMeeple
