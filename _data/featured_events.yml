@@ -235,10 +235,10 @@ Hope to see you there!"
   organizer_url: https://events.eopl.org/calendar?cid=19881
   image_url: https://drive.google.com/thumbnail?id=1rvPTQWYP17GTcsx8vDpzGy1gh8iteigf&sz=w1000
   image_alt: Event banner
-  description: "EOPL hosts a monthly game day. This is a casual social get together.
+  description: "EOPL hosts a monthly game day. This is a casual social get together. 
 Test your skills at trick taking card games, TTRPGs, or a collaborative cozy board game. Improve your expertise, make new friends, and have a fun afternoon with family or friends. This is a free adult program. 18+. Registration required.
 Games we've played: Taco, cat, goat, cheese, pizza; Beat the heat; Flip 7; Blank Slate; Hues and Cues; Wingspan; King of Tokyo; Between two cities; The Red Dragon Inn; Flamecraft; Sequence.
-See a full list of games the library owns, and games that our librarian owns (and can bring in to play): <a href=\"https://docs.google.com/spreadsheets/d/1bAWkSpPra34opvde_J5fg1_JCbwQ2ORbzO2PoxwC500/edit?usp=sharing\" target=\"_blank\" aria-label=\"Events\">EOPL Game Collection</a>
+See a full list of games the library owns, and games that our librarian owns (and can bring in to play): <a href=\"https://docs.google.com/spreadsheets/d/1bAWkSpPra34opvde_J5fg1_JCbwQ2ORbzO2PoxwC500/edit?usp=sharing\" target=\"_blank\" aria-label=\"Events\">EOPL Game Collection</a> 
 The library provides chips and cookies, but you are welcome to bring in your own snacks."
 
 - state: nj
@@ -258,14 +258,14 @@ The library provides chips and cookies, but you are welcome to bring in your own
   county: gloucester
   enabled: true
   id: abundantLivingChurch
-  title: Community Board Game Night @ Abundant Living Church
+  title: Community Board Game Nite @ Abundant Living Church
   frequency: Last FRIDAY, Monthly
   time: "6:00PM - 11:00PM"
-  address: "849 NJ-54, Williamstown, NJ 08094"
-  audience: Check with Organizer
-  organizer_name: South Jersey Board Gaming League
-  organizer_url: https://www.facebook.com/groups/SJGamingLeague/events
-  description: Join us for our monthly Board Game Night. You can bring your own friends and games and use one of our tables. Or you can come and join a game that we are hosting or play one from our constantly growing game library. There is always plenty of room and plenty of fun. Snacks are set out as well.
+  address: Abundant Living Church, 849 Rt. 54, Williamstown, NJ 08095
+  audience: Family Friendly (12+)
+  organizer_name: Underground 54
+  organizer_url: https://www.facebook.com/groups/420606696814200/events
+  description: If you are in the South Jersey area tonight, why not come out and have some fun! A monthly Board Game Night for the community. You can bring your own friends and games and use one of our tables. Or you can come and join a game that we are hosting or one from our constantly growing game library. We have great people who are always willing to teach you a new game. Snacks are set out as well. There is always plenty of room and plenty of games and fun for everyone!
 
 - state: nj
   county: hunterdon
@@ -501,6 +501,19 @@ Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 
   organizer_name: Keyport FunHouse Boutique
   organizer_url: https://www.facebook.com/profile.php?id=61573259611330&sk=upcoming_hosted_events
   description: Bring your friends for a night of fun and laughter! We've got a wide selection of games to choose from, BYOGame if you'd like. Junior's game group starts at 7pm. No cover but you could support us and purchase some snacks/beverages!
+
+- state: nj
+  county: monmouth
+  enabled: false
+  id: j2gamesManalapan
+  title: Board Game Meet & Hangout @ J2Games Manalapan
+  frequency: "SATURDAY, BI-Weekly"
+  time: "5:00PM - 9:00PM"
+  address: "356 US-9, Manalapan, NJ 07726"
+  audience: Family Friendly
+  organizer_name: J2 Games Manalapan Store
+  organizer_url: https://j2games.com/pages/events
+  description: Bring your favorite board game and enjoy an evening of fun with fellow board game fans. Whether you're a seasoned player or just getting started, everyone is welcome. Come hang out, share your favorite games, and meet others who love board games as much as you do!
 
 - state: nj
   county: morris
