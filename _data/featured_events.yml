@@ -359,7 +359,7 @@ We will use a few of the tables at the Panera to play some board games! I will b
   organizer_url: https://www.facebook.com/groups/monmouthboardgameenthusiasts/events
   image_url: https://drive.google.com/thumbnail?id=1HvsaLCf-8UCDPbAm1_CCB2ZJ_4MHiZ8E&sz=w1000
   image_alt: Event banner
-  description: "We will have beginner games like Sushi Go!, Splendor, Carcassonne, Ticket to Ride, Catan, & Codenames, as well as more advanced games like Wingspan and Everdell. Our typical turn-out is anywhere between 15-25. For people familiar with the hobby, feel free to bring your own games if you'd like. If you don't know how to play a game, we'll teach you! You should not expect to see anything mainstream like Monopoly, Scrabble, Boggle, Risk, Battleship, Yahtzee, or Poker. Anyone age 14 and up who is interested in playing great games with great people! Age 8 and up if accompanied by a participating adult and able to learn & play age 8+ games. If you don't use facebook, you can also search the <a href=\"https://oldbridgelibrary.events.mylibrary.digital/\" target=\"_blank\" aria-label=\"Events\">Old Bridge Public Library Events Calendar</a> for \"Modern Boardgaming Get Together\""
+  description: "Join us for an afternoon of gaming. The first 20-30 mintues are reserved for people to catch up, chat boardgames, decide on games, and welcome new attendees.  Please arrive by 12:30 to ensure you have a seat. We play beginner games like Sushi Go!, Splendor, Carcassonne, Ticket to Ride, Catan, & Codenames, as well as more advanced games like Wingspan & Everdell. Our typical turn-out is around 30 people. Anyone age 14 and up who is interested in playing great games with great people! Age 8 and up if accompanied by a participating adult and able to learn & play age 8+ games. If you don't use facebook, you can also search the <a href=\"https://oldbridgelibrary.events.mylibrary.digital/\" target=\"_blank\" aria-label=\"Events\">Old Bridge Public Library Events Calendar</a> for \"Modern Boardgaming Get Together\""
 
 - state: nj
   county: middlesex
@@ -463,7 +463,7 @@ Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 
 
 - state: nj
   county: monmouth
-  enabled: true
+  enabled: false
   id: holyInnocents
   title: Board Game Night @ Holy Innocents Spiritual Center
   frequency: FRIDAY, Monthly
@@ -501,8 +501,7 @@ Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 
   organizer_name: Keyport FunHouse Boutique
   organizer_url: https://www.facebook.com/profile.php?id=61573259611330&sk=upcoming_hosted_events
   description: "Bring your friends for a night of fun and laughter! We've got a wide selection of games to choose from, BYOGame if you'd like. Junior's game group starts at 7pm. No cover but you could support us and purchase some snacks/beverages!
-
-OVERVIEW BY NEW ATTENDEES: 
+OVERVIEW BY NEW ATTENDEES:
 The in-house game collection consist of mass market party games like Cards Against Humanity & Candyland. 4 attendees who found the event via NJBoardgames noted that no group came at 7pm, and nothing was communicated about a cancellation on the organizer’s FB page.  The 7pm host, Junior, had actually arrived at some point in the evening but did not acknowledge the new attendees playing small box games, suggesting that the 7pm group may actually be private group."
 
 - state: nj
