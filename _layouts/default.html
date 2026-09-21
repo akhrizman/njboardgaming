@@ -27,6 +27,11 @@
     <link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}">
     {% endif %}
 
+    <!-- Today's Events page -->
+    {% if page.layout == 'today' %}
+    <script src="{{ '/assets/js/today-events.js' | relative_url }}" defer></script>
+    {% endif %}
+
     <!-- For indexing purposes -->
     <link rel="canonical" href="https://njboardgames.com{{ page.url }}">
 

@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+{% include nav-conventions.html %}
+
+<!-- CAROUSEL -->
+<div class="carousel">
+    <div class="carousel-track">
+        <div class="carousel-slide text-slide">
+            <h2>Today's Events</h2>
+            <p>Local tabletop gaming groups and events</p>
+        </div>
+    </div>
+</div>
+
+<section id="events">
+  <h2>Today's Events</h2>
+  <p>
+    Events from all county calendars happening today,
+    <span id="today-date-label"></span>.
+    Always confirm details with the organizer.
+    To add an event, see our
+    <a href="{{ '/faq/#how-to-add-event' | relative_url }}">FAQ</a>.
+  </p>
+  <br>
+
+  <div class="events-filters">
+    <input
+      type="text"
+      id="filter-events-search"
+      placeholder="Search title, description, address, or county"
+      aria-label="Search events"
+    >
+    <div class="events-filters-row">
+      <label class="events-filter-checkbox">
+        <input type="checkbox" id="filter-featured-only">
+        Only Show Featured
+      </label>
+      <button type="button" id="filter-events-reset">Reset</button>
+    </div>
+  </div>
+
+  <div id="loading">Loading today's events from all counties...</div>
+  <div id="error" style="display:none; color:red;"></div>
+  <div id="events-filter-empty" style="display:none;">No events match your current filters.</div>
+  <div id="events-container"></div>
+</section>
+
+<div id="copy-toast">Link copied</div>
+
+{% include connect.html %}
+
+<script id="all-calendars-data" type="application/json">
+[
+{% assign first = true %}
+{% for state in site.data.counties %}
+  {% for county in state[1] %}
+    {% if county.active and county.calendar_id %}
+      {% unless first %},{% endunless %}
+      {
+        "name": {{ county.display_name | jsonify }},
+        "slug": {{ county.slug | jsonify }},
+        "state": {{ county.state | jsonify }},
+        "calendar_id": {{ county.calendar_id | jsonify }}
+      }
+      {% assign first = false %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+]
+</script>
