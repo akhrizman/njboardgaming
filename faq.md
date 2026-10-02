@@ -9,11 +9,6 @@ permalink: /faq/
     <p>NJ Boardgames is a community-driven hub for tabletop gamers across New Jersey. We list a variety of in-person tabletop gaming events. We encourage "free, open, general board gaming" so we emphasize and highlight those events. We also list niche tabletop gaming events like RPGs, CCGs, Warhammer, as well as single-game events like Scrabble, Rummikub, Chess, etc. We are not affiliated with the individual groups, venues, or their platforms; we simply help surface local options for you.</p>
 </section>
 
-<section class="faq-item" id="about-the-developers">
-    <h2>Who runs this site?</h2>
-    <p>We are two board gamers passionate about growing our community by promoting the hobby and bringing gamers together. We both live and play in Monmouth County, New Jersey and have been organizing public events and meetups for over a decade. This site's success depends on continued engagement from organizers.</p>
-</section>
-
 <section class="faq-item" id="how-to-find-events">
     <h2>How do I find events in my area?</h2>
     <p>From our <a href="{{ '/' | relative_url }}#gaming">homepage</a>, choose your county. Each county page shows a list of upcoming events pulled from our calendars. Highlighted events are ones that meet the criteria for being <a href="#what-are-featured-events">featured</a>. At this time, organizers can add events to our site but must contact us to have them removed, in case some listed events have changed or been cancelled. Always check the organizer’s site or social media for the latest details, RSVP rules, and holiday exceptions or cancellations.</p>
@@ -51,6 +46,11 @@ permalink: /faq/
 <section class="faq-item" id="event-cancelled">
     <h2>I need to cancel my event or the details have changed. What should I do?</h2>
     <p>We get event info from organizers based on what they have provided on their own platforms (Facebook, Meetup, Website, etc.). If your event has been cancelled, your location or time has changed, or any other details need updating, please <a href="mailto:info@njboardgames.com">contact us</a> and we’ll update or remove it as needed.</p>
+</section>
+
+<section class="faq-item" id="about-the-developers">
+    <h2>Who runs this site?</h2>
+    <p>We are two board gamers passionate about growing our community by promoting the hobby and bringing gamers together. We both live and play in Monmouth County, New Jersey and have been organizing public events and meetups for over a decade. This site's success depends on continued engagement from organizers.</p>
 </section>
 
 <section class="faq-item" id="contact">
