@@ -21,12 +21,17 @@ permalink: /faq/
 
 <section class="faq-item" id="what-are-featured-events">
     <h2>What is a "FEATURED EVENT" and why are they highlighted?</h2>
-    <p>At NJ Boardgames, we want to emphasize events that foster accessibility to the board gaming hobby. We highlight them in the list of Upcoming Events. Information for these events will also have a permanent place on the site. To be featured, an event must meet the following criteria: </p>
+    <p>At NJ Boardgames, we want to emphasize events that foster accessibility to the board gaming hobby. We highlight them in the list of Upcoming Events with a blue background and a banner. Information for these events will also have a permanent place on the site. To be featured, an event must meet the following criteria: </p>
     <ul>
         <li><strong>FREE!</strong> Organizers may still request donations or ask that you support their venue (e.g. buying food or drinks) but they may not turn you away if you don't.</li>
         <li><strong>Open to the general public.</strong> Family Friendly, 18+, or 21+ events are ok. (Kids Only, Singles Only, 55+, etc. are exclusive and won't be featured)</li>
         <li><strong>Board Gaming.</strong> A variety of games must be played, but organizers can still specify a category like "Party Games" or "Medium-Heavy".</li>
         <li><strong>Recurring.</strong> The event must occur at least 4 times a year.</li>
+    </ul>
+    <p>All featured groups should have actual events listed on our site. To remain featured, your group must either:</p>
+    <ul>
+        <li>have a recurring event that occurs on a predictable schedule (i.e. "MONDAY, weekly", "2nd SUNDAY, monthly", "TUESDAY, bi-weekly", etc.).  We will add your recurring event to the county's calendar, and you should let us know which dates to remove as they arise.</li>
+        <li>or <strong>regularly list your events</strong> via the code we provided you.  Use the <a href="{{ '/featured-event' | relative_url }}">Event Request - Featured</a> form to submit each event.</li>
     </ul>
 </section>
 
