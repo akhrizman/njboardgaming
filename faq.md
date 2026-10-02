@@ -6,12 +6,22 @@ permalink: /faq/
 
 <section class="faq-item" id="what-is-njb">
     <h2>What is NJ Boardgames?</h2>
-    <p>NJ Boardgames is a community-driven hub for tabletop gamers across New Jersey. We list a variety of in-person tabletop gaming events. We encourage "free, open, general board gaming" so we emphasize and highlight those events. We also list niche tabletop gaming events like RPGs, CCGs, Warhammer, as well as single-game events like Scrabble, Rummikub, Chess, etc. We are not affiliated with the individual groups, venues, or their platforms; we simply help surface local options for you.</p>
+    <p>NJ Boardgames is a community-driven hub for tabletop gamers across New Jersey. 
+        We list a variety of in-person tabletop gaming events. We encourage "free, open, 
+        general board gaming" so we emphasize and highlight those events. We also list niche 
+        tabletop gaming events like RPGs, CCGs, Warhammer, as well as single-game events like 
+        Scrabble, Rummikub, Chess, etc. We are not affiliated with the individual groups, 
+        venues, or their platforms; we simply help surface local options for you.</p>
 </section>
 
 <section class="faq-item" id="how-to-find-events">
     <h2>How do I find events in my area?</h2>
     <p>From our <a href="{{ '/' | relative_url }}#gaming">homepage</a>, choose your county. Each county page shows a list of upcoming events pulled from our calendars. Highlighted events are ones that meet the criteria for being <a href="#what-are-featured-events">featured</a>. At this time, organizers can add events to our site but must contact us to have them removed, in case some listed events have changed or been cancelled. Always check the organizer’s site or social media for the latest details, RSVP rules, and holiday exceptions or cancellations.</p>
+</section>
+
+<section class="faq-item" id="what-events-allowed">
+    <h2>What kinds of events are allowed on the site?</h2>
+    <p>We list <strong>in-person</strong> tabletop gaming events including but not limited to general board games, RPGs, CCGs, Chess, Scrabble, design and playtesting, etc. We also have a dedicated section for conventions with open gaming. Clubs that charge long term membership are okay if they offer a way for new people to try it out. We do not list events that are online-only or those located at private residences, workplaces, or undisclosed locations. We also do not list sales, auctions, or anything that requires non-gaming participation (e.g. religious or promotional content).</p>
 </section>
 
 <section class="faq-item" id="what-are-featured-events">
@@ -22,17 +32,12 @@ permalink: /faq/
         <li><strong>Open to the general public.</strong> Family Friendly, 18+, or 21+ events are ok. (Kids Only, Singles Only, 55+, etc. are exclusive and won't be featured)</li>
         <li><strong>Board Gaming.</strong> A variety of games must be played, but organizers can still specify a category like "Party Games" or "Medium-Heavy".</li>
         <li><strong>Recurring.</strong> The event must occur at least 4 times a year.</li>
-    </ul>
-    <p>All featured groups should have actual events listed on our site. To remain featured, your group must either:</p>
+    </ul><br>
+    <p>All featured groups should have upcoming events listed on our site. To remain featured, your group must either:</p>
     <ul>
         <li>have a recurring event that occurs on a predictable schedule (i.e. "MONDAY, weekly", "2nd SUNDAY, monthly", "TUESDAY, bi-weekly", etc.).  We will add your recurring event to the county's calendar, and you should let us know which dates to remove as they arise.</li>
-        <li>or <strong>regularly list your events</strong> via the code we provided you.  Use the <a href="{{ '/featured-event' | relative_url }}">Event Request - Featured</a> form to submit each event.</li>
+        <li>or <strong>regularly list your events</strong> via the code we provide you when you get featured.  Use the <a href="{{ '/featured-event' | relative_url }}">Event Request - Featured</a> form to submit each event.</li>
     </ul>
-</section>
-
-<section class="faq-item" id="what-events-allowed">
-    <h2>What kinds of events are allowed on the site?</h2>
-    <p>We list <strong>in-person</strong> tabletop gaming events including but not limited to general board games, RPGs, CCGs, Chess, Scrabble, design and playtesting, etc. We also have a dedicated section for conventions with open gaming. Clubs that charge long term membership are okay if they offer a way for new people to try it out. We do not list events that are online-only or those located at private residences, workplaces, or undisclosed locations. We also do not list sales, auctions, or anything that requires non-gaming participation (e.g. religious or promotional content).</p>
 </section>
 
 <section class="faq-item" id="how-to-add-event">

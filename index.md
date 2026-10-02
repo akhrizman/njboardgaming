@@ -76,7 +76,8 @@ title: NJ Boardgames - New Jersey Board Game Meetups & Events
         and seasoned gamers an easy way to discover local in-person boardgame meet ups and clubs.
         Whether you're into heavy euro, deckbuilding, social deduction, or party games,
         our goal is to connect players with local groups and events throughout the state.
-        Due to its accessibility for new hobbyists, our emphasis is on modern boardgames. On the county pages, we will feature regularly occuring, general boardgaming events which are free and open to the general public. However,
-        our platform may still be used to promote niche gaming events within the scope of tabletop gaming.
+        Due to its accessibility for new hobbyists, our emphasis is on modern boardgames. 
+        We list all table-top gaming events no matter how niche, but we highlight regularly occuring, 
+        general boardgaming events which are free and open to the general public.
     </p>
 </section>
