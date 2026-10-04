@@ -359,7 +359,7 @@ We will use a few of the tables at the Panera to play some board games! I will b
   organizer_url: https://www.facebook.com/groups/monmouthboardgameenthusiasts/events
   image_url: https://drive.google.com/thumbnail?id=1HvsaLCf-8UCDPbAm1_CCB2ZJ_4MHiZ8E&sz=w1000
   image_alt: Event banner
-  description: "Join us for an afternoon of gaming. The first 20-30 mintues are reserved for people to catch up, chat boardgames, decide on games, and welcome new attendees.  Please arrive by 12:30 to ensure you have a seat. We play beginner games like Sushi Go!, Splendor, Carcassonne, Ticket to Ride, Catan, & Codenames, as well as more advanced games like Wingspan & Everdell. Our typical turn-out is around 30 people. Anyone age 14 and up who is interested in playing great games with great people! Age 8 and up if accompanied by a participating adult and able to learn & play age 8+ games. If you don't use facebook, you can also search the <a href=\"https://oldbridgelibrary.events.mylibrary.digital/\" target=\"_blank\" aria-label=\"Events\">Old Bridge Public Library Events Calendar</a> for \"Modern Boardgaming Get Together\""
+  description: "Join us for an afternoon of gaming. The first 20-30 mintues are reserved for people to catch up, chat boardgames, decide on games, and welcome new attendees.  Please arrive by 12:30 to ensure you have a seat. We play beginner games like Sushi Go!, Splendor, Carcassonne, Ticket to Ride, Catan, & Codenames, as well as more advanced games like Wingspan & Everdell. Our typical turn-out is usually around people. For people familiar with the hobby, feel free to bring your own games if you'd like. If you don't know how to play a game, we'll teach you! Anyone age 14 and up who is interested in playing great games with great people! Age 8 and up if accompanied by a participating adult and able to learn & play age 8+ games. If you don't use facebook, you can also search the <a href=\"https://oldbridgelibrary.events.mylibrary.digital/\" target=\"_blank\" aria-label=\"Events\">Old Bridge Public Library Events Calendar</a> for \"Modern Boardgaming Get Together\""
 
 - state: nj
   county: middlesex
@@ -500,9 +500,7 @@ Command of Nature (for 2-4 players, ages 10+), Mariposas (for 2-5 players, ages 
   audience: Adults (18+)
   organizer_name: Keyport FunHouse Boutique
   organizer_url: https://www.facebook.com/profile.php?id=61573259611330&sk=upcoming_hosted_events
-  description: "Bring your friends for a night of fun and laughter! We've got a wide selection of games to choose from, BYOGame if you'd like. Junior's game group starts at 7pm. No cover but you could support us and purchase some snacks/beverages!
-<br><br>OVERVIEW BY NEW ATTENDEES:<br>
-The in-house game collection consist of mass market party games like Cards Against Humanity & Candyland. 4 attendees who found the event via NJBoardgames noted that no group came at 7pm, and nothing was communicated about a cancellation on the organizer’s FB page.  The 7pm host, Junior, had arrived at some point in the evening but did not acknowledge the new attendees playing small box games, suggesting that the 7pm group may actually be private group."
+  description: "Bring your friends for a night of fun and laughter! We've got a wide selection of games to choose from, BYOGame if you'd like. Junior's game group starts at 7pm. No cover but you could support us and purchase some snacks/beverages! <br><br>OVERVIEW BY NEW ATTENDEES:<br> The in-house game collection consist of mass market party games like Cards Against Humanity & Candyland. 4 attendees who found the event via NJBoardgames noted that no group came at 7pm, and nothing was communicated about a cancellation on the organizer’s FB page.  The 7pm host, Junior, had arrived at some point in the evening but did not acknowledge the new attendees playing small box games, suggesting that the 7pm group may actually be private group."
 
 - state: nj
   county: monmouth
@@ -528,7 +526,7 @@ The in-house game collection consist of mass market party games like Cards Again
   audience: Adults (18+)
   organizer_name: The Tipsy Meeple
   organizer_url: https://www.meetup.com/thetipsymeeple/events/
-  description: Whether you're looking for something new and different, or you're a seasoned gamer, you'll find a friendly and welcoming bunch of friends to game with. We bring some of our games but feel free to bring your favorites, or, learn one of ours! Don't be shy about learning new games either, everyone is more than willing to teach new players! We encourage everyone to stay home if you are feeling ill and do your best to protect your fellow gamers. We want to make sure that everyone is safe, healthy, and included so please be respectful of your fellow players. <br><br>OVERVIEW BY NEW ATTENDEES:<br> A wide collections of games were being played by 40+ people across at least a dozen tables.  FREE PARKING! The location appeared to have paid parking, but the host confirmed it was only for overnight guests.
+  description: "Whether you're looking for something new and different, or you're a seasoned gamer, you'll find a friendly and welcoming bunch of friends to game with. We bring some of our games but feel free to bring your favorites, or, learn one of ours! Don't be shy about learning new games either, everyone is more than willing to teach new players! We encourage everyone to stay home if you are feeling ill and do your best to protect your fellow gamers. We want to make sure that everyone is safe, healthy, and included so please be respectful of your fellow players. <br><br>OVERVIEW BY NEW ATTENDEES:<br> A wide collections of games were being played by 40+ people across at least a dozen tables.  FREE PARKING! The location appeared to have paid parking, but the host confirmed it was only for overnight guests."
 
 - state: nj
   county: ocean
@@ -745,3 +743,63 @@ Usually in the first room with plenty of light. There is more space in second ro
   image_url: https://drive.google.com/thumbnail?id=1BTzTpVkkmJHdVFaZp_UFn87vKrpErynk&sz=w1000
   image_alt: Event banner
   description: "Each week is a featured game or theme, publicised at least one week in advance. Plenty of games onsite plus bring what you'd like! Family-friendly, chill and cozy atmosphere. Check the meetup group since one Sunday of each month we run a sci-fi- movie discussion group instead. + Great food / drinks!"
+
+- state: nj
+  county: somerset
+  enabled: true
+  id: beardedDragon
+  title: Board Game Night @ The Bearded Dragon
+  frequency: WEDNESDAY, Weekly
+  time: "6:00PM - 10:00PM"
+  address: 123 Claremont Road, Bernardsville, NJ 07924
+  audience: Family Friendly
+  organizer_name: The Bearded Dragon
+  organizer_url: https://www.facebook.com/TheBeardedDragonGames/events
+  description: "The Bearded Dragon is excited to host our local board game community for an open night of free tabletop gaming! Players are welcome to arrive anytime during free play hours, though we recommend getting to the store by 7:00 PM to help groups coordinate games.
+
+This is a great opportunity to enjoy a classic hobby with friends and family or meet new people within the local gaming community. There is no formal tournament structure or weekly staff-run event. Just show up, find a game, and play!
+Bring your own games or try one of the many titles available in our store and playroom. Our playroom features a large wall of free-to-play board games available for guests to enjoy during the event, and we also carry over 600 board game titles in-store for anyone looking to browse, discover something new, or expand their collection.
+
+We highly recommend joining our Discord and posting your Wednesday availability in the board game section along with any games you’d like to bring or try at the store. This helps players coordinate groups and set up games ahead of time.
+Join the <a href=\"https://discord.gg/7HY3nbcttd\" target=\"_blank\" aria-label=\"Events\">Beared Dragon Discord</a>"
+
+- state: nj
+  county: middlesex
+  enabled: true
+  id: metuchenPublicLibrary
+  title: Adult Board Game Night @ Metuchen Public Library
+  frequency: 1st TUESDAY, Monthly
+  time: "6:30PM - 8:00PM"
+  address: 480 Middlesex Avenue, Metuchen, NJ 08840
+  audience: Family Friendly (13+)
+  organizer_name: Metuchen Public Library
+  organizer_url: https://www.metuchenlibrary.org/event-calendar/categories/adults/
+  description: Join fellow board game enthusiasts in the community to play a variety of games. Attendees are encouraged to bring their own board games! Adults and teens are welcome. Registration not required.
+
+- state: nj
+  county: middlesex
+  enabled: true
+  id: plainsboroPublicLibrary
+  title: Tabletop Game Party for All Ages @ Plainsboro Public Libary
+  frequency: 3rd WEDNESDAY, Monthly
+  time: "6:00PM - 7:15PM"
+  address: 9 Van Doren St., Plainsboro, NJ 08536
+  audience: Family Friendly
+  organizer_name: Plainsboro Public Library
+  organizer_url: https://plainsborolibrary.events.mylibrary.digital/
+  description: We welcome you to enjoy an evening of playing tabletop and strategy games with light snacks. The library will provide several games, or you're welcome to bring your own. Join as individuals or groups. All ages are welcome. Please register for each event either with your library account or as guest.
+
+- state: nj
+  county: somerset
+  enabled: true
+  id: middlemistMead
+  title: Bring Your Own Board Game Night @ Middlemist
+  frequency: MONDAY, Weekly
+  time: "5:00PM - 11:00PM"
+  address: 30 E Main St, Somerville, NJ 08876
+  audience: Family Friendly (16+)
+  organizer_name: Middlemist Mead
+  organizer_url: https://www.facebook.com/profile.php?id=61587349466380
+  description: "We’re hosting Board Game Night again! Invite your friends to the meadery and bring your own games OR choose from our catalogue. For chess-minded folks, we have chessboards and timers for everyone of all skill levels to use.
+
+There is no fee to participate, but we do encourage attendees to make a purchase. We’ll have mead, hard cider, and non-alcoholic sodas available, as well as a limited café menu for our nighttime crowd, including pastries and prepackaged snacks for sale. Feel free to bring your own food!"
