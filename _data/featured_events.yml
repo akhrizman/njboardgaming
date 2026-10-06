@@ -790,3 +790,16 @@ Join the <a href=\"https://discord.gg/7HY3nbcttd\" target=\"_blank\" aria-label=
   description: "We’re hosting Board Game Night again! Invite your friends to the meadery and bring your own games OR choose from our catalogue. For chess-minded folks, we have chessboards and timers for everyone of all skill levels to use.
 
 There is no fee to participate, but we do encourage attendees to make a purchase. We’ll have mead, hard cider, and non-alcoholic sodas available, as well as a limited café menu for our nighttime crowd, including pastries and prepackaged snacks for sale. Feel free to bring your own food!"
+
+- state: nj
+  county: union
+  enabled: true
+  id: cranfordCrepesAndCo
+  title: Family & Friends Game Night @ Crepes & Co.
+  frequency: THURSDAY, Weekly
+  time: "5:00PM - 8:00PM"
+  address: 103 Miln Street, Cranford, NJ 07016
+  audience: Family Friendly
+  organizer_name: Crepes & Co.
+  organizer_url: https://www.facebook.com/profile.php?id=61575245740408&sk=events
+  description: Our official "Family Game Night" happens every Thursday! Bring your family, friends, or your favorite game partner and enjoy a night full of laughter, great food, open kitchen vibes, music, and unforgettable memories. And yes ... feel free to bring your favorite game too! Just relax and have fun, our café is the perfect place to connect, play, and enjoy the night together.
