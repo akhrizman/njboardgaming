@@ -806,7 +806,7 @@ There is no fee to participate, but we do encourage attendees to make a purchase
 
 - state: nj
   county: union
-  enabled: false
+  enabled: true
   id: cranfordCrepesAndCo
   title: Family & Friends Game Night @ Crepes & Co.
   frequency: THURSDAY, Weekly
