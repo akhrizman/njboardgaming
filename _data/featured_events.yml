@@ -806,7 +806,7 @@ There is no fee to participate, but we do encourage attendees to make a purchase
 
 - state: nj
   county: union
-  enabled: true
+  enabled: false
   id: cranfordCrepesAndCo
   title: Family & Friends Game Night @ Crepes & Co.
   frequency: THURSDAY, Weekly
@@ -816,3 +816,17 @@ There is no fee to participate, but we do encourage attendees to make a purchase
   organizer_name: Crepes & Co.
   organizer_url: https://www.facebook.com/profile.php?id=61575245740408&sk=events
   description: Our official "Family Game Night" happens every Thursday! Bring your family, friends, or your favorite game partner and enjoy a night full of laughter, great food, open kitchen vibes, music, and unforgettable memories. And yes ... feel free to bring your favorite game too! Just relax and have fun, our café is the perfect place to connect, play, and enjoy the night together.
+
+- state: nj
+  county: monmouth
+  enabled: true
+  id: barBellaBellworks
+  title: Sip, Socialize, and Play @ Bar Bella
+  frequency: 2nd FRIDAY, Monthly
+  time: "7:00PM - 9:00PM"
+  address: 101 Crawfords Corner Rd, Holmdel, NJ 07733
+  audience: Adults (21+)
+  organizer_name: Young and Fun in Monmouth County
+  organizer_url: https://www.meetup.com/ynfnmoco/events
+  image_alt: Event banner
+  description: "Bar Bella is in Bellworks in Holmdel. They have one or two food places open at this time of day and if you get there before 8 there are some more food options. They also have an ice cream shop in the building.  We can also past 9:00PM."
